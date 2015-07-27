@@ -1,0 +1,42 @@
+{
+    "name": "bullhorn-icons",
+    "description": "Bullhorn Glyphicons",
+    "keywords": ['icons', 'font', 'bullhorn'],
+    "homepage": "http://platform.bullhorn.com",
+    "author": {
+        "name": "Brian Kimball",
+        "company": "Bullhorn, Inc.",
+        "email": "bkimball@bullhorn.com"
+    },
+    "contributors": [
+        {
+            "name": "Alec Sibilia",
+            "company": "Bullhorn, Inc.",
+            "email": "asibilia@bullhorn.com"
+        },
+        {
+            "name": "Bryan Roy",
+            "company": "Bullhorn, Inc.",
+            "email": "broy@bullhorn.com"
+        },
+        {
+            "name": "Ethan Blackmore",
+            "company": "Bullhorn, Inc.",
+            "email": "eblackmore@bullhorn.com"
+        }
+    ],
+    "dependencies": {},
+    "devDependencies": {},
+    "license": ["MIT"],
+    "main": [
+        "./fonts/Bullhorn-Glyphicons.css",
+        "./fonts/*"
+    ],
+    "ignore": [
+        "icons",
+        "templates",
+        "*.json",
+        "*.js",
+        "*.md"
+    ]
+}
