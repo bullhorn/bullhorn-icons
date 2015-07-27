@@ -3,6 +3,7 @@
     "description": "Bullhorn Glyphicons",
     "keywords": ['icons', 'font', 'bullhorn'],
     "homepage": "http://platform.bullhorn.com",
+    "version": "0.1.0",
     "author": {
         "name": "Brian Kimball",
         "company": "Bullhorn, Inc.",
@@ -35,7 +36,6 @@
     "ignore": [
         "icons",
         "templates",
-        "*.json",
         "*.js",
         "*.md"
     ]
