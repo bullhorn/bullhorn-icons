@@ -1,0 +1,197 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>
+        <%=fontBaseName%>
+    </title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #fff;
+            color: #222;
+            display: flex;
+            flex-flow: column;
+            width: 100vw;
+            height: 100vh;
+            font-family: "Helvetica Neue", Arial, sans-serif;
+        }
+
+        header {
+            background-color: #39d;
+            color: #fff;
+            padding: 20px;
+        }
+        
+        header + header {
+            background-color: #fff;
+            color: #333;
+            border-bottom: 2px solid #ddd;
+            
+        }
+        
+        input[type="search"]{
+              color: #434343;
+              font-size: 20px;
+              margin-left: 16px;
+              padding: 8px 0;
+              width: 20em;
+              font: inherit;
+              margin: 0;
+              background-color: transparent;
+              border: 0;
+              outline: none;
+        }
+        
+        h1 {
+            margin: 0 0 20px;
+            font-size: 32px;
+            font-weight: normal;
+        }
+        
+        .container {
+			flex: 1;
+			padding:10px 20px;
+            overflow-y: scroll;
+        }
+        .icons {
+            margin-bottom: 40px;
+            display: flex;
+            flex-flow: row wrap;
+        }
+        
+        .icons__item {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            transition: all 150ms ease-out;
+            width: 140px;
+            height: 80px;
+            margin: 0 30px;
+        }
+        
+        .icons__item,
+        .icons__item i {
+            line-height: 2em;
+            cursor: pointer;
+            overflow: hidden;
+        }
+        
+        .icons__item:hover {
+            color: #3c90be;
+        }
+        
+        .icons__item i {
+            display: inline-block;
+            width: 32px;
+            text-align: center;
+        }
+        
+        .icons__item:hover i {
+            -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+        }
+        
+        .caption {
+            
+        }
+        
+        footer {
+            font-size: 14px;
+            color: #345;
+            padding: 8px 20px;
+            background-color: #f4f4f4;
+            width: 90%;
+            align-self: center;
+            transition: all 150ms ease-out;
+            transform: translateY(100%);
+        }
+        .show {
+            transform: translateY(0%);
+        }
+        .hidden {
+            display:none;
+        }
+        
+        <%=styles%>
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1><%=fontBaseName%></h1>
+    </header>
+    <header>
+        <i class="bhi-search"></i>
+        <input id="search" placeholder="Search" type="search" />
+    </header>
+
+    <div class="container">
+        <div class="icons" id="icons">
+            <% for (var glyphIdx=0 ; glyphIdx < glyphs.length; glyphIdx++) { var glyph=glyphs[glyphIdx] %>
+                <div class="icons__item" data-name="<%=glyph%>">
+                    <i class="<%=baseClass%><%=classPrefix%><%=glyph%>"></i>
+                    <div class="caption"><%=glyph%></div>
+                </div>
+            <% } %>
+        </div>
+        <section>Part of the <a href="https://platform.bullhorn.com">Bullhorn SDK</a></section>
+    </div>
+    <footer class="hidden">
+        <i style="color:#000"></i>
+        <i style="color:#fff"></i>
+        <i style="color:#345"></i>
+        <i style="color:#999"></i>
+        <i style="color:#39D"></i>
+        <i style="color:#C23"></i>
+        <i style="color:#F93"></i>
+        <pre>Basic Usage: <code>&lt;i class=&quot;<%=baseClass?baseClass + ' ':''%><%=classPrefix%><span id="name">name</span>&quot;&gt;&lt;/i&gt;</code></pre>
+    </footer>
+
+    <script>
+        (function () {
+            document.getElementById('icons').onclick = function (e) {
+                e = e || window.event;
+                var name = e.target.getAttribute('data-name') || e.target.parentNode.getAttribute('data-name');
+                document.getElementById('name').innerHTML = name;
+                
+                var matches = document.querySelectorAll("footer i");
+                for( var i in matches ){
+                    matches[i].className = "<%=classPrefix%>" + name;
+                }
+                
+                document.querySelector("footer").className = "show";
+                e.stopImmediatePropagation();
+            }
+            
+            document.body.onclick = function (e) {
+                document.querySelector("footer").className = "";
+            }
+        })();
+
+        (function () {
+            document.getElementById('search').addEventListener('keypress', function (e) {
+                var matches = document.querySelectorAll(".icons__item");
+                for( var i in matches ){
+                    var el = matches[i],
+                        name = el.getAttribute('data-name'),
+                        val = document.getElementById('search').value;
+                    
+                    
+                    if( !val || !val.length ) {
+                        el.className = el.className.replace(/\shidden\b/gi,'');
+                    }else if( name.indexOf(val) >= 0 ) {
+                        el.className = el.className.replace(/\shidden\b/gi,'');
+                    } else {
+                        el.className += ' hidden';
+                    }
+                }
+            
+            });
+        })();
+    </script>
+</body>
+
+</html>
