@@ -5,9 +5,8 @@
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="checked_indeter" sketch:type="MSLayerGroup" transform="translate(-6.000000, -6.000000)">
-            <path d="M38,6 L10,6 C7.79,6 6,7.79 6,10 L6,38 C6,40.21 7.79,42 10,42 L38,42 C40.21,42 42,40.21 42,38 L42,10 C42,7.79 40.21,6 38,6 Z M13,22 L35,22 L35,27 L13,27 L13,22 Z" id="Shape" fill="#000000" sketch:type="MSShapeGroup"></path>
-            <path d="M0,0 L48,0 L48,48 L0,48 L0,0 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+        <g id="checked_indeter" sketch:type="MSLayerGroup" fill="#000000">
+            <path d="M32,0 L4,0 C1.79,0 0,1.79 0,4 L0,32 C0,34.21 1.79,36 4,36 L32,36 C34.21,36 36,34.21 36,32 L36,4 C36,1.79 34.21,0 32,0 Z M7,16 L29,16 L29,21 L7,21 L7,16 Z" id="Shape" sketch:type="MSShapeGroup"></path>
         </g>
     </g>
 </svg>
