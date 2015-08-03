@@ -4,10 +4,10 @@
 
 @font-face {
 	font-family:"Bullhorn-Glyphicons";
-	src:url("Bullhorn-Glyphicons.eot?5f8362cfd56f0ef60d6f9547d6b21db8");
+	src:url("Bullhorn-Glyphicons.eot?4566fe3a8515a7c9d45b322aa64e8fa1");
 	src:url("Bullhorn-Glyphicons.eot?#iefix") format("embedded-opentype"),
-		url("Bullhorn-Glyphicons.woff?5f8362cfd56f0ef60d6f9547d6b21db8") format("woff"),
-		url("Bullhorn-Glyphicons.ttf?5f8362cfd56f0ef60d6f9547d6b21db8") format("truetype");
+		url("Bullhorn-Glyphicons.woff?4566fe3a8515a7c9d45b322aa64e8fa1") format("woff"),
+		url("Bullhorn-Glyphicons.ttf?4566fe3a8515a7c9d45b322aa64e8fa1") format("truetype");
 	font-weight:normal;
 	font-style:normal;
 }
@@ -461,469 +461,487 @@
 
 
 
-.bhi-facebook:before {
+.bhi-facebook-o:before {
 	content:"\f148";
 }
 
 
 
-.bhi-fasterfind:before {
+.bhi-facebook:before {
 	content:"\f149";
 }
 
 
 
-.bhi-file:before {
+.bhi-fasterfind:before {
 	content:"\f14a";
 }
 
 
 
-.bhi-filter:before {
+.bhi-file:before {
 	content:"\f14b";
 }
 
 
 
-.bhi-funnel:before {
+.bhi-filter:before {
 	content:"\f14c";
 }
 
 
 
-.bhi-google:before {
+.bhi-funnel:before {
 	content:"\f14d";
 }
 
 
 
-.bhi-home:before {
+.bhi-google:before {
 	content:"\f14e";
 }
 
 
 
-.bhi-idea:before {
+.bhi-home:before {
 	content:"\f14f";
 }
 
 
 
-.bhi-inactive:before {
+.bhi-idea:before {
 	content:"\f150";
 }
 
 
 
-.bhi-industry:before {
+.bhi-inactive:before {
 	content:"\f151";
 }
 
 
 
-.bhi-info-o:before {
+.bhi-industry:before {
 	content:"\f152";
 }
 
 
 
-.bhi-info:before {
+.bhi-info-o:before {
 	content:"\f153";
 }
 
 
 
-.bhi-interview:before {
+.bhi-info:before {
 	content:"\f154";
 }
 
 
 
-.bhi-job-circle:before {
+.bhi-interview:before {
 	content:"\f155";
 }
 
 
 
-.bhi-job:before {
+.bhi-job-circle:before {
 	content:"\f156";
 }
 
 
 
-.bhi-lead-circle:before {
+.bhi-job:before {
 	content:"\f157";
 }
 
 
 
-.bhi-lead:before {
+.bhi-lead-circle:before {
 	content:"\f158";
 }
 
 
 
-.bhi-link:before {
+.bhi-lead:before {
 	content:"\f159";
 }
 
 
 
-.bhi-linkedin:before {
+.bhi-link:before {
 	content:"\f15a";
 }
 
 
 
-.bhi-list-o:before {
+.bhi-linkedin:before {
 	content:"\f15b";
 }
 
 
 
-.bhi-list:before {
+.bhi-list-o:before {
 	content:"\f15c";
 }
 
 
 
-.bhi-location-o:before {
+.bhi-list:before {
 	content:"\f15d";
 }
 
 
 
-.bhi-location:before {
+.bhi-location-o:before {
 	content:"\f15e";
 }
 
 
 
-.bhi-lock:before {
+.bhi-location:before {
 	content:"\f15f";
 }
 
 
 
-.bhi-logout:before {
+.bhi-lock:before {
 	content:"\f160";
 }
 
 
 
-.bhi-menu-o:before {
+.bhi-logout:before {
 	content:"\f161";
 }
 
 
 
-.bhi-menu:before {
+.bhi-menu-o:before {
 	content:"\f162";
 }
 
 
 
-.bhi-mobile:before {
+.bhi-menu:before {
 	content:"\f163";
 }
 
 
 
-.bhi-more:before {
+.bhi-mobile:before {
 	content:"\f164";
 }
 
 
 
-.bhi-morning:before {
+.bhi-more:before {
 	content:"\f165";
 }
 
 
 
-.bhi-move:before {
+.bhi-morning:before {
 	content:"\f166";
 }
 
 
 
-.bhi-next:before {
+.bhi-move:before {
 	content:"\f167";
 }
 
 
 
-.bhi-no-data:before {
+.bhi-next:before {
 	content:"\f168";
 }
 
 
 
-.bhi-note:before {
+.bhi-no-data:before {
 	content:"\f169";
 }
 
 
 
-.bhi-notes:before {
+.bhi-note:before {
 	content:"\f16a";
 }
 
 
 
-.bhi-nps:before {
+.bhi-notes:before {
 	content:"\f16b";
 }
 
 
 
-.bhi-opportunity-circle:before {
+.bhi-nps:before {
 	content:"\f16c";
 }
 
 
 
-.bhi-opportunity:before {
+.bhi-opportunity-circle:before {
 	content:"\f16d";
 }
 
 
 
-.bhi-overview:before {
+.bhi-opportunity:before {
 	content:"\f16e";
 }
 
 
 
-.bhi-person-circle:before {
+.bhi-overview:before {
 	content:"\f16f";
 }
 
 
 
-.bhi-person:before {
+.bhi-person-circle:before {
 	content:"\f170";
 }
 
 
 
-.bhi-phone:before {
+.bhi-person:before {
 	content:"\f171";
 }
 
 
 
-.bhi-pin:before {
+.bhi-phone:before {
 	content:"\f172";
 }
 
 
 
-.bhi-plus:before {
+.bhi-pin:before {
 	content:"\f173";
 }
 
 
 
-.bhi-preview:before {
+.bhi-plus:before {
 	content:"\f174";
 }
 
 
 
-.bhi-previous:before {
+.bhi-preview:before {
 	content:"\f175";
 }
 
 
 
-.bhi-print:before {
+.bhi-previous:before {
 	content:"\f176";
 }
 
 
 
-.bhi-projects:before {
+.bhi-print:before {
 	content:"\f177";
 }
 
 
 
-.bhi-publish:before {
+.bhi-projects:before {
 	content:"\f178";
 }
 
 
 
-.bhi-pulse:before {
+.bhi-publish:before {
 	content:"\f179";
 }
 
 
 
-.bhi-question-o:before {
+.bhi-pulse:before {
 	content:"\f17a";
 }
 
 
 
-.bhi-question:before {
+.bhi-question-o:before {
 	content:"\f17b";
 }
 
 
 
-.bhi-refresh-o:before {
+.bhi-question:before {
 	content:"\f17c";
 }
 
 
 
-.bhi-refresh:before {
+.bhi-refresh-o:before {
 	content:"\f17d";
 }
 
 
 
-.bhi-republish:before {
+.bhi-refresh:before {
 	content:"\f17e";
 }
 
 
 
-.bhi-resume:before {
+.bhi-republish:before {
 	content:"\f17f";
 }
 
 
 
-.bhi-save:before {
+.bhi-resume:before {
 	content:"\f180";
 }
 
 
 
-.bhi-search:before {
+.bhi-save:before {
 	content:"\f181";
 }
 
 
 
-.bhi-send:before {
+.bhi-search:before {
 	content:"\f182";
 }
 
 
 
-.bhi-sendout:before {
+.bhi-send:before {
 	content:"\f183";
 }
 
 
 
-.bhi-share:before {
+.bhi-sendout:before {
 	content:"\f184";
 }
 
 
 
-.bhi-sms:before {
+.bhi-share:before {
 	content:"\f185";
 }
 
 
 
-.bhi-sort-asc:before {
+.bhi-sms:before {
 	content:"\f186";
 }
 
 
 
-.bhi-sort-desc:before {
+.bhi-sort-asc:before {
 	content:"\f187";
 }
 
 
 
-.bhi-sortable:before {
+.bhi-sort-desc:before {
 	content:"\f188";
 }
 
 
 
-.bhi-source:before {
+.bhi-sortable:before {
 	content:"\f189";
 }
 
 
 
-.bhi-star-circle:before {
+.bhi-source:before {
 	content:"\f18a";
 }
 
 
 
-.bhi-star-o-circle:before {
+.bhi-star-circle:before {
 	content:"\f18b";
 }
 
 
 
-.bhi-star-o:before {
+.bhi-star-o-circle:before {
 	content:"\f18c";
 }
 
 
 
-.bhi-star:before {
+.bhi-star-o:before {
 	content:"\f18d";
 }
 
 
 
-.bhi-times:before {
+.bhi-star:before {
 	content:"\f18e";
 }
 
 
 
-.bhi-tools:before {
+.bhi-times:before {
 	content:"\f18f";
 }
 
 
 
-.bhi-twitter:before {
+.bhi-tools:before {
 	content:"\f190";
 }
 
 
 
-.bhi-upload:before {
+.bhi-twitter:before {
 	content:"\f191";
 }
 
 
 
-.bhi-user-o:before {
+.bhi-upload:before {
 	content:"\f192";
 }
 
 
 
-.bhi-user:before {
+.bhi-user-o:before {
 	content:"\f193";
 }
 
 
 
-.bhi-users:before {
+.bhi-user:before {
 	content:"\f194";
 }
 
 
 
-.bhi-viewall:before {
+.bhi-users:before {
 	content:"\f195";
+}
+
+
+
+.bhi-view-list:before {
+	content:"\f196";
+}
+
+
+
+.bhi-view-module:before {
+	content:"\f197";
+}
+
+
+
+.bhi-viewall:before {
+	content:"\f198";
 }
 
