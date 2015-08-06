@@ -19,10 +19,11 @@ module.exports = function (grunt) {
                     font: 'Bullhorn-Glyphicons',
                     fontFilename: 'Bullhorn-Glyphicons',
                     syntax: 'bootstrap',
-                    //engine: 'node',
-                    //normalize: true,
+                    engine: 'node',
+                    normalize: true,    
+                    //fontHeight: 24,
                     //rounding: 0,
-                    //descent: 256,
+                    //descent: 12,
                     htmlDemoTemplate: 'templates/demo.html',
                     templateOptions: {
                         classPrefix: 'bhi-'
