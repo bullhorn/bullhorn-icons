@@ -3,7 +3,7 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
 <g id="home_1_">
-	<polygon fill="#010101" points="192,448 192,288 320,288 320,448 448,448 448,230.3 511.9,230.3 255.9,0 0,230.3 64,230.3 64,448 	
-		"/>
+	<polygon fill="#010101" points="192,480 192,320 320,320 320,480 448,480 448,262.3 511.9,262.3 255.9,32 0,262.3 64,262.3 64,480 
+			"/>
 </g>
 </svg>

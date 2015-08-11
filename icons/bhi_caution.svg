@@ -3,6 +3,6 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
 <g id="warning_3_">
-	<path fill="#010101" d="M0,448h512L256,0L0,448z M288,384h-64v-58.2h64V384z M288,279.3h-64V160h64V279.3z"/>
+	<path fill="#010101" d="M0,480h512L256,32L0,480z M288,416h-64v-58.2h64V416z M288,311.3h-64V192h64V311.3z"/>
 </g>
 </svg>
