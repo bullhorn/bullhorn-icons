@@ -3,7 +3,7 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
 <g id="school_1_">
-	<path fill="#010101" d="M96,235.7v92.5L256,416l160.1-87.8v-92.5L256,323.5L96,235.7z M256-0.1L0,138.6l256,138.7l206.3-113.3V320
-		H512V140.7L256-0.1z"/>
+	<path fill="#010101" d="M96,267.8v92.5l160,87.8l160.1-87.8v-92.5L256,355.6L96,267.8z M256,32L0,170.7l256,138.7l206.3-113.3
+		v155.9H512V172.8L256,32z"/>
 </g>
 </svg>
