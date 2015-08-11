@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 26.419 24" enable-background="new 0 0 26.419 24" xml:space="preserve">
+	 viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
 <g id="school_1_">
-	<path d="M6.185,13.087v3.87l6.773,3.677l6.773-3.677v-3.87l-6.773,3.677L6.185,13.087z M12.958,3.217L2.315,9.023l10.644,5.806
-		l8.708-4.741v6.676h1.935V9.023L12.958,3.217z"/>
+	<path fill="#010101" d="M96,235.7v92.5L256,416l160.1-87.8v-92.5L256,323.5L96,235.7z M256-0.1L0,138.6l256,138.7l206.3-113.3V320
+		H512V140.7L256-0.1z"/>
 </g>
 </svg>

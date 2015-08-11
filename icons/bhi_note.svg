@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 44 44" enable-background="new 0 0 44 44" xml:space="preserve">
-<path d="M40.3,9.3L40.3,9.3L28.9,0l0,0l0,0h-0.5h-2.6h-0.6h-6.2h-4.6H9.1C7.2,0,5.7,1.5,5.7,3.3v37.3c0,1.8,1.5,3.3,3.3,3.3H37
-	c1.8,0,3.3-1.5,3.3-3.3L40.3,9.3L40.3,9.3z M35.8,38.8c0,0.4-0.3,0.7-0.7,0.7H10.9c-0.4,0-0.7-0.3-0.7-0.7V12h17.6v0l1.9,0h6.2V38.8
-	z M28.3,9.4l0.1-6.8l8.8,6.8H28.3z"/>
-<rect x="14.3" y="16.5" width="17.6" height="4.5"/>
-<rect x="14.3" y="23.7" width="17.6" height="4.5"/>
-<rect x="14.3" y="31.1" width="17.6" height="4.5"/>
+	 viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+<path fill="#010101" d="M352,0H102.5C81.1,0,64,17.4,64,38.8v434.7c0,21.4,17.1,38.5,38.5,38.5h306.9c21.4,0,38.5-17.1,38.5-38.5
+	V128V96L352,0z M384,429c0,10.5-8.5,19-19,19H147c-10.5,0-19-8.5-19-19V128h256V429z M320,96V32l64,64H320z"/>
+<rect x="160" y="160" fill="#010101" width="192" height="64"/>
+<rect x="160" y="256" fill="#010101" width="192" height="64"/>
+<rect x="160" y="352" fill="#010101" width="192" height="64"/>
 </svg>

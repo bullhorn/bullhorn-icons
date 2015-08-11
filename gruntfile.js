@@ -20,7 +20,7 @@ module.exports = function (grunt) {
                     fontFilename: 'Bullhorn-Glyphicons',
                     syntax: 'bootstrap',
                     engine: 'node',
-                    normalize: true,    
+                    //normalize: true,    
                     //fontHeight: 24,
                     //rounding: 0,
                     //descent: 12,

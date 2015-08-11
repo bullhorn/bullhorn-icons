@@ -1,12 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
-    <title>checked_indeter</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="checked_indeter" sketch:type="MSLayerGroup" fill="#000000">
-            <path d="M32,0 L4,0 C1.79,0 0,1.79 0,4 L0,32 C0,34.21 1.79,36 4,36 L32,36 C34.21,36 36,34.21 36,32 L36,4 C36,1.79 34.21,0 32,0 Z M7,16 L29,16 L29,21 L7,21 L7,16 Z" id="Shape" sketch:type="MSShapeGroup"></path>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+<g>
+	<path fill="#010101" d="M455.1,0.3h-398C25.7,0.3,0.3,25.7,0.3,57.1v398c0,31.4,25.4,56.9,56.9,56.9h398
+		c31.4,0,56.9-25.4,56.9-56.9v-398C512,25.7,486.6,0.3,455.1,0.3z M96,224h320v64H96V224z"/>
+</g>
 </svg>

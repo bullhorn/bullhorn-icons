@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+	 viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
 <g id="access-time_1_">
-	<path fill-opacity="0.9" d="M12,0.9C6,0.9,1,5.8,1,11.9s4.9,11,11,11s11-5,11-11S18.1,0.9,12,0.9z M12,20.7c-4.8,0-8.8-4-8.8-8.8
-		s4-8.8,8.8-8.8s8.8,4,8.8,8.8S16.8,20.7,12,20.7z"/>
-	<polygon fill-opacity="0.9" points="12.6,6.4 10.9,6.4 10.9,13 16.6,16.5 17.5,15.1 12.6,12.1 	"/>
+	<path fill="#010101" fill-opacity="0.9" d="M255.7,0C116.2,0,0,113.9,0,255.7s113.9,255.7,255.7,255.7s255.7-116.2,255.7-255.7
+		S397.4,0,255.7,0z M255.7,460.2c-111.6,0-204.5-93-204.5-204.5s93-204.5,204.5-204.5s204.5,93,204.5,204.5S367.2,460.2,255.7,460.2
+		z"/>
+	<polygon fill="#010101" fill-opacity="0.9" points="256,127.8 224,127.8 224,281.2 352,352 365.7,324.3 256,263.7 	"/>
 </g>
 </svg>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
-<rect x="0.3" y="2.2" width="23.4" height="2.9"/>
-<rect x="2.6" y="6.7" width="18.7" height="2.9"/>
-<rect x="5" y="11.2" width="14.1" height="2.9"/>
-<rect x="7.3" y="15.6" width="9.4" height="2.9"/>
+	 viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+<rect y="32.5" fill="#010101" width="512" height="63.5"/>
+<rect x="50.3" y="128.5" fill="#010101" width="409.2" height="63.5"/>
+<rect x="102.8" y="224.5" fill="#010101" width="308.5" height="63.5"/>
+<rect x="153.2" y="320.5" fill="#010101" width="205.7" height="63.5"/>
 <g>
-	<path d="M10.1,20.3l1.2,1.2V0.1h1.3v21.5l1.3-1.3l0.9,0.9l0,0l-2.5,2.5C12.2,23.8,12,24,12,24s-0.2-0.2-0.3-0.3l-2.5-2.5L10.1,20.3
-		z"/>
+	<path fill="#010101" d="M214.4,431l26.3,26.3V0h28.4v459.5l28.4-28.4l19.7,19.7l0,0l-54.7,54.7c-2.2,2.2-6.6,6.6-6.6,6.6
+		s-4.4-4.4-6.6-6.6l-54.7-54.7L214.4,431z"/>
 </g>
 </svg>
