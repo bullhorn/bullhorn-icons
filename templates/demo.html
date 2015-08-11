@@ -16,7 +16,7 @@
             flex-flow: column;
             width: 100vw;
             height: 100vh;
-            font-family: "Helvetica Neue", Arial, sans-serif;
+            font-family: "Helvetica Nueue", Arial, sans-serif;
         }
 
         header {
@@ -29,7 +29,7 @@
             background-color: #fff;
             color: #333;
             border-bottom: 2px solid #ddd;
-            
+            padding: 10px 20px;
         }
         
         input[type="search"]{
@@ -53,7 +53,7 @@
         
         .container {
 			flex: 1;
-			padding:10px 20px;
+			padding: 10px 20px;
             overflow-y: scroll;
         }
         .icons {
@@ -67,14 +67,15 @@
             display: flex;
             flex-direction: column;
             transition: all 150ms ease-out;
-            width: 140px;
-            height: 80px;
-            margin: 0 30px;
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 4px;
         }
         
         .icons__item,
         .icons__item i {
-            line-height: 2em;
             cursor: pointer;
             overflow: hidden;
         }
@@ -85,17 +86,16 @@
         
         .icons__item i {
             display: inline-block;
-            width: 32px;
+            font-size: 2em;
             text-align: center;
         }
         
-        .icons__item:hover i {
-            -webkit-transform: scale(1.5);
-            transform: scale(1.5);
+        .icons__item:hover {
+            background: #f4f4f4;
         }
         
         .caption {
-            
+            margin-top: 16px;
         }
         
         footer {
@@ -140,13 +140,24 @@
         <section>Part of the <a href="https://platform.bullhorn.com">Bullhorn SDK</a></section>
     </div>
     <footer class="hidden">
-        <i style="color:#000"></i>
-        <i style="color:#fff"></i>
-        <i style="color:#345"></i>
-        <i style="color:#999"></i>
-        <i style="color:#39D"></i>
-        <i style="color:#C23"></i>
-        <i style="color:#F93"></i>
+        <div>
+            <i style="color:#000"></i>
+            <i style="color:#fff"></i>
+            <i style="color:#345"></i>
+            <i style="color:#999"></i>
+            <i style="color:#39D"></i>
+            <i style="color:#C23"></i>
+            <i style="color:#F93"></i>
+        </div>
+        <div>
+            <i style="font-size:xx-small"></i>
+            <i style="font-size:x-small"></i>
+            <i style="font-size:small"></i>
+            <i style="font-size:medium"></i>
+            <i style="font-size:large"></i>
+            <i style="font-size:x-large"></i>
+            <i style="font-size:xx-large"></i>
+        </div>
         <pre>Basic Usage: <code>&lt;i class=&quot;<%=baseClass?baseClass + ' ':''%><%=classPrefix%><span id="name">name</span>&quot;&gt;&lt;/i&gt;</code></pre>
     </footer>
 

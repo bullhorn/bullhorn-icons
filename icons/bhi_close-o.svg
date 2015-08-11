@@ -1,23 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+	 viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
 <g id="add-circle-outline_1_">
-	<path d="M8.606,6.944L6.909,8.641l3.394,3.394l-3.394,3.394l1.697,1.697L12,13.732l3.394,3.394l1.697-1.697l-3.394-3.394
-		l3.394-3.394l-1.697-1.697L12,10.338L8.606,6.944z M3.515,3.55c-4.667,4.667-4.667,12.304,0,16.971s12.304,4.667,16.971,0
-		s4.667-12.304,0-16.971S8.182-1.117,3.515,3.55z M18.788,18.823c-3.734,3.734-9.843,3.734-13.576,0s-3.734-9.843,0-13.576
-		s9.843-3.734,13.576,0S22.522,15.09,18.788,18.823z"/>
-</g>
-<g id="XMLID_1_">
-</g>
-<g id="XMLID_2_">
-</g>
-<g id="XMLID_3_">
-</g>
-<g id="XMLID_4_">
-</g>
-<g id="XMLID_5_">
-</g>
-<g id="XMLID_6_">
+	<path fill="#010101" d="M183.9,147.1l-36.2,36.2l72.4,72.4l-72.4,72.4l36.2,36.2l72.4-72.4l72.4,72.4l36.2-36.2l-72.4-72.4
+		l72.4-72.4l-36.2-36.2l-72.4,72.4L183.9,147.1z M75.3,74.7c-99.6,99.6-99.6,262.5,0,362s262.5,99.6,362,0s99.6-262.5,0-362
+		S174.8-24.9,75.3,74.7z M401.1,400.5c-79.7,79.7-210,79.7-289.6,0s-79.7-210,0-289.6s210-79.7,289.6,0S480.8,320.9,401.1,400.5z"/>
 </g>
 </svg>

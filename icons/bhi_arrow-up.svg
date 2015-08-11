@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+	 viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
 <g id="arrow-forward_6_">
-	<polygon points="1.667,11.917 3.475,13.725 10.708,6.492 10.708,22.25 13.292,22.25 13.292,6.492 20.525,13.725 22.333,11.917 
-		12,1.583 	"/>
+	<polygon fill="#010101" points="1.2,255.4 45.8,300.1 224.6,121.3 224.6,512 288.5,512 288.5,121.3 467.3,300.1 512,255.4 256.6,0 
+			"/>
 </g>
 </svg>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+	 viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
 <g id="add-circle-outline_7_">
-	<path d="M13.2,6.035h-2.4v4.8H6v2.4h4.8v4.8h2.4v-4.8H18v-2.4h-4.8V6.035z M12,0.035c-6.6,0-12,5.4-12,12s5.4,12,12,12
-		s12-5.4,12-12S18.6,0.035,12,0.035z M12,21.635c-5.28,0-9.6-4.32-9.6-9.6s4.32-9.6,9.6-9.6s9.6,4.32,9.6,9.6
-		S17.28,21.635,12,21.635z"/>
+	<path fill="#010101" d="M288,128.6h-64V224h-96v64h96v96.6h64V288h96v-64h-96V128.6z M256,0.6C115.2,0.6,0,115.8,0,256.6
+		s115.2,256,256,256s256-115.2,256-256S396.8,0.6,256,0.6z M256,461.4c-112.6,0-204.8-92.2-204.8-204.8S143.4,51.8,256,51.8
+		s204.8,92.2,204.8,204.8S368.6,461.4,256,461.4z"/>
 </g>
 </svg>
