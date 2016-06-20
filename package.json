@@ -1,6 +1,6 @@
 {
     "name": "bullhorn-icons",
-    "version": "1.7.0",
+    "version": "1.8.0",
     "description": "A font library that contains all the icon used by Bullhorn.",
     "author": {
         "name": "Brian Kimball",
@@ -33,6 +33,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git@bullhorn.beanstalkapp.com/bullhorn-icons.git"
+        "url": "git@github.com:bullhorn/bullhorn-icons.git"
     }
 }
