@@ -7,3 +7,4 @@ bin-release/
 .settings/
 
 node_modules/
+.DS_Store

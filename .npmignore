@@ -1,0 +1,8 @@
+icons/
+node_modules/
+templates/
+
+.gitignore
+.npmignore
+bower.json
+gruntfile.js
