@@ -1,38 +1,38 @@
 {
-    "name": "bullhorn-icons",
-    "version": "1.10.0",
-    "description": "A font library that contains all the icon used by Bullhorn.",
-    "author": {
-        "name": "Brian Kimball",
-        "company": "Bullhorn, Inc.",
-        "email": "bkimball@bullhorn.com"
+  "name": "bullhorn-icons",
+  "version": "1.11.0",
+  "description": "A font library that contains all the icon used by Bullhorn.",
+  "author": {
+    "name": "Brian Kimball",
+    "company": "Bullhorn, Inc.",
+    "email": "bkimball@bullhorn.com"
+  },
+  "contributors": [
+    {
+      "name": "Alec Sibilia",
+      "company": "Bullhorn, Inc.",
+      "email": "asibilia@bullhorn.com"
     },
-    "contributors": [
-        {
-            "name": "Alec Sibilia",
-            "company": "Bullhorn, Inc.",
-            "email": "asibilia@bullhorn.com"
-        },
-        {
-            "name": "Bryan Roy",
-            "company": "Bullhorn, Inc.",
-            "email": "broy@bullhorn.com"
-        },
-        {
-            "name": "Ethan Blackmore",
-            "company": "Bullhorn, Inc.",
-            "email": "eblackmore@bullhorn.com"
-        }
-    ],
-    "dependencies": {},
-    "devDependencies": {
-        "grunt": "*",
-        "grunt-contrib-clean": "*",
-        "grunt-webfont": "^1.4.0",
-        "load-grunt-tasks": "^3.2.0"
+    {
+      "name": "Bryan Roy",
+      "company": "Bullhorn, Inc.",
+      "email": "broy@bullhorn.com"
     },
-    "repository": {
-        "type": "git",
-        "url": "git@github.com:bullhorn/bullhorn-icons.git"
+    {
+      "name": "Ethan Blackmore",
+      "company": "Bullhorn, Inc.",
+      "email": "eblackmore@bullhorn.com"
     }
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-contrib-clean": "*",
+    "grunt-webfont": "^1.6.0",
+    "load-grunt-tasks": "^3.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bullhorn/bullhorn-icons.git"
+  }
 }
