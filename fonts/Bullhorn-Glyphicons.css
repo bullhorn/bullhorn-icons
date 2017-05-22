@@ -4,10 +4,10 @@
 
 @font-face {
 	font-family:"Bullhorn-Glyphicons";
-	src:url("Bullhorn-Glyphicons.eot?25f29836bfd15791be92c58fa10a7703");
+	src:url("Bullhorn-Glyphicons.eot?82e680381e3285c2559ca43e54cdc300");
 	src:url("Bullhorn-Glyphicons.eot?#iefix") format("embedded-opentype"),
-		url("Bullhorn-Glyphicons.woff?25f29836bfd15791be92c58fa10a7703") format("woff"),
-		url("Bullhorn-Glyphicons.ttf?25f29836bfd15791be92c58fa10a7703") format("truetype");
+		url("Bullhorn-Glyphicons.woff?82e680381e3285c2559ca43e54cdc300") format("woff"),
+		url("Bullhorn-Glyphicons.ttf?82e680381e3285c2559ca43e54cdc300") format("truetype");
 	font-weight:normal;
 	font-style:normal;
 }
@@ -1171,5 +1171,11 @@
 
 .bhi-viewall:before {
 	content:"\f1be";
+}
+
+
+
+.bhi-share-o:before {
+	content:"\f1bf";
 }
 
