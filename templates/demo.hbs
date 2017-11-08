@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>{{ fontName }}</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #fff;
+            color: #222;
+            display: flex;
+            flex-flow: column;
+            width: 100vw;
+            height: 100vh;
+            font-family: "Helvetica Nueue", Arial, sans-serif;
+        }
+
+        header {
+            background-color: #39d;
+            color: #fff;
+            padding: 20px;
+        }
+        
+        header + header {
+            background-color: #fff;
+            color: #333;
+            border-bottom: 2px solid #ddd;
+            padding: 10px 20px;
+        }
+        
+        input[type="search"]{
+              color: #434343;
+              font-size: 20px;
+              margin-left: 16px;
+              padding: 8px 0;
+              width: 20em;
+              font: inherit;
+              margin: 0;
+              background-color: transparent;
+              border: 0;
+              outline: none;
+        }
+        
+        h1 {
+            margin: 0 0 20px;
+            font-size: 32px;
+            font-weight: normal;
+        }
+        
+        .container {
+			flex: 1;
+			padding: 10px 20px;
+            overflow-y: scroll;
+        }
+        .icons {
+            margin-bottom: 40px;
+            display: flex;
+            flex-flow: row wrap;
+        }
+        
+        .preview {
+            width: 100px;
+            display: inline-block;
+            margin: 10px;
+        }
+        .preview .inner {
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+            background: #f5f5f5;
+            -webkit-border-radius: 3px 3px 0 0;
+            -moz-border-radius: 3px 3px 0 0;
+            border-radius: 3px 3px 0 0;
+        }
+        .preview .inner {{ baseTag }} {
+            pointer-events: none;
+            line-height: 85px;
+            font-size: 40px;
+            color: #333;
+        }
+        .label {
+            display: inline-block;
+            width: 100%;
+            box-sizing: border-box;
+            padding: 5px;
+            font-size: 10px;
+            font-family: Monaco, monospace;
+            color: #666;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            background: #ddd;
+            -webkit-border-radius: 0 0 3px 3px;
+            -moz-border-radius: 0 0 3px 3px;
+            border-radius: 0 0 3px 3px;
+            color: #666;
+        }
+        footer {
+            display: inline-flex;
+            position: absolute;
+            top: 100%;
+            font-size: 14px;
+            color: #345;
+            background-color: #f4f4f4;
+            width: 100%;
+            align-self: center;
+            transition: all 150ms ease-out;
+            box-shadow: 0 -5px 5px -5px rgba(0,0,0,.25);
+        }
+        .show {
+            transform: translateY(-50px);
+        }
+        footer > div {
+            padding: 8px 20px;
+            display: flex;
+            align-items: center;
+        }
+        footer > div > i {
+            padding: 2px;
+        }
+        
+        .hidden {
+            display:none;
+        }
+        
+        {{{ styles }}}
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>{{ fontName }}</h1>
+    </header>
+    <header>
+        <i class="bhi-search"></i>
+        <input id="search" placeholder="Search" type="search" />
+    </header>
+
+    <div class="container">
+        <div class="icons" id="icons">
+            {{# each names }}
+            <div class="preview" data-name="{{this}}">
+                <span class="inner">
+                    <{{ ../baseTag }} class="{{ ../classPrefix }}{{ this }}"></{{ ../baseTag }}>
+                </span>
+                <br>
+                <span class='label'>{{ this }}</span>
+            </div>
+            {{/ each }}
+        </div>
+        <section>Part of the <a href="https://platform.bullhorn.com">Bullhorn SDK</a></section>
+    </div>
+    <footer class="hidden">
+        <div>
+            <i style="color:#000"></i>
+            <i style="color:#fff"></i>
+            <i style="color:#345"></i>
+            <i style="color:#999"></i>
+            <i style="color:#39D"></i>
+            <i style="color:#C23"></i>
+            <i style="color:#F93"></i>
+        </div>
+        <div>
+            <i style="font-size:x-small"></i>
+            <i style="font-size:small"></i>
+            <i style="font-size:medium"></i>
+            <i style="font-size:large"></i>
+            <i style="font-size:x-large"></i>
+            <i style="font-size:xx-large"></i>
+        </div>
+        <pre>Basic Usage: <code>&lt;i class=&quot;<span id="name">name</span>&quot;&gt;&lt;/i&gt;</code></pre>
+    </footer>
+
+    <script>
+        (function () {
+            document.getElementById('icons').onclick = function (e) {
+                e = e || window.event;
+                var name = e.target.getAttribute('data-name') || e.target.parentNode.getAttribute('data-name');
+                document.getElementById('name').innerHTML = "{{classPrefix}}" + name;
+                
+                if( !name ) {
+                    document.querySelector("footer").className = "";    
+                } else {
+                    var matches = document.querySelectorAll("footer i");
+                    for( var i in matches ){
+                        matches[i].className = "{{classPrefix}}" + name;
+                    }
+                    document.querySelector("footer").className = "show";    
+                }
+                e.stopImmediatePropagation();
+            }
+            
+            document.body.onclick = function (e) {
+                document.querySelector("footer").className = "";
+            }
+        })();
+
+        (function () {
+            document.getElementById('search').addEventListener('keyup', function (e) {
+                var matches = document.querySelectorAll(".preview");
+                for( var i in matches ){
+                    var el = matches[i],
+                        name = el.getAttribute('data-name'),
+                        val = document.getElementById('search').value;
+                    if( !val || !val.length ) {
+                        el.className = el.className.replace(/\shidden\b/gi,'');
+                    } else if( name.indexOf(val) >= 0 ) {
+                        el.className = el.className.replace(/\shidden\b/gi,'');
+                    } else {
+                        el.className += ' hidden';
+                    }
+                }
+            });
+        })();
+    </script>
+</body>
+
+</html>
