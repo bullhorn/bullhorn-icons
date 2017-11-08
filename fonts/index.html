@@ -1,0 +1,2422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Bullhorn-Glyphicons</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #fff;
+            color: #222;
+            display: flex;
+            flex-flow: column;
+            width: 100vw;
+            height: 100vh;
+            font-family: "Helvetica Nueue", Arial, sans-serif;
+        }
+
+        header {
+            background-color: #39d;
+            color: #fff;
+            padding: 20px;
+        }
+        
+        header + header {
+            background-color: #fff;
+            color: #333;
+            border-bottom: 2px solid #ddd;
+            padding: 10px 20px;
+        }
+        
+        input[type="search"]{
+              color: #434343;
+              font-size: 20px;
+              margin-left: 16px;
+              padding: 8px 0;
+              width: 20em;
+              font: inherit;
+              margin: 0;
+              background-color: transparent;
+              border: 0;
+              outline: none;
+        }
+        
+        h1 {
+            margin: 0 0 20px;
+            font-size: 32px;
+            font-weight: normal;
+        }
+        
+        .container {
+			flex: 1;
+			padding: 10px 20px;
+            overflow-y: scroll;
+        }
+        .icons {
+            margin-bottom: 40px;
+            display: flex;
+            flex-flow: row wrap;
+        }
+        
+        .preview {
+            width: 100px;
+            display: inline-block;
+            margin: 10px;
+        }
+        .preview .inner {
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+            background: #f5f5f5;
+            -webkit-border-radius: 3px 3px 0 0;
+            -moz-border-radius: 3px 3px 0 0;
+            border-radius: 3px 3px 0 0;
+        }
+        .preview .inner i {
+            pointer-events: none;
+            line-height: 85px;
+            font-size: 40px;
+            color: #333;
+        }
+        .label {
+            display: inline-block;
+            width: 100%;
+            box-sizing: border-box;
+            padding: 5px;
+            font-size: 10px;
+            font-family: Monaco, monospace;
+            color: #666;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            background: #ddd;
+            -webkit-border-radius: 0 0 3px 3px;
+            -moz-border-radius: 0 0 3px 3px;
+            border-radius: 0 0 3px 3px;
+            color: #666;
+        }
+        footer {
+            display: inline-flex;
+            position: absolute;
+            top: 100%;
+            font-size: 14px;
+            color: #345;
+            background-color: #f4f4f4;
+            width: 100%;
+            align-self: center;
+            transition: all 150ms ease-out;
+            box-shadow: 0 -5px 5px -5px rgba(0,0,0,.25);
+        }
+        .show {
+            transform: translateY(-50px);
+        }
+        footer > div {
+            padding: 8px 20px;
+            display: flex;
+            align-items: center;
+        }
+        footer > div > i {
+            padding: 2px;
+        }
+        
+        .hidden {
+            display:none;
+        }
+        
+        @font-face {
+    font-family: "Bullhorn-Glyphicons";
+    src: url("./Bullhorn-Glyphicons.eot?d123e4d7dd2d032180545ed16f96c965?#iefix") format("embedded-opentype"),
+url("./Bullhorn-Glyphicons.woff2?d123e4d7dd2d032180545ed16f96c965") format("woff2"),
+url("./Bullhorn-Glyphicons.woff?d123e4d7dd2d032180545ed16f96c965") format("woff"),
+url("./Bullhorn-Glyphicons.ttf?d123e4d7dd2d032180545ed16f96c965") format("truetype"),
+url("./Bullhorn-Glyphicons.svg?d123e4d7dd2d032180545ed16f96c965#Bullhorn-Glyphicons") format("svg");
+}
+
+i {
+    line-height: 1;
+}
+
+i:before {
+    font-family: Bullhorn-Glyphicons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    vertical-align: middle;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+}
+
+.bhi-activity:before {
+    content: "\f101";
+}
+.bhi-add-appointment:before {
+    content: "\f102";
+}
+.bhi-add-file:before {
+    content: "\f103";
+}
+.bhi-add-note:before {
+    content: "\f104";
+}
+.bhi-add-o:before {
+    content: "\f105";
+}
+.bhi-add-thin:before {
+    content: "\f106";
+}
+.bhi-add:before {
+    content: "\f107";
+}
+.bhi-addcard:before {
+    content: "\f108";
+}
+.bhi-anchor:before {
+    content: "\f109";
+}
+.bhi-appointment:before {
+    content: "\f10a";
+}
+.bhi-archive:before {
+    content: "\f10b";
+}
+.bhi-arrow-down:before {
+    content: "\f10c";
+}
+.bhi-arrow-left-h:before {
+    content: "\f10d";
+}
+.bhi-arrow-left:before {
+    content: "\f10e";
+}
+.bhi-arrow-right-h:before {
+    content: "\f10f";
+}
+.bhi-arrow-right:before {
+    content: "\f110";
+}
+.bhi-arrow-up:before {
+    content: "\f111";
+}
+.bhi-attach:before {
+    content: "\f112";
+}
+.bhi-back-office:before {
+    content: "\f113";
+}
+.bhi-beaker:before {
+    content: "\f114";
+}
+.bhi-bell:before {
+    content: "\f115";
+}
+.bhi-board:before {
+    content: "\f116";
+}
+.bhi-bolt:before {
+    content: "\f117";
+}
+.bhi-book:before {
+    content: "\f118";
+}
+.bhi-bot:before {
+    content: "\f119";
+}
+.bhi-bull:before {
+    content: "\f11a";
+}
+.bhi-calculator:before {
+    content: "\f11b";
+}
+.bhi-calendar:before {
+    content: "\f11c";
+}
+.bhi-candidate-circle:before {
+    content: "\f11d";
+}
+.bhi-candidate:before {
+    content: "\f11e";
+}
+.bhi-canvas:before {
+    content: "\f11f";
+}
+.bhi-card-expand:before {
+    content: "\f120";
+}
+.bhi-category-tags:before {
+    content: "\f121";
+}
+.bhi-caution-o:before {
+    content: "\f122";
+}
+.bhi-caution:before {
+    content: "\f123";
+}
+.bhi-certification:before {
+    content: "\f124";
+}
+.bhi-chart-bar:before {
+    content: "\f125";
+}
+.bhi-chart-donut:before {
+    content: "\f126";
+}
+.bhi-chart-funnel:before {
+    content: "\f127";
+}
+.bhi-chart-line:before {
+    content: "\f128";
+}
+.bhi-chart-pie-o:before {
+    content: "\f129";
+}
+.bhi-chart-pie:before {
+    content: "\f12a";
+}
+.bhi-check-circle:before {
+    content: "\f12b";
+}
+.bhi-check-o:before {
+    content: "\f12c";
+}
+.bhi-check:before {
+    content: "\f12d";
+}
+.bhi-checkbox-add:before {
+    content: "\f12e";
+}
+.bhi-checkbox-empty:before {
+    content: "\f12f";
+}
+.bhi-checkbox-filled:before {
+    content: "\f130";
+}
+.bhi-checkbox-indeterminate:before {
+    content: "\f131";
+}
+.bhi-circle-o:before {
+    content: "\f132";
+}
+.bhi-circle:before {
+    content: "\f133";
+}
+.bhi-clipboard:before {
+    content: "\f134";
+}
+.bhi-clock-arrow:before {
+    content: "\f135";
+}
+.bhi-clock:before {
+    content: "\f136";
+}
+.bhi-close-o:before {
+    content: "\f137";
+}
+.bhi-close:before {
+    content: "\f138";
+}
+.bhi-coffee:before {
+    content: "\f139";
+}
+.bhi-collapse:before {
+    content: "\f13a";
+}
+.bhi-columns:before {
+    content: "\f13b";
+}
+.bhi-comment-o:before {
+    content: "\f13c";
+}
+.bhi-comment:before {
+    content: "\f13d";
+}
+.bhi-company-circle:before {
+    content: "\f13e";
+}
+.bhi-company:before {
+    content: "\f13f";
+}
+.bhi-compass:before {
+    content: "\f140";
+}
+.bhi-complex:before {
+    content: "\f141";
+}
+.bhi-configure-o:before {
+    content: "\f142";
+}
+.bhi-configure:before {
+    content: "\f143";
+}
+.bhi-convert:before {
+    content: "\f144";
+}
+.bhi-crane:before {
+    content: "\f145";
+}
+.bhi-credential:before {
+    content: "\f146";
+}
+.bhi-crown:before {
+    content: "\f147";
+}
+.bhi-custom-objects:before {
+    content: "\f148";
+}
+.bhi-dashboard-o:before {
+    content: "\f149";
+}
+.bhi-dashboard:before {
+    content: "\f14a";
+}
+.bhi-day:before {
+    content: "\f14b";
+}
+.bhi-delete-o:before {
+    content: "\f14c";
+}
+.bhi-delete:before {
+    content: "\f14d";
+}
+.bhi-desktop:before {
+    content: "\f14e";
+}
+.bhi-download:before {
+    content: "\f14f";
+}
+.bhi-dropzone:before {
+    content: "\f150";
+}
+.bhi-duplicate:before {
+    content: "\f151";
+}
+.bhi-edit-o:before {
+    content: "\f152";
+}
+.bhi-edit:before {
+    content: "\f153";
+}
+.bhi-education:before {
+    content: "\f154";
+}
+.bhi-email-autoadd:before {
+    content: "\f155";
+}
+.bhi-email:before {
+    content: "\f156";
+}
+.bhi-engagement:before {
+    content: "\f157";
+}
+.bhi-evening:before {
+    content: "\f158";
+}
+.bhi-expand:before {
+    content: "\f159";
+}
+.bhi-external:before {
+    content: "\f15a";
+}
+.bhi-facebook-o:before {
+    content: "\f15b";
+}
+.bhi-facebook:before {
+    content: "\f15c";
+}
+.bhi-fasterfind:before {
+    content: "\f15d";
+}
+.bhi-file:before {
+    content: "\f15e";
+}
+.bhi-filter:before {
+    content: "\f15f";
+}
+.bhi-flag:before {
+    content: "\f160";
+}
+.bhi-flagged-email:before {
+    content: "\f161";
+}
+.bhi-flower:before {
+    content: "\f162";
+}
+.bhi-footprint:before {
+    content: "\f163";
+}
+.bhi-funnel:before {
+    content: "\f164";
+}
+.bhi-globe:before {
+    content: "\f165";
+}
+.bhi-google:before {
+    content: "\f166";
+}
+.bhi-hammer:before {
+    content: "\f167";
+}
+.bhi-headset:before {
+    content: "\f168";
+}
+.bhi-home:before {
+    content: "\f169";
+}
+.bhi-ice-cream:before {
+    content: "\f16a";
+}
+.bhi-idea:before {
+    content: "\f16b";
+}
+.bhi-inactive:before {
+    content: "\f16c";
+}
+.bhi-inbound-call:before {
+    content: "\f16d";
+}
+.bhi-inbox:before {
+    content: "\f16e";
+}
+.bhi-industry:before {
+    content: "\f16f";
+}
+.bhi-info-o:before {
+    content: "\f170";
+}
+.bhi-info:before {
+    content: "\f171";
+}
+.bhi-interview:before {
+    content: "\f172";
+}
+.bhi-job-circle:before {
+    content: "\f173";
+}
+.bhi-job:before {
+    content: "\f174";
+}
+.bhi-layout:before {
+    content: "\f175";
+}
+.bhi-lead-circle:before {
+    content: "\f176";
+}
+.bhi-lead:before {
+    content: "\f177";
+}
+.bhi-link:before {
+    content: "\f178";
+}
+.bhi-linkedin-f:before {
+    content: "\f179";
+}
+.bhi-linkedin-o:before {
+    content: "\f17a";
+}
+.bhi-linkedin:before {
+    content: "\f17b";
+}
+.bhi-list-o:before {
+    content: "\f17c";
+}
+.bhi-list:before {
+    content: "\f17d";
+}
+.bhi-location-o:before {
+    content: "\f17e";
+}
+.bhi-location:before {
+    content: "\f17f";
+}
+.bhi-lock:before {
+    content: "\f180";
+}
+.bhi-logout:before {
+    content: "\f181";
+}
+.bhi-map:before {
+    content: "\f182";
+}
+.bhi-menu-o:before {
+    content: "\f183";
+}
+.bhi-menu:before {
+    content: "\f184";
+}
+.bhi-missed-call:before {
+    content: "\f185";
+}
+.bhi-mobile:before {
+    content: "\f186";
+}
+.bhi-more:before {
+    content: "\f187";
+}
+.bhi-morning:before {
+    content: "\f188";
+}
+.bhi-move:before {
+    content: "\f189";
+}
+.bhi-music:before {
+    content: "\f18a";
+}
+.bhi-news:before {
+    content: "\f18b";
+}
+.bhi-next:before {
+    content: "\f18c";
+}
+.bhi-no-data:before {
+    content: "\f18d";
+}
+.bhi-note:before {
+    content: "\f18e";
+}
+.bhi-notes:before {
+    content: "\f18f";
+}
+.bhi-nps:before {
+    content: "\f190";
+}
+.bhi-opportunity-circle:before {
+    content: "\f191";
+}
+.bhi-opportunity:before {
+    content: "\f192";
+}
+.bhi-organize:before {
+    content: "\f193";
+}
+.bhi-outbound-call:before {
+    content: "\f194";
+}
+.bhi-outbound-email:before {
+    content: "\f195";
+}
+.bhi-overview:before {
+    content: "\f196";
+}
+.bhi-person-circle:before {
+    content: "\f197";
+}
+.bhi-person:before {
+    content: "\f198";
+}
+.bhi-phone:before {
+    content: "\f199";
+}
+.bhi-pin:before {
+    content: "\f19a";
+}
+.bhi-plus:before {
+    content: "\f19b";
+}
+.bhi-preview:before {
+    content: "\f19c";
+}
+.bhi-previous:before {
+    content: "\f19d";
+}
+.bhi-print:before {
+    content: "\f19e";
+}
+.bhi-projects:before {
+    content: "\f19f";
+}
+.bhi-publish:before {
+    content: "\f1a0";
+}
+.bhi-pulse:before {
+    content: "\f1a1";
+}
+.bhi-puzzle:before {
+    content: "\f1a2";
+}
+.bhi-question-o:before {
+    content: "\f1a3";
+}
+.bhi-question:before {
+    content: "\f1a4";
+}
+.bhi-radio-empty:before {
+    content: "\f1a5";
+}
+.bhi-radio-filled:before {
+    content: "\f1a6";
+}
+.bhi-rate:before {
+    content: "\f1a7";
+}
+.bhi-refresh-o:before {
+    content: "\f1a8";
+}
+.bhi-refresh:before {
+    content: "\f1a9";
+}
+.bhi-reply:before {
+    content: "\f1aa";
+}
+.bhi-report:before {
+    content: "\f1ab";
+}
+.bhi-republish:before {
+    content: "\f1ac";
+}
+.bhi-resume:before {
+    content: "\f1ad";
+}
+.bhi-rocket:before {
+    content: "\f1ae";
+}
+.bhi-sailboat:before {
+    content: "\f1af";
+}
+.bhi-save:before {
+    content: "\f1b0";
+}
+.bhi-search-menu:before {
+    content: "\f1b1";
+}
+.bhi-search-question:before {
+    content: "\f1b2";
+}
+.bhi-search:before {
+    content: "\f1b3";
+}
+.bhi-section:before {
+    content: "\f1b4";
+}
+.bhi-send:before {
+    content: "\f1b5";
+}
+.bhi-sendout:before {
+    content: "\f1b6";
+}
+.bhi-share-o:before {
+    content: "\f1b7";
+}
+.bhi-share:before {
+    content: "\f1b8";
+}
+.bhi-shield:before {
+    content: "\f1b9";
+}
+.bhi-shipping-box:before {
+    content: "\f1ba";
+}
+.bhi-slideout:before {
+    content: "\f1bb";
+}
+.bhi-sms:before {
+    content: "\f1bc";
+}
+.bhi-sort-asc:before {
+    content: "\f1bd";
+}
+.bhi-sort-desc:before {
+    content: "\f1be";
+}
+.bhi-sortable:before {
+    content: "\f1bf";
+}
+.bhi-source:before {
+    content: "\f1c0";
+}
+.bhi-star-circle:before {
+    content: "\f1c1";
+}
+.bhi-star-o-circle:before {
+    content: "\f1c2";
+}
+.bhi-star-o:before {
+    content: "\f1c3";
+}
+.bhi-star:before {
+    content: "\f1c4";
+}
+.bhi-stethoscope:before {
+    content: "\f1c5";
+}
+.bhi-stop-light:before {
+    content: "\f1c6";
+}
+.bhi-tab:before {
+    content: "\f1c7";
+}
+.bhi-tearsheet:before {
+    content: "\f1c8";
+}
+.bhi-tie:before {
+    content: "\f1c9";
+}
+.bhi-times:before {
+    content: "\f1ca";
+}
+.bhi-timetable:before {
+    content: "\f1cb";
+}
+.bhi-tools:before {
+    content: "\f1cc";
+}
+.bhi-tower:before {
+    content: "\f1cd";
+}
+.bhi-trending-down:before {
+    content: "\f1ce";
+}
+.bhi-trending-up:before {
+    content: "\f1cf";
+}
+.bhi-truck:before {
+    content: "\f1d0";
+}
+.bhi-twitter-f:before {
+    content: "\f1d1";
+}
+.bhi-twitter-o:before {
+    content: "\f1d2";
+}
+.bhi-twitter:before {
+    content: "\f1d3";
+}
+.bhi-umbrella:before {
+    content: "\f1d4";
+}
+.bhi-upload:before {
+    content: "\f1d5";
+}
+.bhi-user-o:before {
+    content: "\f1d6";
+}
+.bhi-user:before {
+    content: "\f1d7";
+}
+.bhi-users:before {
+    content: "\f1d8";
+}
+.bhi-view-list:before {
+    content: "\f1d9";
+}
+.bhi-view-module:before {
+    content: "\f1da";
+}
+.bhi-viewall:before {
+    content: "\f1db";
+}
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Bullhorn-Glyphicons</h1>
+    </header>
+    <header>
+        <i class="bhi-search"></i>
+        <input id="search" placeholder="Search" type="search" />
+    </header>
+
+    <div class="container">
+        <div class="icons" id="icons">
+            <div class="preview" data-name="activity">
+                <span class="inner">
+                    <i class="bhi-activity"></i>
+                </span>
+                <br>
+                <span class='label'>activity</span>
+            </div>
+            <div class="preview" data-name="add-appointment">
+                <span class="inner">
+                    <i class="bhi-add-appointment"></i>
+                </span>
+                <br>
+                <span class='label'>add-appointment</span>
+            </div>
+            <div class="preview" data-name="add-file">
+                <span class="inner">
+                    <i class="bhi-add-file"></i>
+                </span>
+                <br>
+                <span class='label'>add-file</span>
+            </div>
+            <div class="preview" data-name="add-note">
+                <span class="inner">
+                    <i class="bhi-add-note"></i>
+                </span>
+                <br>
+                <span class='label'>add-note</span>
+            </div>
+            <div class="preview" data-name="add-o">
+                <span class="inner">
+                    <i class="bhi-add-o"></i>
+                </span>
+                <br>
+                <span class='label'>add-o</span>
+            </div>
+            <div class="preview" data-name="add-thin">
+                <span class="inner">
+                    <i class="bhi-add-thin"></i>
+                </span>
+                <br>
+                <span class='label'>add-thin</span>
+            </div>
+            <div class="preview" data-name="add">
+                <span class="inner">
+                    <i class="bhi-add"></i>
+                </span>
+                <br>
+                <span class='label'>add</span>
+            </div>
+            <div class="preview" data-name="addcard">
+                <span class="inner">
+                    <i class="bhi-addcard"></i>
+                </span>
+                <br>
+                <span class='label'>addcard</span>
+            </div>
+            <div class="preview" data-name="anchor">
+                <span class="inner">
+                    <i class="bhi-anchor"></i>
+                </span>
+                <br>
+                <span class='label'>anchor</span>
+            </div>
+            <div class="preview" data-name="appointment">
+                <span class="inner">
+                    <i class="bhi-appointment"></i>
+                </span>
+                <br>
+                <span class='label'>appointment</span>
+            </div>
+            <div class="preview" data-name="archive">
+                <span class="inner">
+                    <i class="bhi-archive"></i>
+                </span>
+                <br>
+                <span class='label'>archive</span>
+            </div>
+            <div class="preview" data-name="arrow-down">
+                <span class="inner">
+                    <i class="bhi-arrow-down"></i>
+                </span>
+                <br>
+                <span class='label'>arrow-down</span>
+            </div>
+            <div class="preview" data-name="arrow-left-h">
+                <span class="inner">
+                    <i class="bhi-arrow-left-h"></i>
+                </span>
+                <br>
+                <span class='label'>arrow-left-h</span>
+            </div>
+            <div class="preview" data-name="arrow-left">
+                <span class="inner">
+                    <i class="bhi-arrow-left"></i>
+                </span>
+                <br>
+                <span class='label'>arrow-left</span>
+            </div>
+            <div class="preview" data-name="arrow-right-h">
+                <span class="inner">
+                    <i class="bhi-arrow-right-h"></i>
+                </span>
+                <br>
+                <span class='label'>arrow-right-h</span>
+            </div>
+            <div class="preview" data-name="arrow-right">
+                <span class="inner">
+                    <i class="bhi-arrow-right"></i>
+                </span>
+                <br>
+                <span class='label'>arrow-right</span>
+            </div>
+            <div class="preview" data-name="arrow-up">
+                <span class="inner">
+                    <i class="bhi-arrow-up"></i>
+                </span>
+                <br>
+                <span class='label'>arrow-up</span>
+            </div>
+            <div class="preview" data-name="attach">
+                <span class="inner">
+                    <i class="bhi-attach"></i>
+                </span>
+                <br>
+                <span class='label'>attach</span>
+            </div>
+            <div class="preview" data-name="back-office">
+                <span class="inner">
+                    <i class="bhi-back-office"></i>
+                </span>
+                <br>
+                <span class='label'>back-office</span>
+            </div>
+            <div class="preview" data-name="beaker">
+                <span class="inner">
+                    <i class="bhi-beaker"></i>
+                </span>
+                <br>
+                <span class='label'>beaker</span>
+            </div>
+            <div class="preview" data-name="bell">
+                <span class="inner">
+                    <i class="bhi-bell"></i>
+                </span>
+                <br>
+                <span class='label'>bell</span>
+            </div>
+            <div class="preview" data-name="board">
+                <span class="inner">
+                    <i class="bhi-board"></i>
+                </span>
+                <br>
+                <span class='label'>board</span>
+            </div>
+            <div class="preview" data-name="bolt">
+                <span class="inner">
+                    <i class="bhi-bolt"></i>
+                </span>
+                <br>
+                <span class='label'>bolt</span>
+            </div>
+            <div class="preview" data-name="book">
+                <span class="inner">
+                    <i class="bhi-book"></i>
+                </span>
+                <br>
+                <span class='label'>book</span>
+            </div>
+            <div class="preview" data-name="bot">
+                <span class="inner">
+                    <i class="bhi-bot"></i>
+                </span>
+                <br>
+                <span class='label'>bot</span>
+            </div>
+            <div class="preview" data-name="bull">
+                <span class="inner">
+                    <i class="bhi-bull"></i>
+                </span>
+                <br>
+                <span class='label'>bull</span>
+            </div>
+            <div class="preview" data-name="calculator">
+                <span class="inner">
+                    <i class="bhi-calculator"></i>
+                </span>
+                <br>
+                <span class='label'>calculator</span>
+            </div>
+            <div class="preview" data-name="calendar">
+                <span class="inner">
+                    <i class="bhi-calendar"></i>
+                </span>
+                <br>
+                <span class='label'>calendar</span>
+            </div>
+            <div class="preview" data-name="candidate-circle">
+                <span class="inner">
+                    <i class="bhi-candidate-circle"></i>
+                </span>
+                <br>
+                <span class='label'>candidate-circle</span>
+            </div>
+            <div class="preview" data-name="candidate">
+                <span class="inner">
+                    <i class="bhi-candidate"></i>
+                </span>
+                <br>
+                <span class='label'>candidate</span>
+            </div>
+            <div class="preview" data-name="canvas">
+                <span class="inner">
+                    <i class="bhi-canvas"></i>
+                </span>
+                <br>
+                <span class='label'>canvas</span>
+            </div>
+            <div class="preview" data-name="card-expand">
+                <span class="inner">
+                    <i class="bhi-card-expand"></i>
+                </span>
+                <br>
+                <span class='label'>card-expand</span>
+            </div>
+            <div class="preview" data-name="category-tags">
+                <span class="inner">
+                    <i class="bhi-category-tags"></i>
+                </span>
+                <br>
+                <span class='label'>category-tags</span>
+            </div>
+            <div class="preview" data-name="caution-o">
+                <span class="inner">
+                    <i class="bhi-caution-o"></i>
+                </span>
+                <br>
+                <span class='label'>caution-o</span>
+            </div>
+            <div class="preview" data-name="caution">
+                <span class="inner">
+                    <i class="bhi-caution"></i>
+                </span>
+                <br>
+                <span class='label'>caution</span>
+            </div>
+            <div class="preview" data-name="certification">
+                <span class="inner">
+                    <i class="bhi-certification"></i>
+                </span>
+                <br>
+                <span class='label'>certification</span>
+            </div>
+            <div class="preview" data-name="chart-bar">
+                <span class="inner">
+                    <i class="bhi-chart-bar"></i>
+                </span>
+                <br>
+                <span class='label'>chart-bar</span>
+            </div>
+            <div class="preview" data-name="chart-donut">
+                <span class="inner">
+                    <i class="bhi-chart-donut"></i>
+                </span>
+                <br>
+                <span class='label'>chart-donut</span>
+            </div>
+            <div class="preview" data-name="chart-funnel">
+                <span class="inner">
+                    <i class="bhi-chart-funnel"></i>
+                </span>
+                <br>
+                <span class='label'>chart-funnel</span>
+            </div>
+            <div class="preview" data-name="chart-line">
+                <span class="inner">
+                    <i class="bhi-chart-line"></i>
+                </span>
+                <br>
+                <span class='label'>chart-line</span>
+            </div>
+            <div class="preview" data-name="chart-pie-o">
+                <span class="inner">
+                    <i class="bhi-chart-pie-o"></i>
+                </span>
+                <br>
+                <span class='label'>chart-pie-o</span>
+            </div>
+            <div class="preview" data-name="chart-pie">
+                <span class="inner">
+                    <i class="bhi-chart-pie"></i>
+                </span>
+                <br>
+                <span class='label'>chart-pie</span>
+            </div>
+            <div class="preview" data-name="check-circle">
+                <span class="inner">
+                    <i class="bhi-check-circle"></i>
+                </span>
+                <br>
+                <span class='label'>check-circle</span>
+            </div>
+            <div class="preview" data-name="check-o">
+                <span class="inner">
+                    <i class="bhi-check-o"></i>
+                </span>
+                <br>
+                <span class='label'>check-o</span>
+            </div>
+            <div class="preview" data-name="check">
+                <span class="inner">
+                    <i class="bhi-check"></i>
+                </span>
+                <br>
+                <span class='label'>check</span>
+            </div>
+            <div class="preview" data-name="checkbox-add">
+                <span class="inner">
+                    <i class="bhi-checkbox-add"></i>
+                </span>
+                <br>
+                <span class='label'>checkbox-add</span>
+            </div>
+            <div class="preview" data-name="checkbox-empty">
+                <span class="inner">
+                    <i class="bhi-checkbox-empty"></i>
+                </span>
+                <br>
+                <span class='label'>checkbox-empty</span>
+            </div>
+            <div class="preview" data-name="checkbox-filled">
+                <span class="inner">
+                    <i class="bhi-checkbox-filled"></i>
+                </span>
+                <br>
+                <span class='label'>checkbox-filled</span>
+            </div>
+            <div class="preview" data-name="checkbox-indeterminate">
+                <span class="inner">
+                    <i class="bhi-checkbox-indeterminate"></i>
+                </span>
+                <br>
+                <span class='label'>checkbox-indeterminate</span>
+            </div>
+            <div class="preview" data-name="circle-o">
+                <span class="inner">
+                    <i class="bhi-circle-o"></i>
+                </span>
+                <br>
+                <span class='label'>circle-o</span>
+            </div>
+            <div class="preview" data-name="circle">
+                <span class="inner">
+                    <i class="bhi-circle"></i>
+                </span>
+                <br>
+                <span class='label'>circle</span>
+            </div>
+            <div class="preview" data-name="clipboard">
+                <span class="inner">
+                    <i class="bhi-clipboard"></i>
+                </span>
+                <br>
+                <span class='label'>clipboard</span>
+            </div>
+            <div class="preview" data-name="clock-arrow">
+                <span class="inner">
+                    <i class="bhi-clock-arrow"></i>
+                </span>
+                <br>
+                <span class='label'>clock-arrow</span>
+            </div>
+            <div class="preview" data-name="clock">
+                <span class="inner">
+                    <i class="bhi-clock"></i>
+                </span>
+                <br>
+                <span class='label'>clock</span>
+            </div>
+            <div class="preview" data-name="close-o">
+                <span class="inner">
+                    <i class="bhi-close-o"></i>
+                </span>
+                <br>
+                <span class='label'>close-o</span>
+            </div>
+            <div class="preview" data-name="close">
+                <span class="inner">
+                    <i class="bhi-close"></i>
+                </span>
+                <br>
+                <span class='label'>close</span>
+            </div>
+            <div class="preview" data-name="coffee">
+                <span class="inner">
+                    <i class="bhi-coffee"></i>
+                </span>
+                <br>
+                <span class='label'>coffee</span>
+            </div>
+            <div class="preview" data-name="collapse">
+                <span class="inner">
+                    <i class="bhi-collapse"></i>
+                </span>
+                <br>
+                <span class='label'>collapse</span>
+            </div>
+            <div class="preview" data-name="columns">
+                <span class="inner">
+                    <i class="bhi-columns"></i>
+                </span>
+                <br>
+                <span class='label'>columns</span>
+            </div>
+            <div class="preview" data-name="comment-o">
+                <span class="inner">
+                    <i class="bhi-comment-o"></i>
+                </span>
+                <br>
+                <span class='label'>comment-o</span>
+            </div>
+            <div class="preview" data-name="comment">
+                <span class="inner">
+                    <i class="bhi-comment"></i>
+                </span>
+                <br>
+                <span class='label'>comment</span>
+            </div>
+            <div class="preview" data-name="company-circle">
+                <span class="inner">
+                    <i class="bhi-company-circle"></i>
+                </span>
+                <br>
+                <span class='label'>company-circle</span>
+            </div>
+            <div class="preview" data-name="company">
+                <span class="inner">
+                    <i class="bhi-company"></i>
+                </span>
+                <br>
+                <span class='label'>company</span>
+            </div>
+            <div class="preview" data-name="compass">
+                <span class="inner">
+                    <i class="bhi-compass"></i>
+                </span>
+                <br>
+                <span class='label'>compass</span>
+            </div>
+            <div class="preview" data-name="complex">
+                <span class="inner">
+                    <i class="bhi-complex"></i>
+                </span>
+                <br>
+                <span class='label'>complex</span>
+            </div>
+            <div class="preview" data-name="configure-o">
+                <span class="inner">
+                    <i class="bhi-configure-o"></i>
+                </span>
+                <br>
+                <span class='label'>configure-o</span>
+            </div>
+            <div class="preview" data-name="configure">
+                <span class="inner">
+                    <i class="bhi-configure"></i>
+                </span>
+                <br>
+                <span class='label'>configure</span>
+            </div>
+            <div class="preview" data-name="convert">
+                <span class="inner">
+                    <i class="bhi-convert"></i>
+                </span>
+                <br>
+                <span class='label'>convert</span>
+            </div>
+            <div class="preview" data-name="crane">
+                <span class="inner">
+                    <i class="bhi-crane"></i>
+                </span>
+                <br>
+                <span class='label'>crane</span>
+            </div>
+            <div class="preview" data-name="credential">
+                <span class="inner">
+                    <i class="bhi-credential"></i>
+                </span>
+                <br>
+                <span class='label'>credential</span>
+            </div>
+            <div class="preview" data-name="crown">
+                <span class="inner">
+                    <i class="bhi-crown"></i>
+                </span>
+                <br>
+                <span class='label'>crown</span>
+            </div>
+            <div class="preview" data-name="custom-objects">
+                <span class="inner">
+                    <i class="bhi-custom-objects"></i>
+                </span>
+                <br>
+                <span class='label'>custom-objects</span>
+            </div>
+            <div class="preview" data-name="dashboard-o">
+                <span class="inner">
+                    <i class="bhi-dashboard-o"></i>
+                </span>
+                <br>
+                <span class='label'>dashboard-o</span>
+            </div>
+            <div class="preview" data-name="dashboard">
+                <span class="inner">
+                    <i class="bhi-dashboard"></i>
+                </span>
+                <br>
+                <span class='label'>dashboard</span>
+            </div>
+            <div class="preview" data-name="day">
+                <span class="inner">
+                    <i class="bhi-day"></i>
+                </span>
+                <br>
+                <span class='label'>day</span>
+            </div>
+            <div class="preview" data-name="delete-o">
+                <span class="inner">
+                    <i class="bhi-delete-o"></i>
+                </span>
+                <br>
+                <span class='label'>delete-o</span>
+            </div>
+            <div class="preview" data-name="delete">
+                <span class="inner">
+                    <i class="bhi-delete"></i>
+                </span>
+                <br>
+                <span class='label'>delete</span>
+            </div>
+            <div class="preview" data-name="desktop">
+                <span class="inner">
+                    <i class="bhi-desktop"></i>
+                </span>
+                <br>
+                <span class='label'>desktop</span>
+            </div>
+            <div class="preview" data-name="download">
+                <span class="inner">
+                    <i class="bhi-download"></i>
+                </span>
+                <br>
+                <span class='label'>download</span>
+            </div>
+            <div class="preview" data-name="dropzone">
+                <span class="inner">
+                    <i class="bhi-dropzone"></i>
+                </span>
+                <br>
+                <span class='label'>dropzone</span>
+            </div>
+            <div class="preview" data-name="duplicate">
+                <span class="inner">
+                    <i class="bhi-duplicate"></i>
+                </span>
+                <br>
+                <span class='label'>duplicate</span>
+            </div>
+            <div class="preview" data-name="edit-o">
+                <span class="inner">
+                    <i class="bhi-edit-o"></i>
+                </span>
+                <br>
+                <span class='label'>edit-o</span>
+            </div>
+            <div class="preview" data-name="edit">
+                <span class="inner">
+                    <i class="bhi-edit"></i>
+                </span>
+                <br>
+                <span class='label'>edit</span>
+            </div>
+            <div class="preview" data-name="education">
+                <span class="inner">
+                    <i class="bhi-education"></i>
+                </span>
+                <br>
+                <span class='label'>education</span>
+            </div>
+            <div class="preview" data-name="email-autoadd">
+                <span class="inner">
+                    <i class="bhi-email-autoadd"></i>
+                </span>
+                <br>
+                <span class='label'>email-autoadd</span>
+            </div>
+            <div class="preview" data-name="email">
+                <span class="inner">
+                    <i class="bhi-email"></i>
+                </span>
+                <br>
+                <span class='label'>email</span>
+            </div>
+            <div class="preview" data-name="engagement">
+                <span class="inner">
+                    <i class="bhi-engagement"></i>
+                </span>
+                <br>
+                <span class='label'>engagement</span>
+            </div>
+            <div class="preview" data-name="evening">
+                <span class="inner">
+                    <i class="bhi-evening"></i>
+                </span>
+                <br>
+                <span class='label'>evening</span>
+            </div>
+            <div class="preview" data-name="expand">
+                <span class="inner">
+                    <i class="bhi-expand"></i>
+                </span>
+                <br>
+                <span class='label'>expand</span>
+            </div>
+            <div class="preview" data-name="external">
+                <span class="inner">
+                    <i class="bhi-external"></i>
+                </span>
+                <br>
+                <span class='label'>external</span>
+            </div>
+            <div class="preview" data-name="facebook-o">
+                <span class="inner">
+                    <i class="bhi-facebook-o"></i>
+                </span>
+                <br>
+                <span class='label'>facebook-o</span>
+            </div>
+            <div class="preview" data-name="facebook">
+                <span class="inner">
+                    <i class="bhi-facebook"></i>
+                </span>
+                <br>
+                <span class='label'>facebook</span>
+            </div>
+            <div class="preview" data-name="fasterfind">
+                <span class="inner">
+                    <i class="bhi-fasterfind"></i>
+                </span>
+                <br>
+                <span class='label'>fasterfind</span>
+            </div>
+            <div class="preview" data-name="file">
+                <span class="inner">
+                    <i class="bhi-file"></i>
+                </span>
+                <br>
+                <span class='label'>file</span>
+            </div>
+            <div class="preview" data-name="filter">
+                <span class="inner">
+                    <i class="bhi-filter"></i>
+                </span>
+                <br>
+                <span class='label'>filter</span>
+            </div>
+            <div class="preview" data-name="flag">
+                <span class="inner">
+                    <i class="bhi-flag"></i>
+                </span>
+                <br>
+                <span class='label'>flag</span>
+            </div>
+            <div class="preview" data-name="flagged-email">
+                <span class="inner">
+                    <i class="bhi-flagged-email"></i>
+                </span>
+                <br>
+                <span class='label'>flagged-email</span>
+            </div>
+            <div class="preview" data-name="flower">
+                <span class="inner">
+                    <i class="bhi-flower"></i>
+                </span>
+                <br>
+                <span class='label'>flower</span>
+            </div>
+            <div class="preview" data-name="footprint">
+                <span class="inner">
+                    <i class="bhi-footprint"></i>
+                </span>
+                <br>
+                <span class='label'>footprint</span>
+            </div>
+            <div class="preview" data-name="funnel">
+                <span class="inner">
+                    <i class="bhi-funnel"></i>
+                </span>
+                <br>
+                <span class='label'>funnel</span>
+            </div>
+            <div class="preview" data-name="globe">
+                <span class="inner">
+                    <i class="bhi-globe"></i>
+                </span>
+                <br>
+                <span class='label'>globe</span>
+            </div>
+            <div class="preview" data-name="google">
+                <span class="inner">
+                    <i class="bhi-google"></i>
+                </span>
+                <br>
+                <span class='label'>google</span>
+            </div>
+            <div class="preview" data-name="hammer">
+                <span class="inner">
+                    <i class="bhi-hammer"></i>
+                </span>
+                <br>
+                <span class='label'>hammer</span>
+            </div>
+            <div class="preview" data-name="headset">
+                <span class="inner">
+                    <i class="bhi-headset"></i>
+                </span>
+                <br>
+                <span class='label'>headset</span>
+            </div>
+            <div class="preview" data-name="home">
+                <span class="inner">
+                    <i class="bhi-home"></i>
+                </span>
+                <br>
+                <span class='label'>home</span>
+            </div>
+            <div class="preview" data-name="ice-cream">
+                <span class="inner">
+                    <i class="bhi-ice-cream"></i>
+                </span>
+                <br>
+                <span class='label'>ice-cream</span>
+            </div>
+            <div class="preview" data-name="idea">
+                <span class="inner">
+                    <i class="bhi-idea"></i>
+                </span>
+                <br>
+                <span class='label'>idea</span>
+            </div>
+            <div class="preview" data-name="inactive">
+                <span class="inner">
+                    <i class="bhi-inactive"></i>
+                </span>
+                <br>
+                <span class='label'>inactive</span>
+            </div>
+            <div class="preview" data-name="inbound-call">
+                <span class="inner">
+                    <i class="bhi-inbound-call"></i>
+                </span>
+                <br>
+                <span class='label'>inbound-call</span>
+            </div>
+            <div class="preview" data-name="inbox">
+                <span class="inner">
+                    <i class="bhi-inbox"></i>
+                </span>
+                <br>
+                <span class='label'>inbox</span>
+            </div>
+            <div class="preview" data-name="industry">
+                <span class="inner">
+                    <i class="bhi-industry"></i>
+                </span>
+                <br>
+                <span class='label'>industry</span>
+            </div>
+            <div class="preview" data-name="info-o">
+                <span class="inner">
+                    <i class="bhi-info-o"></i>
+                </span>
+                <br>
+                <span class='label'>info-o</span>
+            </div>
+            <div class="preview" data-name="info">
+                <span class="inner">
+                    <i class="bhi-info"></i>
+                </span>
+                <br>
+                <span class='label'>info</span>
+            </div>
+            <div class="preview" data-name="interview">
+                <span class="inner">
+                    <i class="bhi-interview"></i>
+                </span>
+                <br>
+                <span class='label'>interview</span>
+            </div>
+            <div class="preview" data-name="job-circle">
+                <span class="inner">
+                    <i class="bhi-job-circle"></i>
+                </span>
+                <br>
+                <span class='label'>job-circle</span>
+            </div>
+            <div class="preview" data-name="job">
+                <span class="inner">
+                    <i class="bhi-job"></i>
+                </span>
+                <br>
+                <span class='label'>job</span>
+            </div>
+            <div class="preview" data-name="layout">
+                <span class="inner">
+                    <i class="bhi-layout"></i>
+                </span>
+                <br>
+                <span class='label'>layout</span>
+            </div>
+            <div class="preview" data-name="lead-circle">
+                <span class="inner">
+                    <i class="bhi-lead-circle"></i>
+                </span>
+                <br>
+                <span class='label'>lead-circle</span>
+            </div>
+            <div class="preview" data-name="lead">
+                <span class="inner">
+                    <i class="bhi-lead"></i>
+                </span>
+                <br>
+                <span class='label'>lead</span>
+            </div>
+            <div class="preview" data-name="link">
+                <span class="inner">
+                    <i class="bhi-link"></i>
+                </span>
+                <br>
+                <span class='label'>link</span>
+            </div>
+            <div class="preview" data-name="linkedin-f">
+                <span class="inner">
+                    <i class="bhi-linkedin-f"></i>
+                </span>
+                <br>
+                <span class='label'>linkedin-f</span>
+            </div>
+            <div class="preview" data-name="linkedin-o">
+                <span class="inner">
+                    <i class="bhi-linkedin-o"></i>
+                </span>
+                <br>
+                <span class='label'>linkedin-o</span>
+            </div>
+            <div class="preview" data-name="linkedin">
+                <span class="inner">
+                    <i class="bhi-linkedin"></i>
+                </span>
+                <br>
+                <span class='label'>linkedin</span>
+            </div>
+            <div class="preview" data-name="list-o">
+                <span class="inner">
+                    <i class="bhi-list-o"></i>
+                </span>
+                <br>
+                <span class='label'>list-o</span>
+            </div>
+            <div class="preview" data-name="list">
+                <span class="inner">
+                    <i class="bhi-list"></i>
+                </span>
+                <br>
+                <span class='label'>list</span>
+            </div>
+            <div class="preview" data-name="location-o">
+                <span class="inner">
+                    <i class="bhi-location-o"></i>
+                </span>
+                <br>
+                <span class='label'>location-o</span>
+            </div>
+            <div class="preview" data-name="location">
+                <span class="inner">
+                    <i class="bhi-location"></i>
+                </span>
+                <br>
+                <span class='label'>location</span>
+            </div>
+            <div class="preview" data-name="lock">
+                <span class="inner">
+                    <i class="bhi-lock"></i>
+                </span>
+                <br>
+                <span class='label'>lock</span>
+            </div>
+            <div class="preview" data-name="logout">
+                <span class="inner">
+                    <i class="bhi-logout"></i>
+                </span>
+                <br>
+                <span class='label'>logout</span>
+            </div>
+            <div class="preview" data-name="map">
+                <span class="inner">
+                    <i class="bhi-map"></i>
+                </span>
+                <br>
+                <span class='label'>map</span>
+            </div>
+            <div class="preview" data-name="menu-o">
+                <span class="inner">
+                    <i class="bhi-menu-o"></i>
+                </span>
+                <br>
+                <span class='label'>menu-o</span>
+            </div>
+            <div class="preview" data-name="menu">
+                <span class="inner">
+                    <i class="bhi-menu"></i>
+                </span>
+                <br>
+                <span class='label'>menu</span>
+            </div>
+            <div class="preview" data-name="missed-call">
+                <span class="inner">
+                    <i class="bhi-missed-call"></i>
+                </span>
+                <br>
+                <span class='label'>missed-call</span>
+            </div>
+            <div class="preview" data-name="mobile">
+                <span class="inner">
+                    <i class="bhi-mobile"></i>
+                </span>
+                <br>
+                <span class='label'>mobile</span>
+            </div>
+            <div class="preview" data-name="more">
+                <span class="inner">
+                    <i class="bhi-more"></i>
+                </span>
+                <br>
+                <span class='label'>more</span>
+            </div>
+            <div class="preview" data-name="morning">
+                <span class="inner">
+                    <i class="bhi-morning"></i>
+                </span>
+                <br>
+                <span class='label'>morning</span>
+            </div>
+            <div class="preview" data-name="move">
+                <span class="inner">
+                    <i class="bhi-move"></i>
+                </span>
+                <br>
+                <span class='label'>move</span>
+            </div>
+            <div class="preview" data-name="music">
+                <span class="inner">
+                    <i class="bhi-music"></i>
+                </span>
+                <br>
+                <span class='label'>music</span>
+            </div>
+            <div class="preview" data-name="news">
+                <span class="inner">
+                    <i class="bhi-news"></i>
+                </span>
+                <br>
+                <span class='label'>news</span>
+            </div>
+            <div class="preview" data-name="next">
+                <span class="inner">
+                    <i class="bhi-next"></i>
+                </span>
+                <br>
+                <span class='label'>next</span>
+            </div>
+            <div class="preview" data-name="no-data">
+                <span class="inner">
+                    <i class="bhi-no-data"></i>
+                </span>
+                <br>
+                <span class='label'>no-data</span>
+            </div>
+            <div class="preview" data-name="note">
+                <span class="inner">
+                    <i class="bhi-note"></i>
+                </span>
+                <br>
+                <span class='label'>note</span>
+            </div>
+            <div class="preview" data-name="notes">
+                <span class="inner">
+                    <i class="bhi-notes"></i>
+                </span>
+                <br>
+                <span class='label'>notes</span>
+            </div>
+            <div class="preview" data-name="nps">
+                <span class="inner">
+                    <i class="bhi-nps"></i>
+                </span>
+                <br>
+                <span class='label'>nps</span>
+            </div>
+            <div class="preview" data-name="opportunity-circle">
+                <span class="inner">
+                    <i class="bhi-opportunity-circle"></i>
+                </span>
+                <br>
+                <span class='label'>opportunity-circle</span>
+            </div>
+            <div class="preview" data-name="opportunity">
+                <span class="inner">
+                    <i class="bhi-opportunity"></i>
+                </span>
+                <br>
+                <span class='label'>opportunity</span>
+            </div>
+            <div class="preview" data-name="organize">
+                <span class="inner">
+                    <i class="bhi-organize"></i>
+                </span>
+                <br>
+                <span class='label'>organize</span>
+            </div>
+            <div class="preview" data-name="outbound-call">
+                <span class="inner">
+                    <i class="bhi-outbound-call"></i>
+                </span>
+                <br>
+                <span class='label'>outbound-call</span>
+            </div>
+            <div class="preview" data-name="outbound-email">
+                <span class="inner">
+                    <i class="bhi-outbound-email"></i>
+                </span>
+                <br>
+                <span class='label'>outbound-email</span>
+            </div>
+            <div class="preview" data-name="overview">
+                <span class="inner">
+                    <i class="bhi-overview"></i>
+                </span>
+                <br>
+                <span class='label'>overview</span>
+            </div>
+            <div class="preview" data-name="person-circle">
+                <span class="inner">
+                    <i class="bhi-person-circle"></i>
+                </span>
+                <br>
+                <span class='label'>person-circle</span>
+            </div>
+            <div class="preview" data-name="person">
+                <span class="inner">
+                    <i class="bhi-person"></i>
+                </span>
+                <br>
+                <span class='label'>person</span>
+            </div>
+            <div class="preview" data-name="phone">
+                <span class="inner">
+                    <i class="bhi-phone"></i>
+                </span>
+                <br>
+                <span class='label'>phone</span>
+            </div>
+            <div class="preview" data-name="pin">
+                <span class="inner">
+                    <i class="bhi-pin"></i>
+                </span>
+                <br>
+                <span class='label'>pin</span>
+            </div>
+            <div class="preview" data-name="plus">
+                <span class="inner">
+                    <i class="bhi-plus"></i>
+                </span>
+                <br>
+                <span class='label'>plus</span>
+            </div>
+            <div class="preview" data-name="preview">
+                <span class="inner">
+                    <i class="bhi-preview"></i>
+                </span>
+                <br>
+                <span class='label'>preview</span>
+            </div>
+            <div class="preview" data-name="previous">
+                <span class="inner">
+                    <i class="bhi-previous"></i>
+                </span>
+                <br>
+                <span class='label'>previous</span>
+            </div>
+            <div class="preview" data-name="print">
+                <span class="inner">
+                    <i class="bhi-print"></i>
+                </span>
+                <br>
+                <span class='label'>print</span>
+            </div>
+            <div class="preview" data-name="projects">
+                <span class="inner">
+                    <i class="bhi-projects"></i>
+                </span>
+                <br>
+                <span class='label'>projects</span>
+            </div>
+            <div class="preview" data-name="publish">
+                <span class="inner">
+                    <i class="bhi-publish"></i>
+                </span>
+                <br>
+                <span class='label'>publish</span>
+            </div>
+            <div class="preview" data-name="pulse">
+                <span class="inner">
+                    <i class="bhi-pulse"></i>
+                </span>
+                <br>
+                <span class='label'>pulse</span>
+            </div>
+            <div class="preview" data-name="puzzle">
+                <span class="inner">
+                    <i class="bhi-puzzle"></i>
+                </span>
+                <br>
+                <span class='label'>puzzle</span>
+            </div>
+            <div class="preview" data-name="question-o">
+                <span class="inner">
+                    <i class="bhi-question-o"></i>
+                </span>
+                <br>
+                <span class='label'>question-o</span>
+            </div>
+            <div class="preview" data-name="question">
+                <span class="inner">
+                    <i class="bhi-question"></i>
+                </span>
+                <br>
+                <span class='label'>question</span>
+            </div>
+            <div class="preview" data-name="radio-empty">
+                <span class="inner">
+                    <i class="bhi-radio-empty"></i>
+                </span>
+                <br>
+                <span class='label'>radio-empty</span>
+            </div>
+            <div class="preview" data-name="radio-filled">
+                <span class="inner">
+                    <i class="bhi-radio-filled"></i>
+                </span>
+                <br>
+                <span class='label'>radio-filled</span>
+            </div>
+            <div class="preview" data-name="rate">
+                <span class="inner">
+                    <i class="bhi-rate"></i>
+                </span>
+                <br>
+                <span class='label'>rate</span>
+            </div>
+            <div class="preview" data-name="refresh-o">
+                <span class="inner">
+                    <i class="bhi-refresh-o"></i>
+                </span>
+                <br>
+                <span class='label'>refresh-o</span>
+            </div>
+            <div class="preview" data-name="refresh">
+                <span class="inner">
+                    <i class="bhi-refresh"></i>
+                </span>
+                <br>
+                <span class='label'>refresh</span>
+            </div>
+            <div class="preview" data-name="reply">
+                <span class="inner">
+                    <i class="bhi-reply"></i>
+                </span>
+                <br>
+                <span class='label'>reply</span>
+            </div>
+            <div class="preview" data-name="report">
+                <span class="inner">
+                    <i class="bhi-report"></i>
+                </span>
+                <br>
+                <span class='label'>report</span>
+            </div>
+            <div class="preview" data-name="republish">
+                <span class="inner">
+                    <i class="bhi-republish"></i>
+                </span>
+                <br>
+                <span class='label'>republish</span>
+            </div>
+            <div class="preview" data-name="resume">
+                <span class="inner">
+                    <i class="bhi-resume"></i>
+                </span>
+                <br>
+                <span class='label'>resume</span>
+            </div>
+            <div class="preview" data-name="rocket">
+                <span class="inner">
+                    <i class="bhi-rocket"></i>
+                </span>
+                <br>
+                <span class='label'>rocket</span>
+            </div>
+            <div class="preview" data-name="sailboat">
+                <span class="inner">
+                    <i class="bhi-sailboat"></i>
+                </span>
+                <br>
+                <span class='label'>sailboat</span>
+            </div>
+            <div class="preview" data-name="save">
+                <span class="inner">
+                    <i class="bhi-save"></i>
+                </span>
+                <br>
+                <span class='label'>save</span>
+            </div>
+            <div class="preview" data-name="search-menu">
+                <span class="inner">
+                    <i class="bhi-search-menu"></i>
+                </span>
+                <br>
+                <span class='label'>search-menu</span>
+            </div>
+            <div class="preview" data-name="search-question">
+                <span class="inner">
+                    <i class="bhi-search-question"></i>
+                </span>
+                <br>
+                <span class='label'>search-question</span>
+            </div>
+            <div class="preview" data-name="search">
+                <span class="inner">
+                    <i class="bhi-search"></i>
+                </span>
+                <br>
+                <span class='label'>search</span>
+            </div>
+            <div class="preview" data-name="section">
+                <span class="inner">
+                    <i class="bhi-section"></i>
+                </span>
+                <br>
+                <span class='label'>section</span>
+            </div>
+            <div class="preview" data-name="send">
+                <span class="inner">
+                    <i class="bhi-send"></i>
+                </span>
+                <br>
+                <span class='label'>send</span>
+            </div>
+            <div class="preview" data-name="sendout">
+                <span class="inner">
+                    <i class="bhi-sendout"></i>
+                </span>
+                <br>
+                <span class='label'>sendout</span>
+            </div>
+            <div class="preview" data-name="share-o">
+                <span class="inner">
+                    <i class="bhi-share-o"></i>
+                </span>
+                <br>
+                <span class='label'>share-o</span>
+            </div>
+            <div class="preview" data-name="share">
+                <span class="inner">
+                    <i class="bhi-share"></i>
+                </span>
+                <br>
+                <span class='label'>share</span>
+            </div>
+            <div class="preview" data-name="shield">
+                <span class="inner">
+                    <i class="bhi-shield"></i>
+                </span>
+                <br>
+                <span class='label'>shield</span>
+            </div>
+            <div class="preview" data-name="shipping-box">
+                <span class="inner">
+                    <i class="bhi-shipping-box"></i>
+                </span>
+                <br>
+                <span class='label'>shipping-box</span>
+            </div>
+            <div class="preview" data-name="slideout">
+                <span class="inner">
+                    <i class="bhi-slideout"></i>
+                </span>
+                <br>
+                <span class='label'>slideout</span>
+            </div>
+            <div class="preview" data-name="sms">
+                <span class="inner">
+                    <i class="bhi-sms"></i>
+                </span>
+                <br>
+                <span class='label'>sms</span>
+            </div>
+            <div class="preview" data-name="sort-asc">
+                <span class="inner">
+                    <i class="bhi-sort-asc"></i>
+                </span>
+                <br>
+                <span class='label'>sort-asc</span>
+            </div>
+            <div class="preview" data-name="sort-desc">
+                <span class="inner">
+                    <i class="bhi-sort-desc"></i>
+                </span>
+                <br>
+                <span class='label'>sort-desc</span>
+            </div>
+            <div class="preview" data-name="sortable">
+                <span class="inner">
+                    <i class="bhi-sortable"></i>
+                </span>
+                <br>
+                <span class='label'>sortable</span>
+            </div>
+            <div class="preview" data-name="source">
+                <span class="inner">
+                    <i class="bhi-source"></i>
+                </span>
+                <br>
+                <span class='label'>source</span>
+            </div>
+            <div class="preview" data-name="star-circle">
+                <span class="inner">
+                    <i class="bhi-star-circle"></i>
+                </span>
+                <br>
+                <span class='label'>star-circle</span>
+            </div>
+            <div class="preview" data-name="star-o-circle">
+                <span class="inner">
+                    <i class="bhi-star-o-circle"></i>
+                </span>
+                <br>
+                <span class='label'>star-o-circle</span>
+            </div>
+            <div class="preview" data-name="star-o">
+                <span class="inner">
+                    <i class="bhi-star-o"></i>
+                </span>
+                <br>
+                <span class='label'>star-o</span>
+            </div>
+            <div class="preview" data-name="star">
+                <span class="inner">
+                    <i class="bhi-star"></i>
+                </span>
+                <br>
+                <span class='label'>star</span>
+            </div>
+            <div class="preview" data-name="stethoscope">
+                <span class="inner">
+                    <i class="bhi-stethoscope"></i>
+                </span>
+                <br>
+                <span class='label'>stethoscope</span>
+            </div>
+            <div class="preview" data-name="stop-light">
+                <span class="inner">
+                    <i class="bhi-stop-light"></i>
+                </span>
+                <br>
+                <span class='label'>stop-light</span>
+            </div>
+            <div class="preview" data-name="tab">
+                <span class="inner">
+                    <i class="bhi-tab"></i>
+                </span>
+                <br>
+                <span class='label'>tab</span>
+            </div>
+            <div class="preview" data-name="tearsheet">
+                <span class="inner">
+                    <i class="bhi-tearsheet"></i>
+                </span>
+                <br>
+                <span class='label'>tearsheet</span>
+            </div>
+            <div class="preview" data-name="tie">
+                <span class="inner">
+                    <i class="bhi-tie"></i>
+                </span>
+                <br>
+                <span class='label'>tie</span>
+            </div>
+            <div class="preview" data-name="times">
+                <span class="inner">
+                    <i class="bhi-times"></i>
+                </span>
+                <br>
+                <span class='label'>times</span>
+            </div>
+            <div class="preview" data-name="timetable">
+                <span class="inner">
+                    <i class="bhi-timetable"></i>
+                </span>
+                <br>
+                <span class='label'>timetable</span>
+            </div>
+            <div class="preview" data-name="tools">
+                <span class="inner">
+                    <i class="bhi-tools"></i>
+                </span>
+                <br>
+                <span class='label'>tools</span>
+            </div>
+            <div class="preview" data-name="tower">
+                <span class="inner">
+                    <i class="bhi-tower"></i>
+                </span>
+                <br>
+                <span class='label'>tower</span>
+            </div>
+            <div class="preview" data-name="trending-down">
+                <span class="inner">
+                    <i class="bhi-trending-down"></i>
+                </span>
+                <br>
+                <span class='label'>trending-down</span>
+            </div>
+            <div class="preview" data-name="trending-up">
+                <span class="inner">
+                    <i class="bhi-trending-up"></i>
+                </span>
+                <br>
+                <span class='label'>trending-up</span>
+            </div>
+            <div class="preview" data-name="truck">
+                <span class="inner">
+                    <i class="bhi-truck"></i>
+                </span>
+                <br>
+                <span class='label'>truck</span>
+            </div>
+            <div class="preview" data-name="twitter-f">
+                <span class="inner">
+                    <i class="bhi-twitter-f"></i>
+                </span>
+                <br>
+                <span class='label'>twitter-f</span>
+            </div>
+            <div class="preview" data-name="twitter-o">
+                <span class="inner">
+                    <i class="bhi-twitter-o"></i>
+                </span>
+                <br>
+                <span class='label'>twitter-o</span>
+            </div>
+            <div class="preview" data-name="twitter">
+                <span class="inner">
+                    <i class="bhi-twitter"></i>
+                </span>
+                <br>
+                <span class='label'>twitter</span>
+            </div>
+            <div class="preview" data-name="umbrella">
+                <span class="inner">
+                    <i class="bhi-umbrella"></i>
+                </span>
+                <br>
+                <span class='label'>umbrella</span>
+            </div>
+            <div class="preview" data-name="upload">
+                <span class="inner">
+                    <i class="bhi-upload"></i>
+                </span>
+                <br>
+                <span class='label'>upload</span>
+            </div>
+            <div class="preview" data-name="user-o">
+                <span class="inner">
+                    <i class="bhi-user-o"></i>
+                </span>
+                <br>
+                <span class='label'>user-o</span>
+            </div>
+            <div class="preview" data-name="user">
+                <span class="inner">
+                    <i class="bhi-user"></i>
+                </span>
+                <br>
+                <span class='label'>user</span>
+            </div>
+            <div class="preview" data-name="users">
+                <span class="inner">
+                    <i class="bhi-users"></i>
+                </span>
+                <br>
+                <span class='label'>users</span>
+            </div>
+            <div class="preview" data-name="view-list">
+                <span class="inner">
+                    <i class="bhi-view-list"></i>
+                </span>
+                <br>
+                <span class='label'>view-list</span>
+            </div>
+            <div class="preview" data-name="view-module">
+                <span class="inner">
+                    <i class="bhi-view-module"></i>
+                </span>
+                <br>
+                <span class='label'>view-module</span>
+            </div>
+            <div class="preview" data-name="viewall">
+                <span class="inner">
+                    <i class="bhi-viewall"></i>
+                </span>
+                <br>
+                <span class='label'>viewall</span>
+            </div>
+        </div>
+        <section>Part of the <a href="https://platform.bullhorn.com">Bullhorn SDK</a></section>
+    </div>
+    <footer class="hidden">
+        <div>
+            <i style="color:#000"></i>
+            <i style="color:#fff"></i>
+            <i style="color:#345"></i>
+            <i style="color:#999"></i>
+            <i style="color:#39D"></i>
+            <i style="color:#C23"></i>
+            <i style="color:#F93"></i>
+        </div>
+        <div>
+            <i style="font-size:x-small"></i>
+            <i style="font-size:small"></i>
+            <i style="font-size:medium"></i>
+            <i style="font-size:large"></i>
+            <i style="font-size:x-large"></i>
+            <i style="font-size:xx-large"></i>
+        </div>
+        <pre>Basic Usage: <code>&lt;i class=&quot;<span id="name">name</span>&quot;&gt;&lt;/i&gt;</code></pre>
+    </footer>
+
+    <script>
+        (function () {
+            document.getElementById('icons').onclick = function (e) {
+                e = e || window.event;
+                var name = e.target.getAttribute('data-name') || e.target.parentNode.getAttribute('data-name');
+                document.getElementById('name').innerHTML = "bhi-" + name;
+                
+                if( !name ) {
+                    document.querySelector("footer").className = "";    
+                } else {
+                    var matches = document.querySelectorAll("footer i");
+                    for( var i in matches ){
+                        matches[i].className = "bhi-" + name;
+                    }
+                    document.querySelector("footer").className = "show";    
+                }
+                e.stopImmediatePropagation();
+            }
+            
+            document.body.onclick = function (e) {
+                document.querySelector("footer").className = "";
+            }
+        })();
+
+        (function () {
+            document.getElementById('search').addEventListener('keyup', function (e) {
+                var matches = document.querySelectorAll(".preview");
+                for( var i in matches ){
+                    var el = matches[i],
+                        name = el.getAttribute('data-name'),
+                        val = document.getElementById('search').value;
+                    if( !val || !val.length ) {
+                        el.className = el.className.replace(/\shidden\b/gi,'');
+                    } else if( name.indexOf(val) >= 0 ) {
+                        el.className = el.className.replace(/\shidden\b/gi,'');
+                    } else {
+                        el.className += ' hidden';
+                    }
+                }
+            });
+        })();
+    </script>
+</body>
+
+</html>

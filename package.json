@@ -34,7 +34,7 @@
     "url": "git@github.com:bullhorn/bullhorn-icons.git"
   },
   "scripts": {
-    "build": "icon-font-generator ./icons/*.svg -o ./fonts -n Bullhorn-Glyphicons -p bhi --htmltp ./templates/demo.hbs --csstp ./templates/css.hbs",
+    "build": "icon-font-generator ./icons/*.svg -o ./fonts -n Bullhorn-Glyphicons -p bhi --htmltp ./templates/demo.hbs --csstp ./templates/css.hbs --htmlpath ./fonts/index.html",
     "publish": "gh-pages-deploy"
   },
   "gh-pages-deploy": {
