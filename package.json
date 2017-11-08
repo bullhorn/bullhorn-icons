@@ -1,6 +1,6 @@
 {
   "name": "bullhorn-icons",
-  "version": "1.17.0",
+  "version": "2.0.0",
   "description": "A font library that contains all the icon used by Bullhorn.",
   "author": {
     "name": "Brian Kimball",
@@ -38,7 +38,7 @@
     "url": "git@github.com:bullhorn/bullhorn-icons.git"
   },
   "scripts": {
-    "build": "icon-font-generator ./icons/*.svg -o ./fonts -n Bullhorn-Glyphicons -p bhi --htmltp ./templates/demo.html",
+    "build": "icon-font-generator ./icons/*.svg -o ./fonts -n Bullhorn-Glyphicons -p bhi --htmltp ./templates/demo.hbs --csstp ./templates/css.hbs",
     "publish": "gh-pages-deploy"
   },
   "gh-pages-deploy": {
