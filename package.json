@@ -27,7 +27,8 @@
   "dependencies": {},
   "devDependencies": {
     "gh-pages-deploy": "^0.4.2",
-    "icon-font-generator": "^1.1.1"
+    "icon-font-generator": "^1.1.1",
+    "rimraf": "^2.6.2"
   },
   "repository": {
     "type": "git",
@@ -35,12 +36,13 @@
   },
   "scripts": {
     "build": "icon-font-generator ./icons/*.svg -o ./fonts -n Bullhorn-Glyphicons -p bhi --htmltp ./templates/demo.hbs --csstp ./templates/css.hbs --htmlpath ./fonts/index.html",
-    "publish": "gh-pages-deploy"
+    "publish": "gh-pages-deploy",
+    "clean-source": "rimraf README.md icons templates fonts package.json"    
   },
   "gh-pages-deploy": {
     "staticpath": "fonts",
-    "prep": [
-      "build" 
+    "post": [
+      "clean-source"
     ],
     "noprompt": false
   }
