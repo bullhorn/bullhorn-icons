@@ -26,13 +26,26 @@
   ],
   "dependencies": {},
   "devDependencies": {
+    "gh-pages-deploy": "^0.4.2",
     "grunt": "*",
     "grunt-contrib-clean": "*",
     "grunt-webfont": "^1.6.0",
+    "icon-font-generator": "^1.1.1",
     "load-grunt-tasks": "^3.2.0"
   },
   "repository": {
     "type": "git",
     "url": "git@github.com:bullhorn/bullhorn-icons.git"
+  },
+  "scripts": {
+    "build": "icon-font-generator ./icons/*.svg -o ./fonts -n Bullhorn-Glyphicons -p bhi --htmltp ./templates/demo.html",
+    "publish": "gh-pages-deploy"
+  },
+  "gh-pages-deploy": {
+    "staticpath": "fonts",
+    "prep": [
+      "build" 
+    ],
+    "noprompt": false
   }
 }
