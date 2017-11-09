@@ -1,6 +1,20 @@
+sudo: false
+dist: trusty
+language: node_js
+
+node_js:
+  - "6"
+
+cache:
+  yarn: true
+  directories:
+    - node_modules
+
 branches:
-  except:
-  - gh-pages
+  only:
+  - /\bv?(?:0|[1-9]\d*)\.(?:0|[1-9]\d*)\.(?:0|[1-9]\d*)(?:-[\da-z\-]+(?:\.[\da-z\-]+)*)?(?:\+[\da-z\-]+(?:\.[\da-z\-]+)*)?\b/
+  - master
+
 deploy:
   provider: npm
   email: bvkimball@gmail.com
@@ -9,11 +23,13 @@ deploy:
   on:
     tags: true
     repo: bullhorn/bullhorn-icons
+
 before_install:
-- openssl aes-256-cbc -K $encrypted_fcbd0a97e1fd_key -iv $encrypted_fcbd0a97e1fd_iv
-  -in id_rsa.enc -out ~\/.ssh/id_rsa -d
-script:
+  - openssl aes-256-cbc -K $encrypted_fcbd0a97e1fd_key -iv $encrypted_fcbd0a97e1fd_iv -in id_rsa.enc -out id_rsa -d
+
+after_script:
   - node_modules/.bin/gh-pages-travis
+
 env:
   global:
     - DEPLOY_BRANCH="master"
