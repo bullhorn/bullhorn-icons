@@ -1,9 +1,13 @@
 {
     "name": "bullhorn-icons",
     "description": "Bullhorn Glyphicons",
-    "keywords": ["icons", "font", "bullhorn"],
+    "keywords": [
+        "icons",
+        "font",
+        "bullhorn"
+    ],
     "homepage": "http://platform.bullhorn.com",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "author": {
         "name": "Brian Kimball",
         "company": "Bullhorn, Inc.",
@@ -28,7 +32,9 @@
     ],
     "dependencies": {},
     "devDependencies": {},
-    "license": ["MIT"],
+    "license": [
+        "MIT"
+    ],
     "main": [
         "./fonts/Bullhorn-Glyphicons.css",
         "./fonts/*"
