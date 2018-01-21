@@ -1,37 +1,20 @@
-sudo: false
-dist: trusty
 language: node_js
-
-node_js:
-  - "6"
-
 cache:
-  yarn: true
   directories:
-    - node_modules
-
+    - ~/.npm
+notifications:
+  email: false
+node_js:
+  - '9'
+  - '8'
+  - '6'
+  - '4'
+install:
+  - npm install
+script:
+  - npm run build
+after_success:
+  - npm run travis-deploy-once "npm run semantic-release"
 branches:
-  only:
-  - /\bv?(?:0|[1-9]\d*)\.(?:0|[1-9]\d*)\.(?:0|[1-9]\d*)(?:-[\da-z\-]+(?:\.[\da-z\-]+)*)?(?:\+[\da-z\-]+(?:\.[\da-z\-]+)*)?\b/
-  - master
-
-deploy:
-  provider: npm
-  email: bvkimball@gmail.com
-  api_key:
-    secure: CPquzbQgND1HTwlQGk37qUgTb+BwdCI52+Dj+9adSEeXyPH8AR/vecuocP4Kq9voj6PE/7YHCfhzknXkMF020TmM88aV2hQHV8DnKa2L8zG2ukYVb0Ehva0TkEIUy4FuzH/NiZMmmk/ohnxPjlaORufQRo9wWq41YTlfUe79tzM7cSKEjd6HlfCAU87bbOOFiMUKoO+0jjXB2O0CEARfbidhyYAVIfYhKhRU4MNZ6B2rw17iwFe90ByaBGFjQ8HQvLqGUbiBjKLR1tze/0tPMpB7aG2t+8Fu2Np5xMFxOhh2pznkCJoCDZrryeVX5+cvl+unqlq7qhTuzZe/RyS48lSn9H/ZkIWzAB0XoufDPfhUL114B8R1a6IWUUf0Hpfdo3K8WkCa69XTaRX0Px0v9L7A+D0W3Mdoy+gGkc2BUGh7NsEUt2RkDo2vuPGCPoCgGThymTeYjmfyKCAIRwSIVx7dCEJpHuKLwCAQXZ5PdlZpnoYbo5zxqYE9rN15L+h5MYqxGLM38zgMhXt1azVP18njVzTjmiwNoTNP1gC3UsuYZMmSJ5lQTWwQgkiM1l/EQ2MSoNNXWcTICRYp5xOl4tujIY+Brycu/0D14yBf7EZRUnUfX+LJaLZ+t3IPlSrIMDPL7L7riCvBzg6RCTPY/PGfMBmtifMrO0CKAbaLnjc=
-  on:
-    tags: true
-    repo: bullhorn/bullhorn-icons
-
-before_install:
-  - openssl aes-256-cbc -K $encrypted_fcbd0a97e1fd_key -iv $encrypted_fcbd0a97e1fd_iv -in id_rsa.enc -out id_rsa -d
-
-after_script:
-  - node_modules/.bin/gh-pages-travis
-
-env:
-  global:
-    - DEPLOY_BRANCH="master"
-    - SOURCE_DIR="fonts"
-    - TARGET_BRANCH="gh-pages"
+  except:
+    - /^v\d+\.\d+\.\d+$/
