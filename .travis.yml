@@ -1,14 +1,13 @@
 language: node_js
+dist: trusty
+language: node_js
 cache:
   directories:
     - ~/.npm
 notifications:
   email: false
 node_js:
-  - '9'
   - '8'
-  - '6'
-  - '4'
 install:
   - npm install
 script:
