@@ -44,14 +44,14 @@ npm install --save @bullhorn/bullhorn-icons
 
 ### Using an icon
 
-<samples>
+<p>
     <img title="Candidate icon" src="http://cdn.rawgit.com/bullhorn/bullhorn-icons/master/icons/candidate.svg" width="64" />
     <img title="Person icon" src="http://cdn.rawgit.com/bullhorn/bullhorn-icons/master/icons/person.svg" width="64" />
     <img title="Job icon" src="http://cdn.rawgit.com/bullhorn/bullhorn-icons/master/icons/job.svg" width="64" />
     <img title="Company icon" src="http://cdn.rawgit.com/bullhorn/bullhorn-icons/master/icons/company.svg" width="64" />
     <img title="Lead icon" src="http://cdn.rawgit.com/bullhorn/bullhorn-icons/master/icons/lead.svg" width="64" />
     <img title="Opportunity icon" src="http://cdn.rawgit.com/bullhorn/bullhorn-icons/master/icons/opportunity.svg" width="64" />
-</samples>
+</p>
 
 ```html
 <i class="bhi-candidate"></i>
