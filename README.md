@@ -1,4 +1,4 @@
-# [BULLHORN-ICONS](banner.png)
+# ![BULLHORN-ICONS](banner.png)
 
 > This repository contains the icon fonts maintained by Bullhorn.
 
