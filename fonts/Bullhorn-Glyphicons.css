@@ -11,7 +11,7 @@ i {
     line-height: 1;
 }
 
-i[class^="bhi-"]:before {
+i[class~="bhi-"]:before {
     font-family: Bullhorn-Glyphicons !important;
     font-style: normal;
     font-weight: normal !important;
