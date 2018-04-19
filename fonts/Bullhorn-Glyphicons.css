@@ -1,10 +1,10 @@
 @font-face {
     font-family: "Bullhorn-Glyphicons";
-    src: url("./Bullhorn-Glyphicons.eot?38f9c8a94e434ef35814d580dfe6298f?#iefix") format("embedded-opentype"),
-url("./Bullhorn-Glyphicons.woff2?38f9c8a94e434ef35814d580dfe6298f") format("woff2"),
-url("./Bullhorn-Glyphicons.woff?38f9c8a94e434ef35814d580dfe6298f") format("woff"),
-url("./Bullhorn-Glyphicons.ttf?38f9c8a94e434ef35814d580dfe6298f") format("truetype"),
-url("./Bullhorn-Glyphicons.svg?38f9c8a94e434ef35814d580dfe6298f#Bullhorn-Glyphicons") format("svg");
+    src: url("./Bullhorn-Glyphicons.eot?dda3b1e25b830470039a11155e80fa79?#iefix") format("embedded-opentype"),
+url("./Bullhorn-Glyphicons.woff2?dda3b1e25b830470039a11155e80fa79") format("woff2"),
+url("./Bullhorn-Glyphicons.woff?dda3b1e25b830470039a11155e80fa79") format("woff"),
+url("./Bullhorn-Glyphicons.ttf?dda3b1e25b830470039a11155e80fa79") format("truetype"),
+url("./Bullhorn-Glyphicons.svg?dda3b1e25b830470039a11155e80fa79#Bullhorn-Glyphicons") format("svg");
 }
 
 i {
@@ -383,13 +383,13 @@ i[class*="bhi-"]:before {
 .bhi-home:before {
     content: "\f179";
 }
-.bhi-hourglass-end:before {
+.bhi-hourglass-bottom:before {
     content: "\f17a";
 }
-.bhi-hourglass-half:before {
+.bhi-hourglass-middle:before {
     content: "\f17b";
 }
-.bhi-hourglass-start:before {
+.bhi-hourglass-top:before {
     content: "\f17c";
 }
 .bhi-i9:before {
