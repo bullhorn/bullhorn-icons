@@ -2696,6 +2696,16 @@ i[class*="bhi-"]:before {
                 }
             });
         })();
+        (function() {
+            document.getElementById('search').onreset = function (e) {
+                var matches = document.querySelectorAll(".preview");
+                for ( var i in matches ){
+                    var el = matches[i],
+                    name = el.getAttribute('data-name')
+                    el.className = el.className.replace(/\shidden\b/gi,'');
+                }
+            }
+        })();
     </script>
 </body>
 
