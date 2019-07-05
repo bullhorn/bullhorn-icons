@@ -126,11 +126,11 @@
         
         @font-face {
     font-family: "Bullhorn-Glyphicons";
-    src: url("./Bullhorn-Glyphicons.eot?9e97906a07fb5d2b5904949ef312b2e4?#iefix") format("embedded-opentype"),
-url("./Bullhorn-Glyphicons.woff2?9e97906a07fb5d2b5904949ef312b2e4") format("woff2"),
-url("./Bullhorn-Glyphicons.woff?9e97906a07fb5d2b5904949ef312b2e4") format("woff"),
-url("./Bullhorn-Glyphicons.ttf?9e97906a07fb5d2b5904949ef312b2e4") format("truetype"),
-url("./Bullhorn-Glyphicons.svg?9e97906a07fb5d2b5904949ef312b2e4#Bullhorn-Glyphicons") format("svg");
+    src: url("./Bullhorn-Glyphicons.eot?cab16daac65c69262f7f3f3fa812c222?#iefix") format("embedded-opentype"),
+url("./Bullhorn-Glyphicons.woff2?cab16daac65c69262f7f3f3fa812c222") format("woff2"),
+url("./Bullhorn-Glyphicons.woff?cab16daac65c69262f7f3f3fa812c222") format("woff"),
+url("./Bullhorn-Glyphicons.ttf?cab16daac65c69262f7f3f3fa812c222") format("truetype"),
+url("./Bullhorn-Glyphicons.svg?cab16daac65c69262f7f3f3fa812c222#Bullhorn-Glyphicons") format("svg");
 }
 
 i {
@@ -203,7 +203,7 @@ i[class*="bhi-"]:before {
 .bhi-back-office:before {
     content: "\f113";
 }
-.bhi-bbo-projects:before {
+.bhi-bbo-project:before {
     content: "\f114";
 }
 .bhi-beaker:before {
@@ -347,7 +347,7 @@ i[class*="bhi-"]:before {
 .bhi-comment:before {
     content: "\f143";
 }
-.bhi-commision:before {
+.bhi-commission:before {
     content: "\f144";
 }
 .bhi-company-circle:before {
@@ -686,7 +686,7 @@ i[class*="bhi-"]:before {
 .bhi-packets:before {
     content: "\f1b4";
 }
-.bhi-payables:before {
+.bhi-payable:before {
     content: "\f1b5";
 }
 .bhi-payroll:before {
@@ -887,29 +887,32 @@ i[class*="bhi-"]:before {
 .bhi-umbrella:before {
     content: "\f1f7";
 }
-.bhi-upload:before {
+.bhi-unit:before {
     content: "\f1f8";
 }
-.bhi-user-o:before {
+.bhi-upload:before {
     content: "\f1f9";
 }
-.bhi-user:before {
+.bhi-user-o:before {
     content: "\f1fa";
 }
-.bhi-users:before {
+.bhi-user:before {
     content: "\f1fb";
 }
-.bhi-vendor:before {
+.bhi-users:before {
     content: "\f1fc";
 }
-.bhi-view-list:before {
+.bhi-vendor:before {
     content: "\f1fd";
 }
-.bhi-view-module:before {
+.bhi-view-list:before {
     content: "\f1fe";
 }
-.bhi-viewall:before {
+.bhi-view-module:before {
     content: "\f1ff";
+}
+.bhi-viewall:before {
+    content: "\f200";
 }
 
     </style>
@@ -1059,12 +1062,12 @@ i[class*="bhi-"]:before {
                 <br>
                 <span class='label'>back-office</span>
             </div>
-            <div class="preview" data-name="bbo-projects">
+            <div class="preview" data-name="bbo-project">
                 <span class="inner">
-                    <i class="bhi-bbo-projects"></i>
+                    <i class="bhi-bbo-project"></i>
                 </span>
                 <br>
-                <span class='label'>bbo-projects</span>
+                <span class='label'>bbo-project</span>
             </div>
             <div class="preview" data-name="beaker">
                 <span class="inner">
@@ -1395,12 +1398,12 @@ i[class*="bhi-"]:before {
                 <br>
                 <span class='label'>comment</span>
             </div>
-            <div class="preview" data-name="commision">
+            <div class="preview" data-name="commission">
                 <span class="inner">
-                    <i class="bhi-commision"></i>
+                    <i class="bhi-commission"></i>
                 </span>
                 <br>
-                <span class='label'>commision</span>
+                <span class='label'>commission</span>
             </div>
             <div class="preview" data-name="company-circle">
                 <span class="inner">
@@ -2186,12 +2189,12 @@ i[class*="bhi-"]:before {
                 <br>
                 <span class='label'>packets</span>
             </div>
-            <div class="preview" data-name="payables">
+            <div class="preview" data-name="payable">
                 <span class="inner">
-                    <i class="bhi-payables"></i>
+                    <i class="bhi-payable"></i>
                 </span>
                 <br>
-                <span class='label'>payables</span>
+                <span class='label'>payable</span>
             </div>
             <div class="preview" data-name="payroll">
                 <span class="inner">
@@ -2655,6 +2658,13 @@ i[class*="bhi-"]:before {
                 <br>
                 <span class='label'>umbrella</span>
             </div>
+            <div class="preview" data-name="unit">
+                <span class="inner">
+                    <i class="bhi-unit"></i>
+                </span>
+                <br>
+                <span class='label'>unit</span>
+            </div>
             <div class="preview" data-name="upload">
                 <span class="inner">
                     <i class="bhi-upload"></i>
@@ -2775,6 +2785,16 @@ i[class*="bhi-"]:before {
                     }
                 }
             });
+        })();
+        (function() {
+            document.getElementById('search').onclick = function (e) {
+                var matches = document.querySelectorAll(".preview");
+                for ( var i in matches ){
+                    var el = matches[i],
+                    name = el.getAttribute('data-name')
+                    el.className = el.className.replace(/\shidden\b/gi,'');
+                }
+            }
         })();
     </script>
 </body>

@@ -213,6 +213,16 @@
                 }
             });
         })();
+        (function() {
+            document.getElementById('search').onclick = function (e) {
+                var matches = document.querySelectorAll(".preview");
+                for ( var i in matches ){
+                    var el = matches[i],
+                    name = el.getAttribute('data-name')
+                    el.className = el.className.replace(/\shidden\b/gi,'');
+                }
+            }
+        })();
     </script>
 </body>
 

@@ -1,10 +1,10 @@
 @font-face {
     font-family: "Bullhorn-Glyphicons";
-    src: url("./Bullhorn-Glyphicons.eot?05f1b39dc765a637090e85c8a5354c1b?#iefix") format("embedded-opentype"),
-url("./Bullhorn-Glyphicons.woff2?05f1b39dc765a637090e85c8a5354c1b") format("woff2"),
-url("./Bullhorn-Glyphicons.woff?05f1b39dc765a637090e85c8a5354c1b") format("woff"),
-url("./Bullhorn-Glyphicons.ttf?05f1b39dc765a637090e85c8a5354c1b") format("truetype"),
-url("./Bullhorn-Glyphicons.svg?05f1b39dc765a637090e85c8a5354c1b#Bullhorn-Glyphicons") format("svg");
+    src: url("./Bullhorn-Glyphicons.eot?64fb6bd8d4e75d63b00f53bf196516fb?#iefix") format("embedded-opentype"),
+url("./Bullhorn-Glyphicons.woff2?64fb6bd8d4e75d63b00f53bf196516fb") format("woff2"),
+url("./Bullhorn-Glyphicons.woff?64fb6bd8d4e75d63b00f53bf196516fb") format("woff"),
+url("./Bullhorn-Glyphicons.ttf?64fb6bd8d4e75d63b00f53bf196516fb") format("truetype"),
+url("./Bullhorn-Glyphicons.svg?64fb6bd8d4e75d63b00f53bf196516fb#Bullhorn-Glyphicons") format("svg");
 }
 
 i {
@@ -77,7 +77,7 @@ i[class*="bhi-"]:before {
 .bhi-back-office:before {
     content: "\f113";
 }
-.bhi-bbo-projects:before {
+.bhi-bbo-project:before {
     content: "\f114";
 }
 .bhi-beaker:before {
@@ -221,7 +221,7 @@ i[class*="bhi-"]:before {
 .bhi-comment:before {
     content: "\f143";
 }
-.bhi-commision:before {
+.bhi-commission:before {
     content: "\f144";
 }
 .bhi-company-circle:before {
@@ -560,7 +560,7 @@ i[class*="bhi-"]:before {
 .bhi-packets:before {
     content: "\f1b4";
 }
-.bhi-payables:before {
+.bhi-payable:before {
     content: "\f1b5";
 }
 .bhi-payroll:before {
@@ -761,27 +761,30 @@ i[class*="bhi-"]:before {
 .bhi-umbrella:before {
     content: "\f1f7";
 }
-.bhi-upload:before {
+.bhi-unit:before {
     content: "\f1f8";
 }
-.bhi-user-o:before {
+.bhi-upload:before {
     content: "\f1f9";
 }
-.bhi-user:before {
+.bhi-user-o:before {
     content: "\f1fa";
 }
-.bhi-users:before {
+.bhi-user:before {
     content: "\f1fb";
 }
-.bhi-vendor:before {
+.bhi-users:before {
     content: "\f1fc";
 }
-.bhi-view-list:before {
+.bhi-vendor:before {
     content: "\f1fd";
 }
-.bhi-view-module:before {
+.bhi-view-list:before {
     content: "\f1fe";
 }
-.bhi-viewall:before {
+.bhi-view-module:before {
     content: "\f1ff";
+}
+.bhi-viewall:before {
+    content: "\f200";
 }
