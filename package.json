@@ -1,32 +1,13 @@
 {
   "name": "@bullhorn/bullhorn-icons",
-  "version": "2.6.0",
+  "version": "2.7.0",
   "description": "A font library that contains all the icon used by Bullhorn.",
   "author": {
-    "name": "Brian Kimball",
-    "company": "Bullhorn, Inc.",
-    "email": "bkimball@bullhorn.com"
+    "company": "Bullhorn, Inc."
   },
   "publishConfig": {
     "access": "public"
   },
-  "contributors": [
-    {
-      "name": "Alec Sibilia",
-      "company": "Bullhorn, Inc.",
-      "email": "asibilia@bullhorn.com"
-    },
-    {
-      "name": "Bryan Roy",
-      "company": "Bullhorn, Inc.",
-      "email": "broy@bullhorn.com"
-    },
-    {
-      "name": "Ethan Blackmore",
-      "company": "Bullhorn, Inc.",
-      "email": "eblackmore@bullhorn.com"
-    }
-  ],
   "dependencies": {},
   "devDependencies": {
     "gh-pages-deploy": "^0.4.2",
