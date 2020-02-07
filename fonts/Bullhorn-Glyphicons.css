@@ -1,10 +1,10 @@
 @font-face {
     font-family: "Bullhorn-Glyphicons";
-    src: url("./Bullhorn-Glyphicons.eot?f9357e29bc2b876dcef5e10b53626291?#iefix") format("embedded-opentype"),
-url("./Bullhorn-Glyphicons.woff2?f9357e29bc2b876dcef5e10b53626291") format("woff2"),
-url("./Bullhorn-Glyphicons.woff?f9357e29bc2b876dcef5e10b53626291") format("woff"),
-url("./Bullhorn-Glyphicons.ttf?f9357e29bc2b876dcef5e10b53626291") format("truetype"),
-url("./Bullhorn-Glyphicons.svg?f9357e29bc2b876dcef5e10b53626291#Bullhorn-Glyphicons") format("svg");
+    src: url("./Bullhorn-Glyphicons.eot?ab9276ab187cf5199ff60f84cb10d06c?#iefix") format("embedded-opentype"),
+url("./Bullhorn-Glyphicons.woff2?ab9276ab187cf5199ff60f84cb10d06c") format("woff2"),
+url("./Bullhorn-Glyphicons.woff?ab9276ab187cf5199ff60f84cb10d06c") format("woff"),
+url("./Bullhorn-Glyphicons.ttf?ab9276ab187cf5199ff60f84cb10d06c") format("truetype"),
+url("./Bullhorn-Glyphicons.svg?ab9276ab187cf5199ff60f84cb10d06c#Bullhorn-Glyphicons") format("svg");
 }
 
 i {
@@ -814,4 +814,7 @@ i[class*="bhi-"]:before {
 }
 .bhi-viewall:before {
     content: "\f209";
+}
+.bhi-workflow:before {
+    content: "\f20a";
 }
