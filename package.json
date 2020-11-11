@@ -14,7 +14,7 @@
     "gh-pages-travis": "^1.0.4",
     "icon-font-generator": "^1.1.1",
     "rimraf": "^2.6.2",
-    "semantic-release": "^12.2.2",
+    "semantic-release": "^15.0.0",
     "travis-deploy-once": "^4.3.2"
   },
   "repository": {

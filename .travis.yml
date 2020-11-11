@@ -1,19 +1,26 @@
 language: node_js
-dist: trusty
-language: node_js
+
+node_js:
+  - 8
+
 cache:
   directories:
     - ~/.npm
-notifications:
-  email: false
-node_js:
-  - '8'
+
+if: branch = master
+
 install:
   - npm install
-script:
-  - npm run build
-after_success:
-  - npm run travis-deploy-once "npm run semantic-release"
-branches:
-  except:
-    - /^v\d+\.\d+\.\d+$/
+
+jobs:
+  include:
+    # Define the release stage that runs semantic-release
+    - stage: release
+      node_js: lts/*
+      script:
+        - npm run build
+      deploy:
+        provider: script
+        skip_cleanup: true
+        script:
+          - npx semantic-release
