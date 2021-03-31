@@ -4,7 +4,7 @@ import * as path from "path";
 
 /** Path to find the examples */
 const iconPath = path.join("./icons/");
-const outputSourceFilename = "index.js";
+const outputSourceFilename = "index.ts";
 
 const snakeToCamel = (str) =>
   str
