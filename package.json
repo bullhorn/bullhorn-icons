@@ -8,11 +8,16 @@
   "publishConfig": {
     "access": "public"
   },
-  "dependencies": {},
   "devDependencies": {
+    "@babel/core": "^7.13.14",
+    "@babel/node": "^7.13.13",
+    "@babel/preset-env": "^7.13.12",
+    "cross-env": "^7.0.3",
     "gh-pages-deploy": "^0.4.2",
     "gh-pages-travis": "^1.0.4",
+    "glob": "^7.1.6",
     "icon-font-generator": "^1.1.1",
+    "microbundle": "^0.13.0",
     "rimraf": "^2.6.2",
     "semantic-release": "^15.0.0",
     "travis-deploy-once": "^4.3.2"
@@ -21,8 +26,16 @@
     "type": "git",
     "url": "https://github.com/bullhorn/bullhorn-icons"
   },
+  "source": "index.js",
+  "main": "dist/index.js",
+  "exports": "./dist/index.modern.js",
+  "module": "dist/index.module.js",
+  "unpkg": "dist/index.umd.js",
   "scripts": {
-    "build": "icon-font-generator ./icons/*.svg -o ./fonts -n Bullhorn-Glyphicons -p bhi --htmltp ./templates/demo.hbs --csstp ./templates/css.hbs --htmlpath ./fonts/index.html",
+    "build:icons": "icon-font-generator ./icons/*.svg -o ./fonts -n Bullhorn-Glyphicons -p bhi --htmltp ./templates/demo.hbs --csstp ./templates/css.hbs --htmlpath ./fonts/index.html",
+    "build:bundle": "microbundle",
+    "build:index": "npx babel-node ./scripts/makeIndex.js",
+    "build": "npm run build:icons && npm run build:index && npm run build:bundle",
     "docs": "gh-pages-deploy",
     "clean-source": "rimraf README.md icons templates fonts package.json",
     "semantic-release": "semantic-release",
