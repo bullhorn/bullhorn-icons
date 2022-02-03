@@ -139,6 +139,7 @@ export const Hammer = 'hammer';
 export const Headset = 'headset';
 export const Herefish = 'herefish';
 export const Hidden = 'hidden';
+export const Holiday = 'holiday';
 export const Home = 'home';
 export const HourglassBottom = 'hourglass-bottom';
 export const HourglassMiddle = 'hourglass-middle';
