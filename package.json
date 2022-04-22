@@ -9,18 +9,18 @@
     "access": "public"
   },
   "devDependencies": {
-    "@babel/core": "^7.13.14",
-    "@babel/node": "^7.13.13",
-    "@babel/preset-env": "^7.13.12",
+    "@babel/core": "^7.17.8",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
     "cross-env": "^7.0.3",
     "gh-pages-deploy": "^0.4.2",
     "gh-pages-travis": "^1.0.4",
-    "glob": "^7.1.6",
-    "icon-font-generator": "^1.1.1",
-    "microbundle": "^0.13.0",
-    "rimraf": "^2.6.2",
+    "glob": "^7.2.0",
+    "icon-font-generator": "^1.1.2",
+    "microbundle": "^0.13.3",
+    "rimraf": "^2.7.1",
     "semantic-release": "^15.0.0",
-    "travis-deploy-once": "^4.3.2"
+    "travis-deploy-once": "^4.4.1"
   },
   "repository": {
     "type": "git",
