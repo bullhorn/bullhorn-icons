@@ -19,7 +19,7 @@
     "icon-font-generator": "^1.1.2",
     "microbundle": "^0.13.3",
     "rimraf": "^2.7.1",
-    "semantic-release": "^15.0.0",
+    "semantic-release": "^17.2.3",
     "travis-deploy-once": "^4.4.1"
   },
   "repository": {
