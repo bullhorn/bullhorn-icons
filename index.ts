@@ -232,6 +232,7 @@ export const Rate = 'rate';
 export const Receivables = 'receivables';
 export const RefreshO = 'refresh-o';
 export const Refresh = 'refresh';
+export const Rent = 'rent';
 export const Reply = 'reply';
 export const ReportCode = 'report-code';
 export const Report = 'report';
