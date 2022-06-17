@@ -1,10 +1,10 @@
 @font-face {
     font-family: "Bullhorn-Glyphicons";
-    src: url("./Bullhorn-Glyphicons.eot?1adef807a6f0f537a6094a26ad977181?#iefix") format("embedded-opentype"),
-url("./Bullhorn-Glyphicons.woff2?1adef807a6f0f537a6094a26ad977181") format("woff2"),
-url("./Bullhorn-Glyphicons.woff?1adef807a6f0f537a6094a26ad977181") format("woff"),
-url("./Bullhorn-Glyphicons.ttf?1adef807a6f0f537a6094a26ad977181") format("truetype"),
-url("./Bullhorn-Glyphicons.svg?1adef807a6f0f537a6094a26ad977181#Bullhorn-Glyphicons") format("svg");
+    src: url("./Bullhorn-Glyphicons.eot?f5fd2c20a4cdee90a82ce48b121971cb?#iefix") format("embedded-opentype"),
+url("./Bullhorn-Glyphicons.woff2?f5fd2c20a4cdee90a82ce48b121971cb") format("woff2"),
+url("./Bullhorn-Glyphicons.woff?f5fd2c20a4cdee90a82ce48b121971cb") format("woff"),
+url("./Bullhorn-Glyphicons.ttf?f5fd2c20a4cdee90a82ce48b121971cb") format("truetype"),
+url("./Bullhorn-Glyphicons.svg?f5fd2c20a4cdee90a82ce48b121971cb#Bullhorn-Glyphicons") format("svg");
 }
 
 i {
@@ -770,126 +770,129 @@ i[class*="bhi-"]:before {
 .bhi-sendout:before {
     content: "\f1fa";
 }
-.bhi-share-o:before {
+.bhi-settings:before {
     content: "\f1fb";
 }
-.bhi-share:before {
+.bhi-share-o:before {
     content: "\f1fc";
 }
-.bhi-shield:before {
+.bhi-share:before {
     content: "\f1fd";
 }
-.bhi-shipping-box:before {
+.bhi-shield:before {
     content: "\f1fe";
 }
-.bhi-slideout:before {
+.bhi-shipping-box:before {
     content: "\f1ff";
 }
-.bhi-sms:before {
+.bhi-slideout:before {
     content: "\f200";
 }
-.bhi-sort-asc:before {
+.bhi-sms:before {
     content: "\f201";
 }
-.bhi-sort-desc:before {
+.bhi-sort-asc:before {
     content: "\f202";
 }
-.bhi-sortable:before {
+.bhi-sort-desc:before {
     content: "\f203";
 }
-.bhi-source:before {
+.bhi-sortable:before {
     content: "\f204";
 }
-.bhi-star-circle:before {
+.bhi-source:before {
     content: "\f205";
 }
-.bhi-star-o-circle:before {
+.bhi-star-circle:before {
     content: "\f206";
 }
-.bhi-star-o:before {
+.bhi-star-o-circle:before {
     content: "\f207";
 }
-.bhi-star:before {
+.bhi-star-o:before {
     content: "\f208";
 }
-.bhi-stethoscope:before {
+.bhi-star:before {
     content: "\f209";
 }
-.bhi-stop-light:before {
+.bhi-stethoscope:before {
     content: "\f20a";
 }
-.bhi-tab:before {
+.bhi-stop-light:before {
     content: "\f20b";
 }
-.bhi-tearsheet:before {
+.bhi-tab:before {
     content: "\f20c";
 }
-.bhi-tie:before {
+.bhi-tearsheet:before {
     content: "\f20d";
 }
-.bhi-times:before {
+.bhi-tie:before {
     content: "\f20e";
 }
-.bhi-timetable:before {
+.bhi-times:before {
     content: "\f20f";
 }
-.bhi-tools:before {
+.bhi-timetable:before {
     content: "\f210";
 }
-.bhi-tower:before {
+.bhi-tools:before {
     content: "\f211";
 }
-.bhi-trending-down:before {
+.bhi-tower:before {
     content: "\f212";
 }
-.bhi-trending-up:before {
+.bhi-trending-down:before {
     content: "\f213";
 }
-.bhi-truck:before {
+.bhi-trending-up:before {
     content: "\f214";
 }
-.bhi-twitter-f:before {
+.bhi-truck:before {
     content: "\f215";
 }
-.bhi-twitter-o:before {
+.bhi-twitter-f:before {
     content: "\f216";
 }
-.bhi-twitter:before {
+.bhi-twitter-o:before {
     content: "\f217";
 }
-.bhi-umbrella:before {
+.bhi-twitter:before {
     content: "\f218";
 }
-.bhi-unit:before {
+.bhi-umbrella:before {
     content: "\f219";
 }
-.bhi-upload:before {
+.bhi-unit:before {
     content: "\f21a";
 }
-.bhi-user-o:before {
+.bhi-upload:before {
     content: "\f21b";
 }
-.bhi-user:before {
+.bhi-user-o:before {
     content: "\f21c";
 }
-.bhi-users:before {
+.bhi-user:before {
     content: "\f21d";
 }
-.bhi-vendor:before {
+.bhi-users:before {
     content: "\f21e";
 }
-.bhi-view-list:before {
+.bhi-vendor:before {
     content: "\f21f";
 }
-.bhi-view-module:before {
+.bhi-view-list:before {
     content: "\f220";
 }
-.bhi-viewall:before {
+.bhi-view-module:before {
     content: "\f221";
 }
-.bhi-workflow:before {
+.bhi-viewall:before {
     content: "\f222";
 }
-.bhi-x:before {
+.bhi-workflow:before {
     content: "\f223";
+}
+.bhi-x:before {
+    content: "\f224";
 }

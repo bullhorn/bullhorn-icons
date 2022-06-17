@@ -248,6 +248,7 @@ export const Search = 'search';
 export const Section = 'section';
 export const Send = 'send';
 export const Sendout = 'sendout';
+export const Settings = 'settings';
 export const ShareO = 'share-o';
 export const Share = 'share';
 export const Shield = 'shield';
