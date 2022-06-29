@@ -227,6 +227,7 @@ export const RadioEmpty = 'radio-empty';
 export const RadioFilled = 'radio-filled';
 export const RateCircle = 'rate-circle';
 export const RateFilled = 'rate-filled';
+export const RateRequest = 'rate-request';
 export const RateRule = 'rate-rule';
 export const Rate = 'rate';
 export const Receivables = 'receivables';
