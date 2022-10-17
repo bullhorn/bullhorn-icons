@@ -29,3 +29,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.TOKEN_FOR_GITHUB }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npx semantic-release
+  docs:
+    needs: release
+    if: github.ref == 'refs/heads/main'
+    steps:
+      - name: Deploy to Github Pages
+        run: npm run docs
