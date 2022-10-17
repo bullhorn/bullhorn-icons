@@ -30,8 +30,10 @@ jobs:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npx semantic-release
   docs:
+    name: Push to Github Pages
     needs: release
     if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
     steps:
       - name: Deploy to Github Pages
         run: npm run docs
