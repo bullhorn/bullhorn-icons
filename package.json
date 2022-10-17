@@ -2,6 +2,7 @@
   "name": "@bullhorn/bullhorn-icons",
   "version": "0.0.0",
   "description": "A font library that contains all the icon used by Bullhorn.",
+  "license": "MIT",
   "author": {
     "company": "Bullhorn, Inc."
   },
