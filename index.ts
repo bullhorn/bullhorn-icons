@@ -7,6 +7,7 @@ export const AddThin = 'add-thin';
 export const Add = 'add';
 export const Addcard = 'addcard';
 export const Afternoon = 'afternoon';
+export const Analytics = 'analytics';
 export const Anchor = 'anchor';
 export const Appointment = 'appointment';
 export const Archive = 'archive';

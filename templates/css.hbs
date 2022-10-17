@@ -1,23 +1,33 @@
 @font-face {
-    font-family: "{{ fontName }}";
-    src: {{{ src }}};
+    font-family: "{{ name }}";
+    src: {{{ fontSrc }}};
 }
 
-{{ baseTag }} {
+{{ tag }} {
     line-height: 1;
 }
 
-{{ baseTag }}[class*="bhi-"]:before {
-    font-family: {{fontName}} !important;
+{{# if selector }}
+{{ selector }}:before {
+{{ else }}
+{{ tag }}[class^="{{prefix}}-"]:before, {{ tag }}[class*=" {{prefix}}-"]:before {
+{{/ if }}
+    font-family: {{ name }} !important;
     font-style: normal;
     font-weight: normal !important;
-    vertical-align: middle;
-    speak: none;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
     -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 {{# each codepoints }}
-.{{ ../classPrefix }}{{ @key }}:before {
-    content: "\\{{ this }}";
+{{# if ../selector }}
+{{ ../selector }}.{{ ../prefix }}-{{ @key }}:before {
+{{ else }}
+{{ tag }}.{{ ../prefix }}-{{ @key }}:before {
+{{/ if }}
+    content: "\\{{ codepoint this }}";
 }
 {{/ each }}

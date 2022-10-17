@@ -9,17 +9,23 @@
     "access": "public"
   },
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/commit-analyzer": "^9.0.2",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/npm": "^9.0.1",
+    "@semantic-release/release-notes-generator": "^10.0.3",
     "@babel/core": "^7.17.8",
     "@babel/node": "^7.16.8",
     "@babel/preset-env": "^7.16.11",
     "cross-env": "^7.0.3",
+    "fantasticon": "^1.2.3",
     "gh-pages-deploy": "^0.4.2",
     "gh-pages-travis": "^1.0.4",
     "glob": "^7.2.0",
     "icon-font-generator": "^1.1.2",
     "microbundle": "^0.13.3",
     "rimraf": "^2.7.1",
-    "semantic-release": "^15.0.0",
+    "semantic-release": "^19.0.3",
     "travis-deploy-once": "^4.4.1"
   },
   "repository": {
@@ -33,14 +39,13 @@
   "unpkg": "dist/index.umd.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build:icons": "icon-font-generator ./icons/*.svg -o ./fonts -n Bullhorn-Glyphicons -p bhi --htmltp ./templates/demo.hbs --csstp ./templates/css.hbs --htmlpath ./fonts/index.html",
+    "build:icons": "fantasticon",
     "build:bundle": "microbundle",
     "build:index": "npx babel-node ./scripts/makeIndex.js",
     "build": "npm run build:icons && npm run build:index && npm run build:bundle",
     "docs": "gh-pages-deploy",
     "clean-source": "rimraf README.md icons templates fonts package.json",
-    "semantic-release": "semantic-release",
-    "travis-deploy-once": "travis-deploy-once"
+    "semantic-release": "semantic-release"
   },
   "gh-pages-deploy": {
     "staticpath": "fonts",
