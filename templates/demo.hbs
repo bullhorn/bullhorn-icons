@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>{{ fontName }}</title>
+    <title>{{ name }}</title>
     <style>
         body {
             margin: 0;
@@ -73,7 +73,7 @@
             -moz-border-radius: 3px 3px 0 0;
             border-radius: 3px 3px 0 0;
         }
-        .preview .inner {{ baseTag }} {
+        .preview .inner {{ tag }} {
             pointer-events: none;
             line-height: 85px;
             font-size: 40px;
@@ -126,11 +126,13 @@
         
         {{{ styles }}}
     </style>
+    <link rel="stylesheet" type="text/css" href="{{ name }}.css" />
+
 </head>
 
 <body>
     <header>
-        <h1>{{ fontName }}</h1>
+        <h1>{{ name }}</h1>
     </header>
     <header>
         <i class="bhi-search"></i>
@@ -139,13 +141,13 @@
 
     <div class="container">
         <div class="icons" id="icons">
-            {{# each names }}
-            <div class="preview" data-name="{{this}}">
+            {{# each assets }}
+            <div class="preview" data-name="{{ @key }}">
                 <span class="inner">
-                    <{{ ../baseTag }} class="{{ ../classPrefix }}{{ this }}"></{{ ../baseTag }}>
+                  <{{ ../tag }} class="{{ ../prefix }}-{{ @key }}"></{{ ../tag }}>
                 </span>
                 <br>
-                <span class='label'>{{ this }}</span>
+                <span class='label'>{{ ../prefix }}-{{ @key }}</span>
             </div>
             {{/ each }}
         </div>
@@ -177,14 +179,14 @@
             document.getElementById('icons').onclick = function (e) {
                 e = e || window.event;
                 var name = e.target.getAttribute('data-name') || e.target.parentNode.getAttribute('data-name');
-                document.getElementById('name').innerHTML = "{{classPrefix}}" + name;
+                document.getElementById('name').innerHTML = "{{prefix}}" + name;
                 
                 if( !name ) {
                     document.querySelector("footer").className = "";    
                 } else {
                     var matches = document.querySelectorAll("footer i");
                     for( var i in matches ){
-                        matches[i].className = "{{classPrefix}}" + name;
+                        matches[i].className = "{{prefix}}" + name;
                     }
                     document.querySelector("footer").className = "show";    
                 }
