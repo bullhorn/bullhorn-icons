@@ -1,3 +1,10 @@
+## [2.23.1](https://github.com/bullhorn/bullhorn-icons/compare/v2.23.0...v2.23.1) (2022-10-24)
+
+
+### Bug Fixes
+
+* **build:** make build work ([3984061](https://github.com/bullhorn/bullhorn-icons/commit/3984061817900b68b1842cca8912c034f52a60b3))
+
 # [2.23.0](https://github.com/bullhorn/bullhorn-icons/compare/v2.22.0...v2.23.0) (2022-10-24)
 
 
