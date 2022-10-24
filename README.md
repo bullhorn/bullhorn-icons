@@ -2,7 +2,7 @@
 
 > This repository contains the icon fonts maintained by Bullhorn.
 
----
+--- 
  
  [![Build Status](https://travis-ci.org/bullhorn/bullhorn-icons.svg?branch=master)](https://travis-ci.org/bullhorn/bullhorn-icons?branch=master)
  [![npm version](https://badge.fury.io/js/%40bullhorn%2Fbullhorn-icons.svg)](https://badge.fury.io/js/%40bullhorn%2Fbullhorn-icons)
