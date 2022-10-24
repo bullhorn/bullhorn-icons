@@ -3,6 +3,21 @@
 
 ### Bug Fixes
 
+* **build:** Build noit finding right tags ([c915a8c](https://github.com/bullhorn/bullhorn-icons/commit/c915a8c5f396f96ffe04b5ee362c4494000aa34a))
+* **build:** Build not publishing on main ([2df11d1](https://github.com/bullhorn/bullhorn-icons/commit/2df11d1c53d75a50c37ed56e188169890cc3567e))
+* **build:** ensuring build is release when pushed to main ([bfbf3e6](https://github.com/bullhorn/bullhorn-icons/commit/bfbf3e64b0d512388c048967c72df800088a5613))
+* **css:** removed extraneous lineheight ([75585dd](https://github.com/bullhorn/bullhorn-icons/commit/75585dd833357c7963a3bf16af9ef746b5b249b4))
+
+
+### Features
+
+* **icon:** New analytics icon added ([#38](https://github.com/bullhorn/bullhorn-icons/issues/38)) ([6bf3e69](https://github.com/bullhorn/bullhorn-icons/commit/6bf3e6914b87f2fbaa75388ddbfaea3af2fde336))
+
+# [2.23.0](https://github.com/bullhorn/bullhorn-icons/compare/v2.22.0...v2.23.0) (2022-10-24)
+
+
+### Bug Fixes
+
 * **build:** Build not publishing on main ([2df11d1](https://github.com/bullhorn/bullhorn-icons/commit/2df11d1c53d75a50c37ed56e188169890cc3567e))
 * **build:** ensuring build is release when pushed to main ([bfbf3e6](https://github.com/bullhorn/bullhorn-icons/commit/bfbf3e64b0d512388c048967c72df800088a5613))
 * **css:** removed extraneous lineheight ([75585dd](https://github.com/bullhorn/bullhorn-icons/commit/75585dd833357c7963a3bf16af9ef746b5b249b4))
