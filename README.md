@@ -1,7 +1,7 @@
 # ![BULLHORN-ICONS](banner.png)
 
 > This repository contains the icon fonts maintained by Bullhorn.
-
+ 
 ---
  
  [![Build Status](https://travis-ci.org/bullhorn/bullhorn-icons.svg?branch=master)](https://travis-ci.org/bullhorn/bullhorn-icons?branch=master)
