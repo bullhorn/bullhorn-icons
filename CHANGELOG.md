@@ -1,3 +1,10 @@
+## [2.23.2](https://github.com/bullhorn/bullhorn-icons/compare/v2.23.1...v2.23.2) (2022-11-02)
+
+
+### Bug Fixes
+
+* **css:** vertical-alignment was removed during upgrade to new font generator. ([7810291](https://github.com/bullhorn/bullhorn-icons/commit/78102915bc3c32d7fc91885ea72099bd40d11f09))
+
 ## [2.23.1](https://github.com/bullhorn/bullhorn-icons/compare/v2.23.0...v2.23.1) (2022-10-24)
 
 
