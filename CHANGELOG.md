@@ -1,3 +1,10 @@
+## [2.23.3](https://github.com/bullhorn/bullhorn-icons/compare/v2.23.2...v2.23.3) (2022-12-09)
+
+
+### Bug Fixes
+
+* **release:** release ghpages ([318244e](https://github.com/bullhorn/bullhorn-icons/commit/318244e9dd0603fe1f452eb58e640e22b537b0bc))
+
 ## [2.23.2](https://github.com/bullhorn/bullhorn-icons/compare/v2.23.1...v2.23.2) (2022-11-02)
 
 
