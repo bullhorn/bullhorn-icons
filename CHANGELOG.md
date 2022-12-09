@@ -1,3 +1,10 @@
+## [2.23.4](https://github.com/bullhorn/bullhorn-icons/compare/v2.23.3...v2.23.4) (2022-12-09)
+
+
+### Bug Fixes
+
+* **build:** Fixing ghpages workflow ([2807562](https://github.com/bullhorn/bullhorn-icons/commit/280756298ee0d96207f5476893ed9791365cc121))
+
 ## [2.23.3](https://github.com/bullhorn/bullhorn-icons/compare/v2.23.2...v2.23.3) (2022-12-09)
 
 
