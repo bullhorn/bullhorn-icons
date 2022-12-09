@@ -31,13 +31,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.TOKEN_FOR_GITHUB }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npx semantic-release
-  docs:
-    name: Push to Github Pages
-    needs: release
-    if: github.ref == 'refs/heads/main'
-    runs-on: ubuntu-latest
-    steps:
       - name: Deploy to Github Pages
+        if: github.ref == 'refs/heads/main'
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: fonts
+      
