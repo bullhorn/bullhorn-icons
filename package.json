@@ -20,14 +20,11 @@
     "@babel/preset-env": "^7.16.11",
     "cross-env": "^7.0.3",
     "fantasticon": "^1.2.3",
-    "gh-pages-deploy": "^0.4.2",
-    "gh-pages-travis": "^1.0.4",
+    "gh-pages-deploy": "^0.5.1",
     "glob": "^7.2.0",
-    "icon-font-generator": "^1.1.2",
     "microbundle": "^0.13.3",
     "rimraf": "^2.7.1",
-    "semantic-release": "^19.0.3",
-    "travis-deploy-once": "^4.4.1"
+    "semantic-release": "^19.0.3"
   },
   "repository": {
     "type": "git",
