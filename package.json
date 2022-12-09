@@ -20,7 +20,6 @@
     "@babel/preset-env": "^7.16.11",
     "cross-env": "^7.0.3",
     "fantasticon": "^1.2.3",
-    "gh-pages-deploy": "^0.5.1",
     "glob": "^7.2.0",
     "microbundle": "^0.13.3",
     "rimraf": "^2.7.1",
@@ -41,7 +40,6 @@
     "build:bundle": "microbundle",
     "build:index": "npx babel-node ./scripts/makeIndex.js",
     "build": "npm run build:icons && npm run build:index && npm run build:bundle",
-    "docs": "gh-pages-deploy",
     "clean-source": "rimraf README.md icons templates fonts package.json",
     "semantic-release": "semantic-release"
   },
