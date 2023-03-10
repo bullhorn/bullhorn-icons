@@ -87,6 +87,7 @@ export const Configure = 'configure';
 export const Convert = 'convert';
 export const Crane = 'crane';
 export const Credential = 'credential';
+export const Crf = 'crf';
 export const Crown = 'crown';
 export const CustomObjects = 'custom-objects';
 export const DashboardO = 'dashboard-o';
