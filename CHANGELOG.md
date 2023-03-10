@@ -1,3 +1,10 @@
+# [2.24.0](https://github.com/bullhorn/bullhorn-icons/compare/v2.23.4...v2.24.0) (2023-03-10)
+
+
+### Features
+
+* **icon:** new crf icon added for customer required fields ([43d96e7](https://github.com/bullhorn/bullhorn-icons/commit/43d96e7d63e94bc6df097225a9c676f2cdd8da5a))
+
 ## [2.23.4](https://github.com/bullhorn/bullhorn-icons/compare/v2.23.3...v2.23.4) (2022-12-09)
 
 
