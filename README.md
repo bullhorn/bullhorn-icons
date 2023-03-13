@@ -32,8 +32,8 @@ npm install --save @bullhorn/bullhorn-icons
 ```html
 /* UnPkg for NPM Version*/
 <link rel="stylesheet" type="text/css" href="//unpkg.com/@bullhorn/bullhorn-icons@2.2.0/fonts/Bullhorn-Glyphicons.css"/>
-/* RawGit for GitHub Version*/
-<link rel="stylesheet" type="text/css" href="//cdn.rawgit.com/bullhorn/bullhorn-icons/v2.2.0/fonts/Bullhorn-Glyphicons.css"/>
+/* jsDelivr for GitHub Version*/
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/bullhorn/bullhorn-icons@v2.2.0/fonts/Bullhorn-Glyphicons.css"/>
 ```
 
 > Import via scss
