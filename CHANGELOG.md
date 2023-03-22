@@ -1,3 +1,12 @@
+# [2.25.0](https://github.com/bullhorn/bullhorn-icons/compare/v2.24.0...v2.25.0) (2023-03-22)
+
+
+### Features
+
+* **icon:** added new icons for meet the moment ([0664d1d](https://github.com/bullhorn/bullhorn-icons/commit/0664d1d7aaacf63ea7a785eb44c0f2bb415c3355))
+* **icon:** added new icons for meet the moment ([63c891b](https://github.com/bullhorn/bullhorn-icons/commit/63c891ba0c3d7cb7bf638c2e5ec1e1e9b51dc8a5))
+* **icon:** added new icons for meet the moment ([634f60a](https://github.com/bullhorn/bullhorn-icons/commit/634f60af605b7cc0b494160605c00e07bb00297d))
+
 # [2.24.0](https://github.com/bullhorn/bullhorn-icons/compare/v2.23.4...v2.24.0) (2023-03-10)
 
 
