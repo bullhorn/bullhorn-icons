@@ -1,3 +1,11 @@
+# [2.26.0](https://github.com/bullhorn/bullhorn-icons/compare/v2.25.0...v2.26.0) (2023-04-13)
+
+
+### Features
+
+* **icon:** added new icons for kebab-menu and purchase order ([d233b2f](https://github.com/bullhorn/bullhorn-icons/commit/d233b2fd170d98e28c301fecb1317f446a0bdec9))
+* **icon:** added new icons for kebab-menu and purchase order ([314da95](https://github.com/bullhorn/bullhorn-icons/commit/314da95c771def94d2e326db56b193b9060f8f87))
+
 # [2.25.0](https://github.com/bullhorn/bullhorn-icons/compare/v2.24.0...v2.25.0) (2023-03-22)
 
 
