@@ -1,3 +1,10 @@
+# [2.27.0](https://github.com/bullhorn/bullhorn-icons/compare/v2.26.0...v2.27.0) (2023-05-24)
+
+
+### Features
+
+* **icon:** new compliance manager icon ([af1f263](https://github.com/bullhorn/bullhorn-icons/commit/af1f26314e09c0b67e83ebd3666c3209e8374099))
+
 # [2.26.0](https://github.com/bullhorn/bullhorn-icons/compare/v2.25.0...v2.26.0) (2023-04-13)
 
 
