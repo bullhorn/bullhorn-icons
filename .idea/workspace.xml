@@ -43,7 +43,7 @@
       <recent name="C:\bullhorn\devmachine\bullhorn-icons\fonts" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.build">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="bullhorn-icons" />
       <method v="2">
@@ -89,9 +89,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.build:index" />
         <item itemvalue="npm.build:icons" />
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.build:index" />
         <item itemvalue="npm.build:icons" />
       </list>
@@ -114,7 +114,7 @@
       <workItem from="1688057343798" duration="1256000" />
       <workItem from="1693408458095" duration="228000" />
       <workItem from="1693408750435" duration="33000" />
-      <workItem from="1693408793383" duration="1106000" />
+      <workItem from="1693408793383" duration="3110000" />
     </task>
     <servers />
   </component>

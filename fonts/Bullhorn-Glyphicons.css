@@ -1,8 +1,8 @@
 @font-face {
     font-family: "Bullhorn-Glyphicons";
-    src: url("./Bullhorn-Glyphicons.ttf?832e23f01abd0a2926cf8e5b80bfe678") format("truetype"),
-url("./Bullhorn-Glyphicons.woff?832e23f01abd0a2926cf8e5b80bfe678") format("woff"),
-url("./Bullhorn-Glyphicons.woff2?832e23f01abd0a2926cf8e5b80bfe678") format("woff2");
+    src: url("./Bullhorn-Glyphicons.ttf?e713cebb7941776ae34e78607b119026") format("truetype"),
+url("./Bullhorn-Glyphicons.woff?e713cebb7941776ae34e78607b119026") format("woff"),
+url("./Bullhorn-Glyphicons.woff2?e713cebb7941776ae34e78607b119026") format("woff2");
 }
 
 i {
@@ -59,867 +59,921 @@ i[class^="bhi-"]:before, i[class*=" bhi-"]:before {
 .bhi-archive:before {
     content: "\f10d";
 }
-.bhi-arrow-down:before {
+.bhi-arrow-collapse:before {
     content: "\f10e";
 }
-.bhi-arrow-left-h:before {
+.bhi-arrow-down:before {
     content: "\f10f";
 }
-.bhi-arrow-left:before {
+.bhi-arrow-left-h:before {
     content: "\f110";
 }
-.bhi-arrow-right-h:before {
+.bhi-arrow-left:before {
     content: "\f111";
 }
-.bhi-arrow-right:before {
+.bhi-arrow-right-h:before {
     content: "\f112";
 }
-.bhi-arrow-up:before {
+.bhi-arrow-right-long:before {
     content: "\f113";
 }
-.bhi-attach:before {
+.bhi-arrow-right:before {
     content: "\f114";
 }
-.bhi-automation:before {
+.bhi-arrow-rotate:before {
     content: "\f115";
 }
-.bhi-back-office:before {
+.bhi-arrow-up:before {
     content: "\f116";
 }
-.bhi-beaker:before {
+.bhi-arrows-resize:before {
     content: "\f117";
 }
-.bhi-bell:before {
+.bhi-attach:before {
     content: "\f118";
 }
-.bhi-billable-charge:before {
+.bhi-automation:before {
     content: "\f119";
 }
-.bhi-board:before {
+.bhi-back-office:before {
     content: "\f11a";
 }
-.bhi-bolt:before {
+.bhi-beaker:before {
     content: "\f11b";
 }
-.bhi-book:before {
+.bhi-bell:before {
     content: "\f11c";
 }
-.bhi-bookmark-o:before {
+.bhi-billable-charge:before {
     content: "\f11d";
 }
-.bhi-bookmark:before {
+.bhi-board:before {
     content: "\f11e";
 }
-.bhi-bot:before {
+.bhi-bolt:before {
     content: "\f11f";
 }
-.bhi-box-check-o:before {
+.bhi-book:before {
     content: "\f120";
 }
-.bhi-box-check:before {
+.bhi-bookmark-o:before {
     content: "\f121";
 }
-.bhi-box-empty:before {
+.bhi-bookmark:before {
     content: "\f122";
 }
-.bhi-box-minus-o:before {
+.bhi-border-all:before {
     content: "\f123";
 }
-.bhi-box-minus:before {
+.bhi-border-bottom:before {
     content: "\f124";
 }
-.bhi-box-plus-o:before {
+.bhi-border-left:before {
     content: "\f125";
 }
-.bhi-box-plus:before {
+.bhi-border-none:before {
     content: "\f126";
 }
-.bhi-box-times-o:before {
+.bhi-border-right:before {
     content: "\f127";
 }
-.bhi-box-times:before {
+.bhi-border-top:before {
     content: "\f128";
 }
-.bhi-bug:before {
+.bhi-bot:before {
     content: "\f129";
 }
-.bhi-bull:before {
+.bhi-box-check-o:before {
     content: "\f12a";
 }
-.bhi-calculator:before {
+.bhi-box-check:before {
     content: "\f12b";
 }
-.bhi-calendar:before {
+.bhi-box-empty:before {
     content: "\f12c";
 }
-.bhi-camera:before {
+.bhi-box-minus-o:before {
     content: "\f12d";
 }
-.bhi-candidate-circle:before {
+.bhi-box-minus:before {
     content: "\f12e";
 }
-.bhi-candidate:before {
+.bhi-box-plus-o:before {
     content: "\f12f";
 }
-.bhi-canvas:before {
+.bhi-box-plus:before {
     content: "\f130";
 }
-.bhi-card-expand:before {
+.bhi-box-times-o:before {
     content: "\f131";
 }
-.bhi-category-tags:before {
+.bhi-box-times:before {
     content: "\f132";
 }
-.bhi-caution-o:before {
+.bhi-bug:before {
     content: "\f133";
 }
-.bhi-caution-triangle-o:before {
+.bhi-bull:before {
     content: "\f134";
 }
-.bhi-caution:before {
+.bhi-calculator:before {
     content: "\f135";
 }
-.bhi-certification:before {
+.bhi-calendar:before {
     content: "\f136";
 }
-.bhi-chart-bar:before {
+.bhi-camera:before {
     content: "\f137";
 }
-.bhi-chart-donut:before {
+.bhi-candidate-circle:before {
     content: "\f138";
 }
-.bhi-chart-funnel:before {
+.bhi-candidate:before {
     content: "\f139";
 }
-.bhi-chart-line:before {
+.bhi-canvas:before {
     content: "\f13a";
 }
-.bhi-chart-pie-o:before {
+.bhi-card-expand:before {
     content: "\f13b";
 }
-.bhi-chart-pie:before {
+.bhi-category-tags:before {
     content: "\f13c";
 }
-.bhi-check-circle-filled:before {
+.bhi-caution-o:before {
     content: "\f13d";
 }
-.bhi-check-circle:before {
+.bhi-caution-triangle-o:before {
     content: "\f13e";
 }
-.bhi-check-o:before {
+.bhi-caution:before {
     content: "\f13f";
 }
-.bhi-check:before {
+.bhi-certification:before {
     content: "\f140";
 }
-.bhi-checkbox-add:before {
+.bhi-chart-bar:before {
     content: "\f141";
 }
-.bhi-checkbox-empty:before {
+.bhi-chart-donut:before {
     content: "\f142";
 }
-.bhi-checkbox-filled:before {
+.bhi-chart-funnel:before {
     content: "\f143";
 }
-.bhi-checkbox-indeterminate:before {
+.bhi-chart-line:before {
     content: "\f144";
 }
-.bhi-circle-o:before {
+.bhi-chart-pie-o:before {
     content: "\f145";
 }
-.bhi-circle:before {
+.bhi-chart-pie:before {
     content: "\f146";
 }
-.bhi-clipboard:before {
+.bhi-check-circle-filled:before {
     content: "\f147";
 }
-.bhi-clock-arrow:before {
+.bhi-check-circle:before {
     content: "\f148";
 }
-.bhi-clock:before {
+.bhi-check-o:before {
     content: "\f149";
 }
-.bhi-close-o:before {
+.bhi-check:before {
     content: "\f14a";
 }
-.bhi-close:before {
+.bhi-checkbox-add:before {
     content: "\f14b";
 }
-.bhi-coffee:before {
+.bhi-checkbox-empty:before {
     content: "\f14c";
 }
-.bhi-collapse:before {
+.bhi-checkbox-filled:before {
     content: "\f14d";
 }
-.bhi-columns:before {
+.bhi-checkbox-indeterminate:before {
     content: "\f14e";
 }
-.bhi-comment-o:before {
+.bhi-circle-o:before {
     content: "\f14f";
 }
-.bhi-comment:before {
+.bhi-circle:before {
     content: "\f150";
 }
-.bhi-commission:before {
+.bhi-clipboard:before {
     content: "\f151";
 }
-.bhi-company-circle:before {
+.bhi-clock-arrow:before {
     content: "\f152";
 }
-.bhi-company:before {
+.bhi-clock:before {
     content: "\f153";
 }
-.bhi-compass:before {
+.bhi-close-o:before {
     content: "\f154";
 }
-.bhi-complex:before {
+.bhi-close:before {
     content: "\f155";
 }
-.bhi-compliance-manager:before {
+.bhi-coffee:before {
     content: "\f156";
 }
-.bhi-configure-o:before {
+.bhi-collapse:before {
     content: "\f157";
 }
-.bhi-configure:before {
+.bhi-columns:before {
     content: "\f158";
 }
-.bhi-convert:before {
+.bhi-comment-o:before {
     content: "\f159";
 }
-.bhi-crane:before {
+.bhi-comment:before {
     content: "\f15a";
 }
-.bhi-credential:before {
+.bhi-commission:before {
     content: "\f15b";
 }
-.bhi-crf:before {
+.bhi-company-circle:before {
     content: "\f15c";
 }
-.bhi-crown:before {
+.bhi-company:before {
     content: "\f15d";
 }
-.bhi-custom-objects:before {
+.bhi-comparison-table:before {
     content: "\f15e";
 }
-.bhi-dashboard-o:before {
+.bhi-compass:before {
     content: "\f15f";
 }
-.bhi-dashboard:before {
+.bhi-complex:before {
     content: "\f160";
 }
-.bhi-day:before {
+.bhi-compliance-manager:before {
     content: "\f161";
 }
-.bhi-delete-o:before {
+.bhi-configure-o:before {
     content: "\f162";
 }
-.bhi-delete:before {
+.bhi-configure:before {
     content: "\f163";
 }
-.bhi-department:before {
+.bhi-convert:before {
     content: "\f164";
 }
-.bhi-desktop:before {
+.bhi-crane:before {
     content: "\f165";
 }
-.bhi-download:before {
+.bhi-credential:before {
     content: "\f166";
 }
-.bhi-dropzone:before {
+.bhi-crf:before {
     content: "\f167";
 }
-.bhi-duplicate:before {
+.bhi-crown:before {
     content: "\f168";
 }
-.bhi-earn-code-template:before {
+.bhi-custom-objects:before {
     content: "\f169";
 }
-.bhi-earn-code:before {
+.bhi-dashboard-o:before {
     content: "\f16a";
 }
-.bhi-edit-circle-filled:before {
+.bhi-dashboard:before {
     content: "\f16b";
 }
-.bhi-edit-circle:before {
+.bhi-day:before {
     content: "\f16c";
 }
-.bhi-edit-o:before {
+.bhi-delete-o:before {
     content: "\f16d";
 }
-.bhi-edit:before {
+.bhi-delete:before {
     content: "\f16e";
 }
-.bhi-education:before {
+.bhi-department:before {
     content: "\f16f";
 }
-.bhi-email-autoadd:before {
+.bhi-desktop:before {
     content: "\f170";
 }
-.bhi-email-invoice-template:before {
+.bhi-download:before {
     content: "\f171";
 }
-.bhi-email:before {
+.bhi-dropzone:before {
     content: "\f172";
 }
-.bhi-engagement:before {
+.bhi-duplicate:before {
     content: "\f173";
 }
-.bhi-evening:before {
+.bhi-earn-code-template:before {
     content: "\f174";
 }
-.bhi-expand:before {
+.bhi-earn-code:before {
     content: "\f175";
 }
-.bhi-expense:before {
+.bhi-edit-circle-filled:before {
     content: "\f176";
 }
-.bhi-export-html:before {
+.bhi-edit-circle:before {
     content: "\f177";
 }
-.bhi-export-ms:before {
+.bhi-edit-o:before {
     content: "\f178";
 }
-.bhi-external-open:before {
+.bhi-edit:before {
     content: "\f179";
 }
-.bhi-external:before {
+.bhi-education:before {
     content: "\f17a";
 }
-.bhi-facebook-o:before {
+.bhi-email-autoadd:before {
     content: "\f17b";
 }
-.bhi-facebook:before {
+.bhi-email-invoice-template:before {
     content: "\f17c";
 }
-.bhi-fasterfind:before {
+.bhi-email:before {
     content: "\f17d";
 }
-.bhi-field-add:before {
+.bhi-engagement:before {
     content: "\f17e";
 }
-.bhi-field-dropdown:before {
+.bhi-evening:before {
     content: "\f17f";
 }
-.bhi-field-paragraph:before {
+.bhi-expand:before {
     content: "\f180";
 }
-.bhi-field-signature-text:before {
+.bhi-expense:before {
     content: "\f181";
 }
-.bhi-field-signature:before {
+.bhi-export-html:before {
     content: "\f182";
 }
-.bhi-field-text:before {
+.bhi-export-ms:before {
     content: "\f183";
 }
-.bhi-field-textblock:before {
+.bhi-external-open:before {
     content: "\f184";
 }
-.bhi-file:before {
+.bhi-external:before {
     content: "\f185";
 }
-.bhi-filter:before {
+.bhi-facebook-o:before {
     content: "\f186";
 }
-.bhi-flag:before {
+.bhi-facebook:before {
     content: "\f187";
 }
-.bhi-flagged-email:before {
+.bhi-fasterfind:before {
     content: "\f188";
 }
-.bhi-flower:before {
+.bhi-field-add:before {
     content: "\f189";
 }
-.bhi-footprint:before {
+.bhi-field-dropdown:before {
     content: "\f18a";
 }
-.bhi-funnel:before {
+.bhi-field-paragraph:before {
     content: "\f18b";
 }
-.bhi-globe-o:before {
+.bhi-field-signature-text:before {
     content: "\f18c";
 }
-.bhi-globe:before {
+.bhi-field-signature:before {
     content: "\f18d";
 }
-.bhi-google:before {
+.bhi-field-text:before {
     content: "\f18e";
 }
-.bhi-hammer:before {
+.bhi-field-textblock:before {
     content: "\f18f";
 }
-.bhi-headset:before {
+.bhi-file:before {
     content: "\f190";
 }
-.bhi-herefish:before {
+.bhi-filter:before {
     content: "\f191";
 }
-.bhi-hidden:before {
+.bhi-flag:before {
     content: "\f192";
 }
-.bhi-holiday:before {
+.bhi-flagged-email:before {
     content: "\f193";
 }
-.bhi-home:before {
+.bhi-floppy-disk-pencil:before {
     content: "\f194";
 }
-.bhi-hourglass-bottom:before {
+.bhi-floppy-disk:before {
     content: "\f195";
 }
-.bhi-hourglass-middle:before {
+.bhi-flower:before {
     content: "\f196";
 }
-.bhi-hourglass-top:before {
+.bhi-footprint:before {
     content: "\f197";
 }
-.bhi-i9:before {
+.bhi-funnel:before {
     content: "\f198";
 }
-.bhi-ice-cream:before {
+.bhi-globe-o:before {
     content: "\f199";
 }
-.bhi-idea:before {
+.bhi-globe:before {
     content: "\f19a";
 }
-.bhi-inactive:before {
+.bhi-google:before {
     content: "\f19b";
 }
-.bhi-inbound-call:before {
+.bhi-hammer:before {
     content: "\f19c";
 }
-.bhi-inbox:before {
+.bhi-Heading:before {
     content: "\f19d";
 }
-.bhi-industry:before {
+.bhi-headset:before {
     content: "\f19e";
 }
-.bhi-info-o:before {
+.bhi-herefish:before {
     content: "\f19f";
 }
-.bhi-info:before {
+.bhi-hidden:before {
     content: "\f1a0";
 }
-.bhi-interview:before {
+.bhi-holiday:before {
     content: "\f1a1";
 }
-.bhi-invoice:before {
+.bhi-home:before {
     content: "\f1a2";
 }
-.bhi-job-circle:before {
+.bhi-hourglass-bottom:before {
     content: "\f1a3";
 }
-.bhi-job-code:before {
+.bhi-hourglass-middle:before {
     content: "\f1a4";
 }
-.bhi-job:before {
+.bhi-hourglass-top:before {
     content: "\f1a5";
 }
-.bhi-kebab-menu:before {
+.bhi-i9:before {
     content: "\f1a6";
 }
-.bhi-key:before {
+.bhi-ice-cream:before {
     content: "\f1a7";
 }
-.bhi-layout:before {
+.bhi-idea:before {
     content: "\f1a8";
 }
-.bhi-lead-circle:before {
+.bhi-inactive:before {
     content: "\f1a9";
 }
-.bhi-lead:before {
+.bhi-inbound-call:before {
     content: "\f1aa";
 }
-.bhi-link:before {
+.bhi-inbox:before {
     content: "\f1ab";
 }
-.bhi-linkedin-f:before {
+.bhi-industry:before {
     content: "\f1ac";
 }
-.bhi-linkedin-o:before {
+.bhi-info-o:before {
     content: "\f1ad";
 }
-.bhi-linkedin:before {
+.bhi-info:before {
     content: "\f1ae";
 }
-.bhi-list-o:before {
+.bhi-interview:before {
     content: "\f1af";
 }
-.bhi-list:before {
+.bhi-invoice:before {
     content: "\f1b0";
 }
-.bhi-location-o:before {
+.bhi-job-circle:before {
     content: "\f1b1";
 }
-.bhi-location:before {
+.bhi-job-code:before {
     content: "\f1b2";
 }
-.bhi-lock:before {
+.bhi-job:before {
     content: "\f1b3";
 }
-.bhi-logout:before {
+.bhi-kebab-menu:before {
     content: "\f1b4";
 }
-.bhi-map:before {
+.bhi-key:before {
     content: "\f1b5";
 }
-.bhi-menu-o:before {
+.bhi-layout:before {
     content: "\f1b6";
 }
-.bhi-menu:before {
+.bhi-lead-circle:before {
     content: "\f1b7";
 }
-.bhi-missed-call:before {
+.bhi-lead:before {
     content: "\f1b8";
 }
-.bhi-mobile:before {
+.bhi-link:before {
     content: "\f1b9";
 }
-.bhi-more:before {
+.bhi-linkedin-f:before {
     content: "\f1ba";
 }
-.bhi-morning-1:before {
+.bhi-linkedin-o:before {
     content: "\f1bb";
 }
-.bhi-morning-2:before {
+.bhi-linkedin:before {
     content: "\f1bc";
 }
-.bhi-morning-3:before {
+.bhi-list-o:before {
     content: "\f1bd";
 }
-.bhi-morning:before {
+.bhi-list:before {
     content: "\f1be";
 }
-.bhi-move:before {
+.bhi-location-o:before {
     content: "\f1bf";
 }
-.bhi-music:before {
+.bhi-location:before {
     content: "\f1c0";
 }
-.bhi-news:before {
+.bhi-lock:before {
     content: "\f1c1";
 }
-.bhi-next:before {
+.bhi-logout:before {
     content: "\f1c2";
 }
-.bhi-night:before {
+.bhi-map:before {
     content: "\f1c3";
 }
-.bhi-no-data:before {
+.bhi-menu-o:before {
     content: "\f1c4";
 }
-.bhi-non-payroll:before {
+.bhi-menu:before {
     content: "\f1c5";
 }
-.bhi-note:before {
+.bhi-minus-circle-o:before {
     content: "\f1c6";
 }
-.bhi-notes:before {
+.bhi-minus-circle:before {
     content: "\f1c7";
 }
-.bhi-nps:before {
+.bhi-missed-call:before {
     content: "\f1c8";
 }
-.bhi-ob365:before {
+.bhi-mobile:before {
     content: "\f1c9";
 }
-.bhi-occupation:before {
+.bhi-more:before {
     content: "\f1ca";
 }
-.bhi-offer:before {
+.bhi-morning-1:before {
     content: "\f1cb";
 }
-.bhi-onboarding-365:before {
+.bhi-morning-2:before {
     content: "\f1cc";
 }
-.bhi-onboarding:before {
+.bhi-morning-3:before {
     content: "\f1cd";
 }
-.bhi-opportunity-circle:before {
+.bhi-morning:before {
     content: "\f1ce";
 }
-.bhi-opportunity:before {
+.bhi-move:before {
     content: "\f1cf";
 }
-.bhi-organize:before {
+.bhi-music:before {
     content: "\f1d0";
 }
-.bhi-outbound-call:before {
+.bhi-news:before {
     content: "\f1d1";
 }
-.bhi-outbound-email:before {
+.bhi-next:before {
     content: "\f1d2";
 }
-.bhi-overnight:before {
+.bhi-night:before {
     content: "\f1d3";
 }
-.bhi-overview:before {
+.bhi-no-data:before {
     content: "\f1d4";
 }
-.bhi-packets:before {
+.bhi-non-payroll:before {
     content: "\f1d5";
 }
-.bhi-payable-charge:before {
+.bhi-note:before {
     content: "\f1d6";
 }
-.bhi-payable:before {
+.bhi-notes:before {
     content: "\f1d7";
 }
-.bhi-payroll:before {
+.bhi-nps:before {
     content: "\f1d8";
 }
-.bhi-person-circle:before {
+.bhi-ob365:before {
     content: "\f1d9";
 }
-.bhi-person:before {
+.bhi-occupation:before {
     content: "\f1da";
 }
-.bhi-phone:before {
+.bhi-offer:before {
     content: "\f1db";
 }
-.bhi-pin:before {
+.bhi-onboarding-365:before {
     content: "\f1dc";
 }
-.bhi-plus:before {
+.bhi-onboarding:before {
     content: "\f1dd";
 }
-.bhi-preview:before {
+.bhi-opportunity-circle:before {
     content: "\f1de";
 }
-.bhi-previous:before {
+.bhi-opportunity:before {
     content: "\f1df";
 }
-.bhi-print:before {
+.bhi-organize:before {
     content: "\f1e0";
 }
-.bhi-projects-square:before {
+.bhi-outbound-call:before {
     content: "\f1e1";
 }
-.bhi-projects:before {
+.bhi-outbound-email:before {
     content: "\f1e2";
 }
-.bhi-publish:before {
+.bhi-overnight:before {
     content: "\f1e3";
 }
-.bhi-pulse:before {
+.bhi-overview:before {
     content: "\f1e4";
 }
-.bhi-purchase-order:before {
+.bhi-packets:before {
     content: "\f1e5";
 }
-.bhi-puzzle:before {
+.bhi-payable-charge:before {
     content: "\f1e6";
 }
-.bhi-question-o:before {
+.bhi-payable:before {
     content: "\f1e7";
 }
-.bhi-question:before {
+.bhi-payroll:before {
     content: "\f1e8";
 }
-.bhi-radio-empty:before {
+.bhi-person-circle:before {
     content: "\f1e9";
 }
-.bhi-radio-filled:before {
+.bhi-person:before {
     content: "\f1ea";
 }
-.bhi-rate-circle:before {
+.bhi-phone:before {
     content: "\f1eb";
 }
-.bhi-rate-filled:before {
+.bhi-pin:before {
     content: "\f1ec";
 }
-.bhi-rate-request:before {
+.bhi-plus:before {
     content: "\f1ed";
 }
-.bhi-rate-rule:before {
+.bhi-preview:before {
     content: "\f1ee";
 }
-.bhi-rate:before {
+.bhi-previous:before {
     content: "\f1ef";
 }
-.bhi-receivables:before {
+.bhi-print:before {
     content: "\f1f0";
 }
-.bhi-refresh-o:before {
+.bhi-progress-bars:before {
     content: "\f1f1";
 }
-.bhi-refresh:before {
+.bhi-projects-square:before {
     content: "\f1f2";
 }
-.bhi-rent:before {
+.bhi-projects:before {
     content: "\f1f3";
 }
-.bhi-reply:before {
+.bhi-publish:before {
     content: "\f1f4";
 }
-.bhi-report-code:before {
+.bhi-pulse:before {
     content: "\f1f5";
 }
-.bhi-report:before {
+.bhi-purchase-order:before {
     content: "\f1f6";
 }
-.bhi-republish:before {
+.bhi-puzzle:before {
     content: "\f1f7";
 }
-.bhi-resume:before {
+.bhi-question-o:before {
     content: "\f1f8";
 }
-.bhi-rocket:before {
+.bhi-question:before {
     content: "\f1f9";
 }
-.bhi-rules-config:before {
+.bhi-radio-empty:before {
     content: "\f1fa";
 }
-.bhi-sailboat:before {
+.bhi-radio-filled:before {
     content: "\f1fb";
 }
-.bhi-save:before {
+.bhi-rate-circle:before {
     content: "\f1fc";
 }
-.bhi-search-menu:before {
+.bhi-rate-filled:before {
     content: "\f1fd";
 }
-.bhi-search-question:before {
+.bhi-rate-request:before {
     content: "\f1fe";
 }
-.bhi-search:before {
+.bhi-rate-rule:before {
     content: "\f1ff";
 }
-.bhi-section:before {
+.bhi-rate:before {
     content: "\f200";
 }
-.bhi-send:before {
+.bhi-receivables:before {
     content: "\f201";
 }
-.bhi-sendout:before {
+.bhi-refresh-o:before {
     content: "\f202";
 }
-.bhi-settings:before {
+.bhi-refresh:before {
     content: "\f203";
 }
-.bhi-share-o:before {
+.bhi-rent:before {
     content: "\f204";
 }
-.bhi-share:before {
+.bhi-reply:before {
     content: "\f205";
 }
-.bhi-shield:before {
+.bhi-report-code:before {
     content: "\f206";
 }
-.bhi-shipping-box:before {
+.bhi-report:before {
     content: "\f207";
 }
-.bhi-slideout:before {
+.bhi-republish:before {
     content: "\f208";
 }
-.bhi-sms:before {
+.bhi-Resize:before {
     content: "\f209";
 }
-.bhi-sort-asc:before {
+.bhi-resume:before {
     content: "\f20a";
 }
-.bhi-sort-desc:before {
+.bhi-rocket:before {
     content: "\f20b";
 }
-.bhi-sortable:before {
+.bhi-rules-config:before {
     content: "\f20c";
 }
-.bhi-source:before {
+.bhi-sailboat:before {
     content: "\f20d";
 }
-.bhi-star-circle:before {
+.bhi-save:before {
     content: "\f20e";
 }
-.bhi-star-o-circle:before {
+.bhi-search-menu:before {
     content: "\f20f";
 }
-.bhi-star-o:before {
+.bhi-search-question:before {
     content: "\f210";
 }
-.bhi-star:before {
+.bhi-search:before {
     content: "\f211";
 }
-.bhi-stethoscope:before {
+.bhi-section:before {
     content: "\f212";
 }
-.bhi-stop-light:before {
+.bhi-send:before {
     content: "\f213";
 }
-.bhi-tab:before {
+.bhi-sendout:before {
     content: "\f214";
 }
-.bhi-tearsheet:before {
+.bhi-settings:before {
     content: "\f215";
 }
-.bhi-tie:before {
+.bhi-share-o:before {
     content: "\f216";
 }
-.bhi-times:before {
+.bhi-share:before {
     content: "\f217";
 }
-.bhi-timetable:before {
+.bhi-shield:before {
     content: "\f218";
 }
-.bhi-tools:before {
+.bhi-shipping-box:before {
     content: "\f219";
 }
-.bhi-tower:before {
+.bhi-slideout:before {
     content: "\f21a";
 }
-.bhi-trending-down:before {
+.bhi-sms:before {
     content: "\f21b";
 }
-.bhi-trending-up:before {
+.bhi-sort-asc:before {
     content: "\f21c";
 }
-.bhi-truck:before {
+.bhi-sort-desc:before {
     content: "\f21d";
 }
-.bhi-twitter-f:before {
+.bhi-sortable:before {
     content: "\f21e";
 }
-.bhi-twitter-o:before {
+.bhi-source:before {
     content: "\f21f";
 }
-.bhi-twitter:before {
+.bhi-star-circle:before {
     content: "\f220";
 }
-.bhi-umbrella:before {
+.bhi-star-o-circle:before {
     content: "\f221";
 }
-.bhi-unit:before {
+.bhi-star-o:before {
     content: "\f222";
 }
-.bhi-upload:before {
+.bhi-star:before {
     content: "\f223";
 }
-.bhi-user-o:before {
+.bhi-stethoscope:before {
     content: "\f224";
 }
-.bhi-user:before {
+.bhi-stop-light:before {
     content: "\f225";
 }
-.bhi-users:before {
+.bhi-tab:before {
     content: "\f226";
 }
-.bhi-vendor:before {
+.bhi-tearsheet:before {
     content: "\f227";
 }
-.bhi-view-list:before {
+.bhi-tie:before {
     content: "\f228";
 }
-.bhi-view-module:before {
+.bhi-times:before {
     content: "\f229";
 }
-.bhi-viewall:before {
+.bhi-timetable:before {
     content: "\f22a";
 }
-.bhi-vms:before {
+.bhi-tools:before {
     content: "\f22b";
 }
-.bhi-workflow:before {
+.bhi-tower:before {
     content: "\f22c";
 }
-.bhi-x:before {
+.bhi-trending-down:before {
     content: "\f22d";
+}
+.bhi-trending-up:before {
+    content: "\f22e";
+}
+.bhi-truck:before {
+    content: "\f22f";
+}
+.bhi-twitter-f:before {
+    content: "\f230";
+}
+.bhi-twitter-o:before {
+    content: "\f231";
+}
+.bhi-twitter:before {
+    content: "\f232";
+}
+.bhi-umbrella:before {
+    content: "\f233";
+}
+.bhi-unit:before {
+    content: "\f234";
+}
+.bhi-upload:before {
+    content: "\f235";
+}
+.bhi-user-o:before {
+    content: "\f236";
+}
+.bhi-user:before {
+    content: "\f237";
+}
+.bhi-users:before {
+    content: "\f238";
+}
+.bhi-vendor:before {
+    content: "\f239";
+}
+.bhi-view-list:before {
+    content: "\f23a";
+}
+.bhi-view-module:before {
+    content: "\f23b";
+}
+.bhi-viewall:before {
+    content: "\f23c";
+}
+.bhi-vms:before {
+    content: "\f23d";
+}
+.bhi-workflow:before {
+    content: "\f23e";
+}
+.bhi-x:before {
+    content: "\f23f";
 }
