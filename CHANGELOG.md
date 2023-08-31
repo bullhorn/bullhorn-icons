@@ -1,3 +1,14 @@
+# [2.28.0](https://github.com/bullhorn/bullhorn-icons/compare/v2.27.0...v2.28.0) (2023-08-31)
+
+
+### Features
+
+* **icon:** added new icons ([004c56d](https://github.com/bullhorn/bullhorn-icons/commit/004c56d3340d42a8272b5afdc3761d46c1ae9ff4))
+* **icon:** added new icons ([4c0df57](https://github.com/bullhorn/bullhorn-icons/commit/4c0df57fb620ec37e3e9b67a92ce48b9012aca3a))
+* **icon:** added new icons ([5866cf4](https://github.com/bullhorn/bullhorn-icons/commit/5866cf4c28b4940a194f3f42ce7621dd65ab9259))
+* **icon:** added new icons ([43da512](https://github.com/bullhorn/bullhorn-icons/commit/43da5129f54b6e6e56f71bb3a866ca52596eeff9))
+* **icon:** added new icons ([8d7616d](https://github.com/bullhorn/bullhorn-icons/commit/8d7616d30053fdf713ce8de1d5a27be3ac81a859))
+
 # [2.27.0](https://github.com/bullhorn/bullhorn-icons/compare/v2.26.0...v2.27.0) (2023-05-24)
 
 
