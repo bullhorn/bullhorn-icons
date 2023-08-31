@@ -12,12 +12,14 @@ export type BullhornGlyphiconsId =
   | 'anchor'
   | 'appointment'
   | 'archive'
+  | 'arrow-collapse'
   | 'arrow-down'
   | 'arrow-left-h'
   | 'arrow-left'
   | 'arrow-right-h'
   | 'arrow-right'
   | 'arrow-up'
+  | 'arrows-resize'
   | 'attach'
   | 'automation'
   | 'back-office'
@@ -29,6 +31,12 @@ export type BullhornGlyphiconsId =
   | 'book'
   | 'bookmark-o'
   | 'bookmark'
+  | 'border-all'
+  | 'border-bottom'
+  | 'border-left'
+  | 'border-none'
+  | 'border-right'
+  | 'border-top'
   | 'bot'
   | 'box-check-o'
   | 'box-check'
@@ -82,6 +90,7 @@ export type BullhornGlyphiconsId =
   | 'commission'
   | 'company-circle'
   | 'company'
+  | 'comparison-table'
   | 'compass'
   | 'complex'
   | 'compliance-manager'
@@ -135,6 +144,8 @@ export type BullhornGlyphiconsId =
   | 'filter'
   | 'flag'
   | 'flagged-email'
+  | 'floppy-disk-pencil'
+  | 'floppy-disk'
   | 'flower'
   | 'footprint'
   | 'funnel'
@@ -142,6 +153,7 @@ export type BullhornGlyphiconsId =
   | 'globe'
   | 'google'
   | 'hammer'
+  | 'Heading'
   | 'headset'
   | 'herefish'
   | 'hidden'
@@ -182,6 +194,8 @@ export type BullhornGlyphiconsId =
   | 'map'
   | 'menu-o'
   | 'menu'
+  | 'minus-circle-o'
+  | 'minus-circle'
   | 'missed-call'
   | 'mobile'
   | 'more'
@@ -223,6 +237,7 @@ export type BullhornGlyphiconsId =
   | 'preview'
   | 'previous'
   | 'print'
+  | 'progress-bars'
   | 'projects-square'
   | 'projects'
   | 'publish'
@@ -245,7 +260,6 @@ export type BullhornGlyphiconsId =
   | 'reply'
   | 'report-code'
   | 'report'
-  | 'republish'
   | 'resume'
   | 'rocket'
   | 'rules-config'
@@ -315,12 +329,14 @@ export type BullhornGlyphiconsKey =
   | 'Anchor'
   | 'Appointment'
   | 'Archive'
+  | 'ArrowCollapse'
   | 'ArrowDown'
   | 'ArrowLeftH'
   | 'ArrowLeft'
   | 'ArrowRightH'
   | 'ArrowRight'
   | 'ArrowUp'
+  | 'ArrowsResize'
   | 'Attach'
   | 'Automation'
   | 'BackOffice'
@@ -332,6 +348,12 @@ export type BullhornGlyphiconsKey =
   | 'Book'
   | 'BookmarkO'
   | 'Bookmark'
+  | 'BorderAll'
+  | 'BorderBottom'
+  | 'BorderLeft'
+  | 'BorderNone'
+  | 'BorderRight'
+  | 'BorderTop'
   | 'Bot'
   | 'BoxCheckO'
   | 'BoxCheck'
@@ -385,6 +407,7 @@ export type BullhornGlyphiconsKey =
   | 'Commission'
   | 'CompanyCircle'
   | 'Company'
+  | 'ComparisonTable'
   | 'Compass'
   | 'Complex'
   | 'ComplianceManager'
@@ -438,6 +461,8 @@ export type BullhornGlyphiconsKey =
   | 'Filter'
   | 'Flag'
   | 'FlaggedEmail'
+  | 'FloppyDiskPencil'
+  | 'FloppyDisk'
   | 'Flower'
   | 'Footprint'
   | 'Funnel'
@@ -445,6 +470,7 @@ export type BullhornGlyphiconsKey =
   | 'Globe'
   | 'Google'
   | 'Hammer'
+  | 'Heading'
   | 'Headset'
   | 'Herefish'
   | 'Hidden'
@@ -485,6 +511,8 @@ export type BullhornGlyphiconsKey =
   | 'Map'
   | 'MenuO'
   | 'Menu'
+  | 'MinusCircleO'
+  | 'MinusCircle'
   | 'MissedCall'
   | 'Mobile'
   | 'More'
@@ -526,6 +554,7 @@ export type BullhornGlyphiconsKey =
   | 'Preview'
   | 'Previous'
   | 'Print'
+  | 'ProgressBars'
   | 'ProjectsSquare'
   | 'Projects'
   | 'Publish'
@@ -548,7 +577,6 @@ export type BullhornGlyphiconsKey =
   | 'Reply'
   | 'ReportCode'
   | 'Report'
-  | 'Republish'
   | 'Resume'
   | 'Rocket'
   | 'RulesConfig'
@@ -618,12 +646,14 @@ export enum BullhornGlyphicons {
   Anchor = 'anchor',
   Appointment = 'appointment',
   Archive = 'archive',
+  ArrowCollapse = 'arrow-collapse',
   ArrowDown = 'arrow-down',
   ArrowLeftH = 'arrow-left-h',
   ArrowLeft = 'arrow-left',
   ArrowRightH = 'arrow-right-h',
   ArrowRight = 'arrow-right',
   ArrowUp = 'arrow-up',
+  ArrowsResize = 'arrows-resize',
   Attach = 'attach',
   Automation = 'automation',
   BackOffice = 'back-office',
@@ -635,6 +665,12 @@ export enum BullhornGlyphicons {
   Book = 'book',
   BookmarkO = 'bookmark-o',
   Bookmark = 'bookmark',
+  BorderAll = 'border-all',
+  BorderBottom = 'border-bottom',
+  BorderLeft = 'border-left',
+  BorderNone = 'border-none',
+  BorderRight = 'border-right',
+  BorderTop = 'border-top',
   Bot = 'bot',
   BoxCheckO = 'box-check-o',
   BoxCheck = 'box-check',
@@ -688,6 +724,7 @@ export enum BullhornGlyphicons {
   Commission = 'commission',
   CompanyCircle = 'company-circle',
   Company = 'company',
+  ComparisonTable = 'comparison-table',
   Compass = 'compass',
   Complex = 'complex',
   ComplianceManager = 'compliance-manager',
@@ -741,6 +778,8 @@ export enum BullhornGlyphicons {
   Filter = 'filter',
   Flag = 'flag',
   FlaggedEmail = 'flagged-email',
+  FloppyDiskPencil = 'floppy-disk-pencil',
+  FloppyDisk = 'floppy-disk',
   Flower = 'flower',
   Footprint = 'footprint',
   Funnel = 'funnel',
@@ -748,6 +787,7 @@ export enum BullhornGlyphicons {
   Globe = 'globe',
   Google = 'google',
   Hammer = 'hammer',
+  Heading = 'Heading',
   Headset = 'headset',
   Herefish = 'herefish',
   Hidden = 'hidden',
@@ -788,6 +828,8 @@ export enum BullhornGlyphicons {
   Map = 'map',
   MenuO = 'menu-o',
   Menu = 'menu',
+  MinusCircleO = 'minus-circle-o',
+  MinusCircle = 'minus-circle',
   MissedCall = 'missed-call',
   Mobile = 'mobile',
   More = 'more',
@@ -829,6 +871,7 @@ export enum BullhornGlyphicons {
   Preview = 'preview',
   Previous = 'previous',
   Print = 'print',
+  ProgressBars = 'progress-bars',
   ProjectsSquare = 'projects-square',
   Projects = 'projects',
   Publish = 'publish',
@@ -851,7 +894,6 @@ export enum BullhornGlyphicons {
   Reply = 'reply',
   ReportCode = 'report-code',
   Report = 'report',
-  Republish = 'republish',
   Resume = 'resume',
   Rocket = 'rocket',
   RulesConfig = 'rules-config',
@@ -922,292 +964,306 @@ export const BULLHORN_GLYPHICONS_CODEPOINTS: { [key in BullhornGlyphicons]: stri
   [BullhornGlyphicons.Anchor]: '61707',
   [BullhornGlyphicons.Appointment]: '61708',
   [BullhornGlyphicons.Archive]: '61709',
-  [BullhornGlyphicons.ArrowDown]: '61710',
-  [BullhornGlyphicons.ArrowLeftH]: '61711',
-  [BullhornGlyphicons.ArrowLeft]: '61712',
-  [BullhornGlyphicons.ArrowRightH]: '61713',
-  [BullhornGlyphicons.ArrowRight]: '61714',
-  [BullhornGlyphicons.ArrowUp]: '61715',
-  [BullhornGlyphicons.Attach]: '61716',
-  [BullhornGlyphicons.Automation]: '61717',
-  [BullhornGlyphicons.BackOffice]: '61718',
-  [BullhornGlyphicons.Beaker]: '61719',
-  [BullhornGlyphicons.Bell]: '61720',
-  [BullhornGlyphicons.BillableCharge]: '61721',
-  [BullhornGlyphicons.Board]: '61722',
-  [BullhornGlyphicons.Bolt]: '61723',
-  [BullhornGlyphicons.Book]: '61724',
-  [BullhornGlyphicons.BookmarkO]: '61725',
-  [BullhornGlyphicons.Bookmark]: '61726',
-  [BullhornGlyphicons.Bot]: '61727',
-  [BullhornGlyphicons.BoxCheckO]: '61728',
-  [BullhornGlyphicons.BoxCheck]: '61729',
-  [BullhornGlyphicons.BoxEmpty]: '61730',
-  [BullhornGlyphicons.BoxMinusO]: '61731',
-  [BullhornGlyphicons.BoxMinus]: '61732',
-  [BullhornGlyphicons.BoxPlusO]: '61733',
-  [BullhornGlyphicons.BoxPlus]: '61734',
-  [BullhornGlyphicons.BoxTimesO]: '61735',
-  [BullhornGlyphicons.BoxTimes]: '61736',
-  [BullhornGlyphicons.Bug]: '61737',
-  [BullhornGlyphicons.Bull]: '61738',
-  [BullhornGlyphicons.Calculator]: '61739',
-  [BullhornGlyphicons.Calendar]: '61740',
-  [BullhornGlyphicons.Camera]: '61741',
-  [BullhornGlyphicons.CandidateCircle]: '61742',
-  [BullhornGlyphicons.Candidate]: '61743',
-  [BullhornGlyphicons.Canvas]: '61744',
-  [BullhornGlyphicons.CardExpand]: '61745',
-  [BullhornGlyphicons.CategoryTags]: '61746',
-  [BullhornGlyphicons.CautionO]: '61747',
-  [BullhornGlyphicons.CautionTriangleO]: '61748',
-  [BullhornGlyphicons.Caution]: '61749',
-  [BullhornGlyphicons.Certification]: '61750',
-  [BullhornGlyphicons.ChartBar]: '61751',
-  [BullhornGlyphicons.ChartDonut]: '61752',
-  [BullhornGlyphicons.ChartFunnel]: '61753',
-  [BullhornGlyphicons.ChartLine]: '61754',
-  [BullhornGlyphicons.ChartPieO]: '61755',
-  [BullhornGlyphicons.ChartPie]: '61756',
-  [BullhornGlyphicons.CheckCircleFilled]: '61757',
-  [BullhornGlyphicons.CheckCircle]: '61758',
-  [BullhornGlyphicons.CheckO]: '61759',
-  [BullhornGlyphicons.Check]: '61760',
-  [BullhornGlyphicons.CheckboxAdd]: '61761',
-  [BullhornGlyphicons.CheckboxEmpty]: '61762',
-  [BullhornGlyphicons.CheckboxFilled]: '61763',
-  [BullhornGlyphicons.CheckboxIndeterminate]: '61764',
-  [BullhornGlyphicons.CircleO]: '61765',
-  [BullhornGlyphicons.Circle]: '61766',
-  [BullhornGlyphicons.Clipboard]: '61767',
-  [BullhornGlyphicons.ClockArrow]: '61768',
-  [BullhornGlyphicons.Clock]: '61769',
-  [BullhornGlyphicons.CloseO]: '61770',
-  [BullhornGlyphicons.Close]: '61771',
-  [BullhornGlyphicons.Coffee]: '61772',
-  [BullhornGlyphicons.Collapse]: '61773',
-  [BullhornGlyphicons.Columns]: '61774',
-  [BullhornGlyphicons.CommentO]: '61775',
-  [BullhornGlyphicons.Comment]: '61776',
-  [BullhornGlyphicons.Commission]: '61777',
-  [BullhornGlyphicons.CompanyCircle]: '61778',
-  [BullhornGlyphicons.Company]: '61779',
-  [BullhornGlyphicons.Compass]: '61780',
-  [BullhornGlyphicons.Complex]: '61781',
-  [BullhornGlyphicons.ComplianceManager]: '61782',
-  [BullhornGlyphicons.ConfigureO]: '61783',
-  [BullhornGlyphicons.Configure]: '61784',
-  [BullhornGlyphicons.Convert]: '61785',
-  [BullhornGlyphicons.Crane]: '61786',
-  [BullhornGlyphicons.Credential]: '61787',
-  [BullhornGlyphicons.Crf]: '61788',
-  [BullhornGlyphicons.Crown]: '61789',
-  [BullhornGlyphicons.CustomObjects]: '61790',
-  [BullhornGlyphicons.DashboardO]: '61791',
-  [BullhornGlyphicons.Dashboard]: '61792',
-  [BullhornGlyphicons.Day]: '61793',
-  [BullhornGlyphicons.DeleteO]: '61794',
-  [BullhornGlyphicons.Delete]: '61795',
-  [BullhornGlyphicons.Department]: '61796',
-  [BullhornGlyphicons.Desktop]: '61797',
-  [BullhornGlyphicons.Download]: '61798',
-  [BullhornGlyphicons.Dropzone]: '61799',
-  [BullhornGlyphicons.Duplicate]: '61800',
-  [BullhornGlyphicons.EarnCodeTemplate]: '61801',
-  [BullhornGlyphicons.EarnCode]: '61802',
-  [BullhornGlyphicons.EditCircleFilled]: '61803',
-  [BullhornGlyphicons.EditCircle]: '61804',
-  [BullhornGlyphicons.EditO]: '61805',
-  [BullhornGlyphicons.Edit]: '61806',
-  [BullhornGlyphicons.Education]: '61807',
-  [BullhornGlyphicons.EmailAutoadd]: '61808',
-  [BullhornGlyphicons.EmailInvoiceTemplate]: '61809',
-  [BullhornGlyphicons.Email]: '61810',
-  [BullhornGlyphicons.Engagement]: '61811',
-  [BullhornGlyphicons.Evening]: '61812',
-  [BullhornGlyphicons.Expand]: '61813',
-  [BullhornGlyphicons.Expense]: '61814',
-  [BullhornGlyphicons.ExportHtml]: '61815',
-  [BullhornGlyphicons.ExportMs]: '61816',
-  [BullhornGlyphicons.ExternalOpen]: '61817',
-  [BullhornGlyphicons.External]: '61818',
-  [BullhornGlyphicons.FacebookO]: '61819',
-  [BullhornGlyphicons.Facebook]: '61820',
-  [BullhornGlyphicons.Fasterfind]: '61821',
-  [BullhornGlyphicons.FieldAdd]: '61822',
-  [BullhornGlyphicons.FieldDropdown]: '61823',
-  [BullhornGlyphicons.FieldParagraph]: '61824',
-  [BullhornGlyphicons.FieldSignatureText]: '61825',
-  [BullhornGlyphicons.FieldSignature]: '61826',
-  [BullhornGlyphicons.FieldText]: '61827',
-  [BullhornGlyphicons.FieldTextblock]: '61828',
-  [BullhornGlyphicons.File]: '61829',
-  [BullhornGlyphicons.Filter]: '61830',
-  [BullhornGlyphicons.Flag]: '61831',
-  [BullhornGlyphicons.FlaggedEmail]: '61832',
-  [BullhornGlyphicons.Flower]: '61833',
-  [BullhornGlyphicons.Footprint]: '61834',
-  [BullhornGlyphicons.Funnel]: '61835',
-  [BullhornGlyphicons.GlobeO]: '61836',
-  [BullhornGlyphicons.Globe]: '61837',
-  [BullhornGlyphicons.Google]: '61838',
-  [BullhornGlyphicons.Hammer]: '61839',
-  [BullhornGlyphicons.Headset]: '61840',
-  [BullhornGlyphicons.Herefish]: '61841',
-  [BullhornGlyphicons.Hidden]: '61842',
-  [BullhornGlyphicons.Holiday]: '61843',
-  [BullhornGlyphicons.Home]: '61844',
-  [BullhornGlyphicons.HourglassBottom]: '61845',
-  [BullhornGlyphicons.HourglassMiddle]: '61846',
-  [BullhornGlyphicons.HourglassTop]: '61847',
-  [BullhornGlyphicons.I9]: '61848',
-  [BullhornGlyphicons.IceCream]: '61849',
-  [BullhornGlyphicons.Idea]: '61850',
-  [BullhornGlyphicons.Inactive]: '61851',
-  [BullhornGlyphicons.InboundCall]: '61852',
-  [BullhornGlyphicons.Inbox]: '61853',
-  [BullhornGlyphicons.Industry]: '61854',
-  [BullhornGlyphicons.InfoO]: '61855',
-  [BullhornGlyphicons.Info]: '61856',
-  [BullhornGlyphicons.Interview]: '61857',
-  [BullhornGlyphicons.Invoice]: '61858',
-  [BullhornGlyphicons.JobCircle]: '61859',
-  [BullhornGlyphicons.JobCode]: '61860',
-  [BullhornGlyphicons.Job]: '61861',
-  [BullhornGlyphicons.KebabMenu]: '61862',
-  [BullhornGlyphicons.Key]: '61863',
-  [BullhornGlyphicons.Layout]: '61864',
-  [BullhornGlyphicons.LeadCircle]: '61865',
-  [BullhornGlyphicons.Lead]: '61866',
-  [BullhornGlyphicons.Link]: '61867',
-  [BullhornGlyphicons.LinkedinF]: '61868',
-  [BullhornGlyphicons.LinkedinO]: '61869',
-  [BullhornGlyphicons.Linkedin]: '61870',
-  [BullhornGlyphicons.ListO]: '61871',
-  [BullhornGlyphicons.List]: '61872',
-  [BullhornGlyphicons.LocationO]: '61873',
-  [BullhornGlyphicons.Location]: '61874',
-  [BullhornGlyphicons.Lock]: '61875',
-  [BullhornGlyphicons.Logout]: '61876',
-  [BullhornGlyphicons.Map]: '61877',
-  [BullhornGlyphicons.MenuO]: '61878',
-  [BullhornGlyphicons.Menu]: '61879',
-  [BullhornGlyphicons.MissedCall]: '61880',
-  [BullhornGlyphicons.Mobile]: '61881',
-  [BullhornGlyphicons.More]: '61882',
-  [BullhornGlyphicons.Morning_1]: '61883',
-  [BullhornGlyphicons.Morning_2]: '61884',
-  [BullhornGlyphicons.Morning_3]: '61885',
-  [BullhornGlyphicons.Morning]: '61886',
-  [BullhornGlyphicons.Move]: '61887',
-  [BullhornGlyphicons.Music]: '61888',
-  [BullhornGlyphicons.News]: '61889',
-  [BullhornGlyphicons.Next]: '61890',
-  [BullhornGlyphicons.Night]: '61891',
-  [BullhornGlyphicons.NoData]: '61892',
-  [BullhornGlyphicons.NonPayroll]: '61893',
-  [BullhornGlyphicons.Note]: '61894',
-  [BullhornGlyphicons.Notes]: '61895',
-  [BullhornGlyphicons.Nps]: '61896',
-  [BullhornGlyphicons.Ob365]: '61897',
-  [BullhornGlyphicons.Occupation]: '61898',
-  [BullhornGlyphicons.Offer]: '61899',
-  [BullhornGlyphicons.Onboarding_365]: '61900',
-  [BullhornGlyphicons.Onboarding]: '61901',
-  [BullhornGlyphicons.OpportunityCircle]: '61902',
-  [BullhornGlyphicons.Opportunity]: '61903',
-  [BullhornGlyphicons.Organize]: '61904',
-  [BullhornGlyphicons.OutboundCall]: '61905',
-  [BullhornGlyphicons.OutboundEmail]: '61906',
-  [BullhornGlyphicons.Overnight]: '61907',
-  [BullhornGlyphicons.Overview]: '61908',
-  [BullhornGlyphicons.Packets]: '61909',
-  [BullhornGlyphicons.PayableCharge]: '61910',
-  [BullhornGlyphicons.Payable]: '61911',
-  [BullhornGlyphicons.Payroll]: '61912',
-  [BullhornGlyphicons.PersonCircle]: '61913',
-  [BullhornGlyphicons.Person]: '61914',
-  [BullhornGlyphicons.Phone]: '61915',
-  [BullhornGlyphicons.Pin]: '61916',
-  [BullhornGlyphicons.Plus]: '61917',
-  [BullhornGlyphicons.Preview]: '61918',
-  [BullhornGlyphicons.Previous]: '61919',
-  [BullhornGlyphicons.Print]: '61920',
-  [BullhornGlyphicons.ProjectsSquare]: '61921',
-  [BullhornGlyphicons.Projects]: '61922',
-  [BullhornGlyphicons.Publish]: '61923',
-  [BullhornGlyphicons.Pulse]: '61924',
-  [BullhornGlyphicons.PurchaseOrder]: '61925',
-  [BullhornGlyphicons.Puzzle]: '61926',
-  [BullhornGlyphicons.QuestionO]: '61927',
-  [BullhornGlyphicons.Question]: '61928',
-  [BullhornGlyphicons.RadioEmpty]: '61929',
-  [BullhornGlyphicons.RadioFilled]: '61930',
-  [BullhornGlyphicons.RateCircle]: '61931',
-  [BullhornGlyphicons.RateFilled]: '61932',
-  [BullhornGlyphicons.RateRequest]: '61933',
-  [BullhornGlyphicons.RateRule]: '61934',
-  [BullhornGlyphicons.Rate]: '61935',
-  [BullhornGlyphicons.Receivables]: '61936',
-  [BullhornGlyphicons.RefreshO]: '61937',
-  [BullhornGlyphicons.Refresh]: '61938',
-  [BullhornGlyphicons.Rent]: '61939',
-  [BullhornGlyphicons.Reply]: '61940',
-  [BullhornGlyphicons.ReportCode]: '61941',
-  [BullhornGlyphicons.Report]: '61942',
-  [BullhornGlyphicons.Republish]: '61943',
-  [BullhornGlyphicons.Resume]: '61944',
-  [BullhornGlyphicons.Rocket]: '61945',
-  [BullhornGlyphicons.RulesConfig]: '61946',
-  [BullhornGlyphicons.Sailboat]: '61947',
-  [BullhornGlyphicons.Save]: '61948',
-  [BullhornGlyphicons.SearchMenu]: '61949',
-  [BullhornGlyphicons.SearchQuestion]: '61950',
-  [BullhornGlyphicons.Search]: '61951',
-  [BullhornGlyphicons.Section]: '61952',
-  [BullhornGlyphicons.Send]: '61953',
-  [BullhornGlyphicons.Sendout]: '61954',
-  [BullhornGlyphicons.Settings]: '61955',
-  [BullhornGlyphicons.ShareO]: '61956',
-  [BullhornGlyphicons.Share]: '61957',
-  [BullhornGlyphicons.Shield]: '61958',
-  [BullhornGlyphicons.ShippingBox]: '61959',
-  [BullhornGlyphicons.Slideout]: '61960',
-  [BullhornGlyphicons.Sms]: '61961',
-  [BullhornGlyphicons.SortAsc]: '61962',
-  [BullhornGlyphicons.SortDesc]: '61963',
-  [BullhornGlyphicons.Sortable]: '61964',
-  [BullhornGlyphicons.Source]: '61965',
-  [BullhornGlyphicons.StarCircle]: '61966',
-  [BullhornGlyphicons.StarOCircle]: '61967',
-  [BullhornGlyphicons.StarO]: '61968',
-  [BullhornGlyphicons.Star]: '61969',
-  [BullhornGlyphicons.Stethoscope]: '61970',
-  [BullhornGlyphicons.StopLight]: '61971',
-  [BullhornGlyphicons.Tab]: '61972',
-  [BullhornGlyphicons.Tearsheet]: '61973',
-  [BullhornGlyphicons.Tie]: '61974',
-  [BullhornGlyphicons.Times]: '61975',
-  [BullhornGlyphicons.Timetable]: '61976',
-  [BullhornGlyphicons.Tools]: '61977',
-  [BullhornGlyphicons.Tower]: '61978',
-  [BullhornGlyphicons.TrendingDown]: '61979',
-  [BullhornGlyphicons.TrendingUp]: '61980',
-  [BullhornGlyphicons.Truck]: '61981',
-  [BullhornGlyphicons.TwitterF]: '61982',
-  [BullhornGlyphicons.TwitterO]: '61983',
-  [BullhornGlyphicons.Twitter]: '61984',
-  [BullhornGlyphicons.Umbrella]: '61985',
-  [BullhornGlyphicons.Unit]: '61986',
-  [BullhornGlyphicons.Upload]: '61987',
-  [BullhornGlyphicons.UserO]: '61988',
-  [BullhornGlyphicons.User]: '61989',
-  [BullhornGlyphicons.Users]: '61990',
-  [BullhornGlyphicons.Vendor]: '61991',
-  [BullhornGlyphicons.ViewList]: '61992',
-  [BullhornGlyphicons.ViewModule]: '61993',
-  [BullhornGlyphicons.Viewall]: '61994',
-  [BullhornGlyphicons.Vms]: '61995',
-  [BullhornGlyphicons.Workflow]: '61996',
-  [BullhornGlyphicons.X]: '61997',
+  [BullhornGlyphicons.ArrowCollapse]: '61710',
+  [BullhornGlyphicons.ArrowDown]: '61711',
+  [BullhornGlyphicons.ArrowLeftH]: '61712',
+  [BullhornGlyphicons.ArrowLeft]: '61713',
+  [BullhornGlyphicons.ArrowRightH]: '61714',
+  [BullhornGlyphicons.ArrowRight]: '61715',
+  [BullhornGlyphicons.ArrowUp]: '61716',
+  [BullhornGlyphicons.ArrowsResize]: '61717',
+  [BullhornGlyphicons.Attach]: '61718',
+  [BullhornGlyphicons.Automation]: '61719',
+  [BullhornGlyphicons.BackOffice]: '61720',
+  [BullhornGlyphicons.Beaker]: '61721',
+  [BullhornGlyphicons.Bell]: '61722',
+  [BullhornGlyphicons.BillableCharge]: '61723',
+  [BullhornGlyphicons.Board]: '61724',
+  [BullhornGlyphicons.Bolt]: '61725',
+  [BullhornGlyphicons.Book]: '61726',
+  [BullhornGlyphicons.BookmarkO]: '61727',
+  [BullhornGlyphicons.Bookmark]: '61728',
+  [BullhornGlyphicons.BorderAll]: '61729',
+  [BullhornGlyphicons.BorderBottom]: '61730',
+  [BullhornGlyphicons.BorderLeft]: '61731',
+  [BullhornGlyphicons.BorderNone]: '61732',
+  [BullhornGlyphicons.BorderRight]: '61733',
+  [BullhornGlyphicons.BorderTop]: '61734',
+  [BullhornGlyphicons.Bot]: '61735',
+  [BullhornGlyphicons.BoxCheckO]: '61736',
+  [BullhornGlyphicons.BoxCheck]: '61737',
+  [BullhornGlyphicons.BoxEmpty]: '61738',
+  [BullhornGlyphicons.BoxMinusO]: '61739',
+  [BullhornGlyphicons.BoxMinus]: '61740',
+  [BullhornGlyphicons.BoxPlusO]: '61741',
+  [BullhornGlyphicons.BoxPlus]: '61742',
+  [BullhornGlyphicons.BoxTimesO]: '61743',
+  [BullhornGlyphicons.BoxTimes]: '61744',
+  [BullhornGlyphicons.Bug]: '61745',
+  [BullhornGlyphicons.Bull]: '61746',
+  [BullhornGlyphicons.Calculator]: '61747',
+  [BullhornGlyphicons.Calendar]: '61748',
+  [BullhornGlyphicons.Camera]: '61749',
+  [BullhornGlyphicons.CandidateCircle]: '61750',
+  [BullhornGlyphicons.Candidate]: '61751',
+  [BullhornGlyphicons.Canvas]: '61752',
+  [BullhornGlyphicons.CardExpand]: '61753',
+  [BullhornGlyphicons.CategoryTags]: '61754',
+  [BullhornGlyphicons.CautionO]: '61755',
+  [BullhornGlyphicons.CautionTriangleO]: '61756',
+  [BullhornGlyphicons.Caution]: '61757',
+  [BullhornGlyphicons.Certification]: '61758',
+  [BullhornGlyphicons.ChartBar]: '61759',
+  [BullhornGlyphicons.ChartDonut]: '61760',
+  [BullhornGlyphicons.ChartFunnel]: '61761',
+  [BullhornGlyphicons.ChartLine]: '61762',
+  [BullhornGlyphicons.ChartPieO]: '61763',
+  [BullhornGlyphicons.ChartPie]: '61764',
+  [BullhornGlyphicons.CheckCircleFilled]: '61765',
+  [BullhornGlyphicons.CheckCircle]: '61766',
+  [BullhornGlyphicons.CheckO]: '61767',
+  [BullhornGlyphicons.Check]: '61768',
+  [BullhornGlyphicons.CheckboxAdd]: '61769',
+  [BullhornGlyphicons.CheckboxEmpty]: '61770',
+  [BullhornGlyphicons.CheckboxFilled]: '61771',
+  [BullhornGlyphicons.CheckboxIndeterminate]: '61772',
+  [BullhornGlyphicons.CircleO]: '61773',
+  [BullhornGlyphicons.Circle]: '61774',
+  [BullhornGlyphicons.Clipboard]: '61775',
+  [BullhornGlyphicons.ClockArrow]: '61776',
+  [BullhornGlyphicons.Clock]: '61777',
+  [BullhornGlyphicons.CloseO]: '61778',
+  [BullhornGlyphicons.Close]: '61779',
+  [BullhornGlyphicons.Coffee]: '61780',
+  [BullhornGlyphicons.Collapse]: '61781',
+  [BullhornGlyphicons.Columns]: '61782',
+  [BullhornGlyphicons.CommentO]: '61783',
+  [BullhornGlyphicons.Comment]: '61784',
+  [BullhornGlyphicons.Commission]: '61785',
+  [BullhornGlyphicons.CompanyCircle]: '61786',
+  [BullhornGlyphicons.Company]: '61787',
+  [BullhornGlyphicons.ComparisonTable]: '61788',
+  [BullhornGlyphicons.Compass]: '61789',
+  [BullhornGlyphicons.Complex]: '61790',
+  [BullhornGlyphicons.ComplianceManager]: '61791',
+  [BullhornGlyphicons.ConfigureO]: '61792',
+  [BullhornGlyphicons.Configure]: '61793',
+  [BullhornGlyphicons.Convert]: '61794',
+  [BullhornGlyphicons.Crane]: '61795',
+  [BullhornGlyphicons.Credential]: '61796',
+  [BullhornGlyphicons.Crf]: '61797',
+  [BullhornGlyphicons.Crown]: '61798',
+  [BullhornGlyphicons.CustomObjects]: '61799',
+  [BullhornGlyphicons.DashboardO]: '61800',
+  [BullhornGlyphicons.Dashboard]: '61801',
+  [BullhornGlyphicons.Day]: '61802',
+  [BullhornGlyphicons.DeleteO]: '61803',
+  [BullhornGlyphicons.Delete]: '61804',
+  [BullhornGlyphicons.Department]: '61805',
+  [BullhornGlyphicons.Desktop]: '61806',
+  [BullhornGlyphicons.Download]: '61807',
+  [BullhornGlyphicons.Dropzone]: '61808',
+  [BullhornGlyphicons.Duplicate]: '61809',
+  [BullhornGlyphicons.EarnCodeTemplate]: '61810',
+  [BullhornGlyphicons.EarnCode]: '61811',
+  [BullhornGlyphicons.EditCircleFilled]: '61812',
+  [BullhornGlyphicons.EditCircle]: '61813',
+  [BullhornGlyphicons.EditO]: '61814',
+  [BullhornGlyphicons.Edit]: '61815',
+  [BullhornGlyphicons.Education]: '61816',
+  [BullhornGlyphicons.EmailAutoadd]: '61817',
+  [BullhornGlyphicons.EmailInvoiceTemplate]: '61818',
+  [BullhornGlyphicons.Email]: '61819',
+  [BullhornGlyphicons.Engagement]: '61820',
+  [BullhornGlyphicons.Evening]: '61821',
+  [BullhornGlyphicons.Expand]: '61822',
+  [BullhornGlyphicons.Expense]: '61823',
+  [BullhornGlyphicons.ExportHtml]: '61824',
+  [BullhornGlyphicons.ExportMs]: '61825',
+  [BullhornGlyphicons.ExternalOpen]: '61826',
+  [BullhornGlyphicons.External]: '61827',
+  [BullhornGlyphicons.FacebookO]: '61828',
+  [BullhornGlyphicons.Facebook]: '61829',
+  [BullhornGlyphicons.Fasterfind]: '61830',
+  [BullhornGlyphicons.FieldAdd]: '61831',
+  [BullhornGlyphicons.FieldDropdown]: '61832',
+  [BullhornGlyphicons.FieldParagraph]: '61833',
+  [BullhornGlyphicons.FieldSignatureText]: '61834',
+  [BullhornGlyphicons.FieldSignature]: '61835',
+  [BullhornGlyphicons.FieldText]: '61836',
+  [BullhornGlyphicons.FieldTextblock]: '61837',
+  [BullhornGlyphicons.File]: '61838',
+  [BullhornGlyphicons.Filter]: '61839',
+  [BullhornGlyphicons.Flag]: '61840',
+  [BullhornGlyphicons.FlaggedEmail]: '61841',
+  [BullhornGlyphicons.FloppyDiskPencil]: '61842',
+  [BullhornGlyphicons.FloppyDisk]: '61843',
+  [BullhornGlyphicons.Flower]: '61844',
+  [BullhornGlyphicons.Footprint]: '61845',
+  [BullhornGlyphicons.Funnel]: '61846',
+  [BullhornGlyphicons.GlobeO]: '61847',
+  [BullhornGlyphicons.Globe]: '61848',
+  [BullhornGlyphicons.Google]: '61849',
+  [BullhornGlyphicons.Hammer]: '61850',
+  [BullhornGlyphicons.Heading]: '61851',
+  [BullhornGlyphicons.Headset]: '61852',
+  [BullhornGlyphicons.Herefish]: '61853',
+  [BullhornGlyphicons.Hidden]: '61854',
+  [BullhornGlyphicons.Holiday]: '61855',
+  [BullhornGlyphicons.Home]: '61856',
+  [BullhornGlyphicons.HourglassBottom]: '61857',
+  [BullhornGlyphicons.HourglassMiddle]: '61858',
+  [BullhornGlyphicons.HourglassTop]: '61859',
+  [BullhornGlyphicons.I9]: '61860',
+  [BullhornGlyphicons.IceCream]: '61861',
+  [BullhornGlyphicons.Idea]: '61862',
+  [BullhornGlyphicons.Inactive]: '61863',
+  [BullhornGlyphicons.InboundCall]: '61864',
+  [BullhornGlyphicons.Inbox]: '61865',
+  [BullhornGlyphicons.Industry]: '61866',
+  [BullhornGlyphicons.InfoO]: '61867',
+  [BullhornGlyphicons.Info]: '61868',
+  [BullhornGlyphicons.Interview]: '61869',
+  [BullhornGlyphicons.Invoice]: '61870',
+  [BullhornGlyphicons.JobCircle]: '61871',
+  [BullhornGlyphicons.JobCode]: '61872',
+  [BullhornGlyphicons.Job]: '61873',
+  [BullhornGlyphicons.KebabMenu]: '61874',
+  [BullhornGlyphicons.Key]: '61875',
+  [BullhornGlyphicons.Layout]: '61876',
+  [BullhornGlyphicons.LeadCircle]: '61877',
+  [BullhornGlyphicons.Lead]: '61878',
+  [BullhornGlyphicons.Link]: '61879',
+  [BullhornGlyphicons.LinkedinF]: '61880',
+  [BullhornGlyphicons.LinkedinO]: '61881',
+  [BullhornGlyphicons.Linkedin]: '61882',
+  [BullhornGlyphicons.ListO]: '61883',
+  [BullhornGlyphicons.List]: '61884',
+  [BullhornGlyphicons.LocationO]: '61885',
+  [BullhornGlyphicons.Location]: '61886',
+  [BullhornGlyphicons.Lock]: '61887',
+  [BullhornGlyphicons.Logout]: '61888',
+  [BullhornGlyphicons.Map]: '61889',
+  [BullhornGlyphicons.MenuO]: '61890',
+  [BullhornGlyphicons.Menu]: '61891',
+  [BullhornGlyphicons.MinusCircleO]: '61892',
+  [BullhornGlyphicons.MinusCircle]: '61893',
+  [BullhornGlyphicons.MissedCall]: '61894',
+  [BullhornGlyphicons.Mobile]: '61895',
+  [BullhornGlyphicons.More]: '61896',
+  [BullhornGlyphicons.Morning_1]: '61897',
+  [BullhornGlyphicons.Morning_2]: '61898',
+  [BullhornGlyphicons.Morning_3]: '61899',
+  [BullhornGlyphicons.Morning]: '61900',
+  [BullhornGlyphicons.Move]: '61901',
+  [BullhornGlyphicons.Music]: '61902',
+  [BullhornGlyphicons.News]: '61903',
+  [BullhornGlyphicons.Next]: '61904',
+  [BullhornGlyphicons.Night]: '61905',
+  [BullhornGlyphicons.NoData]: '61906',
+  [BullhornGlyphicons.NonPayroll]: '61907',
+  [BullhornGlyphicons.Note]: '61908',
+  [BullhornGlyphicons.Notes]: '61909',
+  [BullhornGlyphicons.Nps]: '61910',
+  [BullhornGlyphicons.Ob365]: '61911',
+  [BullhornGlyphicons.Occupation]: '61912',
+  [BullhornGlyphicons.Offer]: '61913',
+  [BullhornGlyphicons.Onboarding_365]: '61914',
+  [BullhornGlyphicons.Onboarding]: '61915',
+  [BullhornGlyphicons.OpportunityCircle]: '61916',
+  [BullhornGlyphicons.Opportunity]: '61917',
+  [BullhornGlyphicons.Organize]: '61918',
+  [BullhornGlyphicons.OutboundCall]: '61919',
+  [BullhornGlyphicons.OutboundEmail]: '61920',
+  [BullhornGlyphicons.Overnight]: '61921',
+  [BullhornGlyphicons.Overview]: '61922',
+  [BullhornGlyphicons.Packets]: '61923',
+  [BullhornGlyphicons.PayableCharge]: '61924',
+  [BullhornGlyphicons.Payable]: '61925',
+  [BullhornGlyphicons.Payroll]: '61926',
+  [BullhornGlyphicons.PersonCircle]: '61927',
+  [BullhornGlyphicons.Person]: '61928',
+  [BullhornGlyphicons.Phone]: '61929',
+  [BullhornGlyphicons.Pin]: '61930',
+  [BullhornGlyphicons.Plus]: '61931',
+  [BullhornGlyphicons.Preview]: '61932',
+  [BullhornGlyphicons.Previous]: '61933',
+  [BullhornGlyphicons.Print]: '61934',
+  [BullhornGlyphicons.ProgressBars]: '61935',
+  [BullhornGlyphicons.ProjectsSquare]: '61936',
+  [BullhornGlyphicons.Projects]: '61937',
+  [BullhornGlyphicons.Publish]: '61938',
+  [BullhornGlyphicons.Pulse]: '61939',
+  [BullhornGlyphicons.PurchaseOrder]: '61940',
+  [BullhornGlyphicons.Puzzle]: '61941',
+  [BullhornGlyphicons.QuestionO]: '61942',
+  [BullhornGlyphicons.Question]: '61943',
+  [BullhornGlyphicons.RadioEmpty]: '61944',
+  [BullhornGlyphicons.RadioFilled]: '61945',
+  [BullhornGlyphicons.RateCircle]: '61946',
+  [BullhornGlyphicons.RateFilled]: '61947',
+  [BullhornGlyphicons.RateRequest]: '61948',
+  [BullhornGlyphicons.RateRule]: '61949',
+  [BullhornGlyphicons.Rate]: '61950',
+  [BullhornGlyphicons.Receivables]: '61951',
+  [BullhornGlyphicons.RefreshO]: '61952',
+  [BullhornGlyphicons.Refresh]: '61953',
+  [BullhornGlyphicons.Rent]: '61954',
+  [BullhornGlyphicons.Reply]: '61955',
+  [BullhornGlyphicons.ReportCode]: '61956',
+  [BullhornGlyphicons.Report]: '61957',
+  [BullhornGlyphicons.Resume]: '61958',
+  [BullhornGlyphicons.Rocket]: '61959',
+  [BullhornGlyphicons.RulesConfig]: '61960',
+  [BullhornGlyphicons.Sailboat]: '61961',
+  [BullhornGlyphicons.Save]: '61962',
+  [BullhornGlyphicons.SearchMenu]: '61963',
+  [BullhornGlyphicons.SearchQuestion]: '61964',
+  [BullhornGlyphicons.Search]: '61965',
+  [BullhornGlyphicons.Section]: '61966',
+  [BullhornGlyphicons.Send]: '61967',
+  [BullhornGlyphicons.Sendout]: '61968',
+  [BullhornGlyphicons.Settings]: '61969',
+  [BullhornGlyphicons.ShareO]: '61970',
+  [BullhornGlyphicons.Share]: '61971',
+  [BullhornGlyphicons.Shield]: '61972',
+  [BullhornGlyphicons.ShippingBox]: '61973',
+  [BullhornGlyphicons.Slideout]: '61974',
+  [BullhornGlyphicons.Sms]: '61975',
+  [BullhornGlyphicons.SortAsc]: '61976',
+  [BullhornGlyphicons.SortDesc]: '61977',
+  [BullhornGlyphicons.Sortable]: '61978',
+  [BullhornGlyphicons.Source]: '61979',
+  [BullhornGlyphicons.StarCircle]: '61980',
+  [BullhornGlyphicons.StarOCircle]: '61981',
+  [BullhornGlyphicons.StarO]: '61982',
+  [BullhornGlyphicons.Star]: '61983',
+  [BullhornGlyphicons.Stethoscope]: '61984',
+  [BullhornGlyphicons.StopLight]: '61985',
+  [BullhornGlyphicons.Tab]: '61986',
+  [BullhornGlyphicons.Tearsheet]: '61987',
+  [BullhornGlyphicons.Tie]: '61988',
+  [BullhornGlyphicons.Times]: '61989',
+  [BullhornGlyphicons.Timetable]: '61990',
+  [BullhornGlyphicons.Tools]: '61991',
+  [BullhornGlyphicons.Tower]: '61992',
+  [BullhornGlyphicons.TrendingDown]: '61993',
+  [BullhornGlyphicons.TrendingUp]: '61994',
+  [BullhornGlyphicons.Truck]: '61995',
+  [BullhornGlyphicons.TwitterF]: '61996',
+  [BullhornGlyphicons.TwitterO]: '61997',
+  [BullhornGlyphicons.Twitter]: '61998',
+  [BullhornGlyphicons.Umbrella]: '61999',
+  [BullhornGlyphicons.Unit]: '62000',
+  [BullhornGlyphicons.Upload]: '62001',
+  [BullhornGlyphicons.UserO]: '62002',
+  [BullhornGlyphicons.User]: '62003',
+  [BullhornGlyphicons.Users]: '62004',
+  [BullhornGlyphicons.Vendor]: '62005',
+  [BullhornGlyphicons.ViewList]: '62006',
+  [BullhornGlyphicons.ViewModule]: '62007',
+  [BullhornGlyphicons.Viewall]: '62008',
+  [BullhornGlyphicons.Vms]: '62009',
+  [BullhornGlyphicons.Workflow]: '62010',
+  [BullhornGlyphicons.X]: '62011',
 };
