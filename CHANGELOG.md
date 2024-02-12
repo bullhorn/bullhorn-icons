@@ -1,3 +1,16 @@
+# [2.29.0](https://github.com/bullhorn/bullhorn-icons/compare/v2.28.0...v2.29.0) (2024-02-12)
+
+
+### Bug Fixes
+
+* **action:** resetting auth token for github release action ([c2fbe9f](https://github.com/bullhorn/bullhorn-icons/commit/c2fbe9f314a67b82219e9ce3ce65d7fa367660eb))
+* **action:** trying new auth token for github release action ([896c67e](https://github.com/bullhorn/bullhorn-icons/commit/896c67eae5ef4dc461d09a26946aa60baeaf3d95))
+
+
+### Features
+
+* Add icons for analytics ([#60](https://github.com/bullhorn/bullhorn-icons/issues/60)) ([e90fba8](https://github.com/bullhorn/bullhorn-icons/commit/e90fba80f15a143e4a2ad417ce6eec60fc3accd6))
+
 # [2.28.0](https://github.com/bullhorn/bullhorn-icons/compare/v2.27.0...v2.28.0) (2023-08-31)
 
 
