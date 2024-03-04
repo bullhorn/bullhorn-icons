@@ -1,3 +1,10 @@
+# [2.30.0](https://github.com/bullhorn/bullhorn-icons/compare/v2.29.0...v2.30.0) (2024-03-04)
+
+
+### Features
+
+* **icon:** Added icons for saved searches ([1a4aea2](https://github.com/bullhorn/bullhorn-icons/commit/1a4aea25c39665ed40f61951da43d35d16f8fffb))
+
 # [2.29.0](https://github.com/bullhorn/bullhorn-icons/compare/v2.28.0...v2.29.0) (2024-02-12)
 
 
