@@ -1,129 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f9035df-ae64-473f-841b-65842b07832a" name="Changes" comment="" />
+    <list default="true" id="f6064b76-d09f-43e7-860f-acf32fa8e1ef" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/icons/search-private.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icons/search-shared.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Bullhorn-Glyphicons.css" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Bullhorn-Glyphicons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Bullhorn-Glyphicons.json" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Bullhorn-Glyphicons.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Bullhorn-Glyphicons.ts" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Bullhorn-Glyphicons.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Bullhorn-Glyphicons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Bullhorn-Glyphicons.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Bullhorn-Glyphicons.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Bullhorn-Glyphicons.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Bullhorn-Glyphicons.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Bullhorn-Glyphicons.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="bhi-icons" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectId" id="2NN9yrSaAfzcagI63dhyhRffmOn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/bullhorn/devmachine/bullhorn-icons/icons",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "ts.external.directory.path": "C:\\Users\\grant.keebler\\AppData\\Local\\JetBrains\\IntelliJ IDEA 2022.2.1\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external"
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "ts.external.directory.path": "/Applications/IntelliJ IDEA.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external"
   }
 }]]></component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\bullhorn\devmachine\bullhorn-icons\icons" />
-      <recent name="C:\bullhorn\devmachine\bullhorn-icons\fonts" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/icons" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="bullhorn-icons" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="bullhorn-icons" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="build" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="build:icons" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="build:icons" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="build:index" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="build:index" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="npm.build" />
-        <item itemvalue="npm.build:index" />
-        <item itemvalue="npm.build:icons" />
-        <item itemvalue="npm.build:index" />
-        <item itemvalue="npm.build:icons" />
-      </list>
-    </recent_temporary>
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="1f9035df-ae64-473f-841b-65842b07832a" name="Changes" comment="" />
-      <created>1679493936160</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1679493936160</updated>
-      <workItem from="1679493938279" duration="1202000" />
-      <workItem from="1679513193943" duration="19000" />
-      <workItem from="1679513228510" duration="452000" />
-      <workItem from="1679513702242" duration="697000" />
-      <workItem from="1681323437995" duration="234000" />
-      <workItem from="1681323694906" duration="1366000" />
-      <workItem from="1688057343798" duration="1256000" />
-      <workItem from="1693408458095" duration="228000" />
-      <workItem from="1693408750435" duration="33000" />
-      <workItem from="1693408793383" duration="4083000" />
-    </task>
     <servers />
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="639bb18d-da88-41e7-80b0-09db2bdddd7a" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
+        <entry key="639bb18d-da88-41e7-80b0-09db2bdddd7a">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:/Users/nathan.dickerson/Source/bullhorn-icons/.idea" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
@@ -131,5 +86,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>

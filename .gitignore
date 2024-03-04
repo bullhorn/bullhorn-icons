@@ -9,3 +9,6 @@ bin-release/
 
 node_modules/
 .DS_Store
+
+# IntelliJ
+.idea/
