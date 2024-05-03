@@ -262,6 +262,7 @@ export const Rent = 'rent';
 export const Reply = 'reply';
 export const ReportCode = 'report-code';
 export const Report = 'report';
+export const Republish = 'republish';
 export const Resume = 'resume';
 export const Rocket = 'rocket';
 export const RulesConfig = 'rules-config';
