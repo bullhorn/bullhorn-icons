@@ -1,3 +1,10 @@
+# [2.31.0](https://github.com/bullhorn/bullhorn-icons/compare/v2.30.0...v2.31.0) (2024-05-08)
+
+
+### Features
+
+* **icon:** Add republish icon ([d7a8a89](https://github.com/bullhorn/bullhorn-icons/commit/d7a8a89918bf8488c9b35f7c6fec9d6e05a9b97d))
+
 # [2.30.0](https://github.com/bullhorn/bullhorn-icons/compare/v2.29.0...v2.30.0) (2024-03-04)
 
 
