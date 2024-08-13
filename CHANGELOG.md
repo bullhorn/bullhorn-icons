@@ -1,3 +1,11 @@
+# [2.32.0](https://github.com/bullhorn/bullhorn-icons/compare/v2.31.0...v2.32.0) (2024-08-13)
+
+
+### Features
+
+* **icon:** added new 'magic' icon ([623aed2](https://github.com/bullhorn/bullhorn-icons/commit/623aed2e44288ad86375df4f3e6e11be3f10d027))
+* **icon:** added new 'magic' icon ([c27f85b](https://github.com/bullhorn/bullhorn-icons/commit/c27f85b4e55707fe2a880cfcb8faa728300bbb48))
+
 # [2.31.0](https://github.com/bullhorn/bullhorn-icons/compare/v2.30.0...v2.31.0) (2024-05-08)
 
 
