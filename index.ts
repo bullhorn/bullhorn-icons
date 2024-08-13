@@ -192,6 +192,7 @@ export const LocationO = 'location-o';
 export const Location = 'location';
 export const Lock = 'lock';
 export const Logout = 'logout';
+export const Magic = 'magic';
 export const Map = 'map';
 export const MenuO = 'menu-o';
 export const Menu = 'menu';
