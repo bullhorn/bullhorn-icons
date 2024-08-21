@@ -1,3 +1,10 @@
+# [2.33.0](https://github.com/bullhorn/bullhorn-icons/compare/v2.32.0...v2.33.0) (2024-08-21)
+
+
+### Features
+
+* **icon:** new exclude icon ([#64](https://github.com/bullhorn/bullhorn-icons/issues/64)) ([a04f96f](https://github.com/bullhorn/bullhorn-icons/commit/a04f96f5db185ce7648e97d5d458bbe363d9942b))
+
 # [2.32.0](https://github.com/bullhorn/bullhorn-icons/compare/v2.31.0...v2.32.0) (2024-08-13)
 
 
