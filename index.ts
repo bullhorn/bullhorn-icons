@@ -24,6 +24,7 @@ export const Automation = 'automation';
 export const BackOffice = 'back-office';
 export const Beaker = 'beaker';
 export const Bell = 'bell';
+export const BhiNonEditable = 'bhi-non-editable';
 export const BillableCharge = 'billable-charge';
 export const Board = 'board';
 export const Bolt = 'bolt';
