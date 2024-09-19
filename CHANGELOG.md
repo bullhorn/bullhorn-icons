@@ -1,3 +1,10 @@
+# [2.34.0](https://github.com/bullhorn/bullhorn-icons/compare/v2.33.0...v2.34.0) (2024-09-19)
+
+
+### Features
+
+* **icon:** Add non-editable icon ([49947a4](https://github.com/bullhorn/bullhorn-icons/commit/49947a45485957ebb39a7b1e2fd6fc263191f0f8))
+
 # [2.33.0](https://github.com/bullhorn/bullhorn-icons/compare/v2.32.0...v2.33.0) (2024-08-21)
 
 
