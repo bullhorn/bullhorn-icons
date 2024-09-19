@@ -213,6 +213,7 @@ export const News = 'news';
 export const Next = 'next';
 export const Night = 'night';
 export const NoData = 'no-data';
+export const NonEditable = 'non-editable';
 export const NonPayroll = 'non-payroll';
 export const Note = 'note';
 export const Notes = 'notes';
