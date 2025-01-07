@@ -271,6 +271,7 @@ export const Rocket = 'rocket';
 export const RulesConfig = 'rules-config';
 export const Sailboat = 'sailboat';
 export const Save = 'save';
+export const SearchCheck = 'search-check';
 export const SearchMenu = 'search-menu';
 export const SearchPrivate = 'search-private';
 export const SearchQuestion = 'search-question';
