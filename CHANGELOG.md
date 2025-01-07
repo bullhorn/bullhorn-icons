@@ -1,3 +1,10 @@
+# [2.35.0](https://github.com/bullhorn/bullhorn-icons/compare/v2.34.0...v2.35.0) (2025-01-07)
+
+
+### Features
+
+* **icon:** new search-check icon ([#67](https://github.com/bullhorn/bullhorn-icons/issues/67)) ([dc1d41a](https://github.com/bullhorn/bullhorn-icons/commit/dc1d41a0a7377791fcdea7f13e36d7ddcfa83b4b))
+
 # [2.34.0](https://github.com/bullhorn/bullhorn-icons/compare/v2.33.0...v2.34.0) (2024-09-19)
 
 
