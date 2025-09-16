@@ -1,3 +1,10 @@
+# [2.36.0](https://github.com/bullhorn/bullhorn-icons/compare/v2.35.0...v2.36.0) (2025-09-16)
+
+
+### Features
+
+* **icon:** new amplify icon ([#69](https://github.com/bullhorn/bullhorn-icons/issues/69)) ([6fbe978](https://github.com/bullhorn/bullhorn-icons/commit/6fbe978b7926e89d00a4390ff382521fa3d33864))
+
 # [2.35.0](https://github.com/bullhorn/bullhorn-icons/compare/v2.34.0...v2.35.0) (2025-01-07)
 
 
