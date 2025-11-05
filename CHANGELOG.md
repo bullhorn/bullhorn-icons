@@ -1,3 +1,11 @@
+# [2.37.0](https://github.com/bullhorn/bullhorn-icons/compare/v2.36.0...v2.37.0) (2025-11-05)
+
+
+### Features
+
+* **icon:** new caution icon ([ba873fe](https://github.com/bullhorn/bullhorn-icons/commit/ba873fe798d3e3bce49bec7183a09f279e28410d))
+* **icon:** new caution icon ([2ba682e](https://github.com/bullhorn/bullhorn-icons/commit/2ba682e5466309b4accf2087de74f7dbfda5a218))
+
 # [2.36.0](https://github.com/bullhorn/bullhorn-icons/compare/v2.35.0...v2.36.0) (2025-09-16)
 
 
