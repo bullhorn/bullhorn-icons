@@ -57,6 +57,7 @@ export const Candidate = 'candidate';
 export const Canvas = 'canvas';
 export const CardExpand = 'card-expand';
 export const CategoryTags = 'category-tags';
+export const CautionCircle = 'caution-circle';
 export const CautionO = 'caution-o';
 export const CautionTriangleO = 'caution-triangle-o';
 export const Caution = 'caution';
