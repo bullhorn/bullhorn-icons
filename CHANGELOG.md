@@ -1,3 +1,10 @@
+## [2.37.1](https://github.com/bullhorn/bullhorn-icons/compare/v2.37.0...v2.37.1) (2025-11-06)
+
+
+### Bug Fixes
+
+* **dependencies:** Deduplicate dependencies, remove some security vulnerabilities ([#71](https://github.com/bullhorn/bullhorn-icons/issues/71)) ([26403a5](https://github.com/bullhorn/bullhorn-icons/commit/26403a5cb8d7ed4fd657e4a84591546655c3a968))
+
 # [2.37.0](https://github.com/bullhorn/bullhorn-icons/compare/v2.36.0...v2.37.0) (2025-11-05)
 
 
