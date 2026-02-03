@@ -302,6 +302,7 @@ export const StopLight = 'stop-light';
 export const Tab = 'tab';
 export const Tearsheet = 'tearsheet';
 export const Tie = 'tie';
+export const Tilde = 'tilde';
 export const Times = 'times';
 export const Timetable = 'timetable';
 export const Tools = 'tools';
