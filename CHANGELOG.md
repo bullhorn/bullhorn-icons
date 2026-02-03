@@ -1,3 +1,10 @@
+# [2.38.0](https://github.com/bullhorn/bullhorn-icons/compare/v2.37.1...v2.38.0) (2026-02-03)
+
+
+### Features
+
+* **icon:** new tilde icon ([aed1052](https://github.com/bullhorn/bullhorn-icons/commit/aed1052139d684ee40567e71a448c7c7ce7a4d5b))
+
 ## [2.37.1](https://github.com/bullhorn/bullhorn-icons/compare/v2.37.0...v2.37.1) (2025-11-06)
 
 
