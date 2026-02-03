@@ -303,6 +303,7 @@ export type BullhornGlyphiconsId =
   | 'tab'
   | 'tearsheet'
   | 'tie'
+  | 'tilde'
   | 'times'
   | 'timetable'
   | 'tools'
@@ -633,6 +634,7 @@ export type BullhornGlyphiconsKey =
   | 'Tab'
   | 'Tearsheet'
   | 'Tie'
+  | 'Tilde'
   | 'Times'
   | 'Timetable'
   | 'Tools'
@@ -963,6 +965,7 @@ export enum BullhornGlyphicons {
   Tab = 'tab',
   Tearsheet = 'tearsheet',
   Tie = 'tie',
+  Tilde = 'tilde',
   Times = 'times',
   Timetable = 'timetable',
   Tools = 'tools',
@@ -1294,28 +1297,29 @@ export const BULLHORN_GLYPHICONS_CODEPOINTS: { [key in BullhornGlyphicons]: stri
   [BullhornGlyphicons.Tab]: '61998',
   [BullhornGlyphicons.Tearsheet]: '61999',
   [BullhornGlyphicons.Tie]: '62000',
-  [BullhornGlyphicons.Times]: '62001',
-  [BullhornGlyphicons.Timetable]: '62002',
-  [BullhornGlyphicons.Tools]: '62003',
-  [BullhornGlyphicons.Tower]: '62004',
-  [BullhornGlyphicons.TrendingDown]: '62005',
-  [BullhornGlyphicons.TrendingUp]: '62006',
-  [BullhornGlyphicons.Truck]: '62007',
-  [BullhornGlyphicons.TwitterF]: '62008',
-  [BullhornGlyphicons.TwitterO]: '62009',
-  [BullhornGlyphicons.Twitter]: '62010',
-  [BullhornGlyphicons.Umbrella]: '62011',
-  [BullhornGlyphicons.Unit]: '62012',
-  [BullhornGlyphicons.Unlock]: '62013',
-  [BullhornGlyphicons.Upload]: '62014',
-  [BullhornGlyphicons.UserO]: '62015',
-  [BullhornGlyphicons.User]: '62016',
-  [BullhornGlyphicons.Users]: '62017',
-  [BullhornGlyphicons.Vendor]: '62018',
-  [BullhornGlyphicons.ViewList]: '62019',
-  [BullhornGlyphicons.ViewModule]: '62020',
-  [BullhornGlyphicons.Viewall]: '62021',
-  [BullhornGlyphicons.Vms]: '62022',
-  [BullhornGlyphicons.Workflow]: '62023',
-  [BullhornGlyphicons.X]: '62024',
+  [BullhornGlyphicons.Tilde]: '62001',
+  [BullhornGlyphicons.Times]: '62002',
+  [BullhornGlyphicons.Timetable]: '62003',
+  [BullhornGlyphicons.Tools]: '62004',
+  [BullhornGlyphicons.Tower]: '62005',
+  [BullhornGlyphicons.TrendingDown]: '62006',
+  [BullhornGlyphicons.TrendingUp]: '62007',
+  [BullhornGlyphicons.Truck]: '62008',
+  [BullhornGlyphicons.TwitterF]: '62009',
+  [BullhornGlyphicons.TwitterO]: '62010',
+  [BullhornGlyphicons.Twitter]: '62011',
+  [BullhornGlyphicons.Umbrella]: '62012',
+  [BullhornGlyphicons.Unit]: '62013',
+  [BullhornGlyphicons.Unlock]: '62014',
+  [BullhornGlyphicons.Upload]: '62015',
+  [BullhornGlyphicons.UserO]: '62016',
+  [BullhornGlyphicons.User]: '62017',
+  [BullhornGlyphicons.Users]: '62018',
+  [BullhornGlyphicons.Vendor]: '62019',
+  [BullhornGlyphicons.ViewList]: '62020',
+  [BullhornGlyphicons.ViewModule]: '62021',
+  [BullhornGlyphicons.Viewall]: '62022',
+  [BullhornGlyphicons.Vms]: '62023',
+  [BullhornGlyphicons.Workflow]: '62024',
+  [BullhornGlyphicons.X]: '62025',
 };
