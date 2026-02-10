@@ -1,3 +1,10 @@
+# [2.39.0](https://github.com/bullhorn/bullhorn-icons/compare/v2.38.0...v2.39.0) (2026-02-10)
+
+
+### Features
+
+* **icon:** new stop-circle icon ([#77](https://github.com/bullhorn/bullhorn-icons/issues/77)) ([643d2d0](https://github.com/bullhorn/bullhorn-icons/commit/643d2d0db98f5fe48ca6a3ce37ad28b3b61d891f))
+
 # [2.38.0](https://github.com/bullhorn/bullhorn-icons/compare/v2.37.1...v2.38.0) (2026-02-03)
 
 
