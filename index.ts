@@ -298,6 +298,7 @@ export const StarOCircle = 'star-o-circle';
 export const StarO = 'star-o';
 export const Star = 'star';
 export const Stethoscope = 'stethoscope';
+export const StopCircle = 'stop-circle';
 export const StopLight = 'stop-light';
 export const Tab = 'tab';
 export const Tearsheet = 'tearsheet';
