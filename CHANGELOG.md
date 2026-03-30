@@ -1,3 +1,10 @@
+## [2.40.1](https://github.com/bullhorn/bullhorn-icons/compare/v2.40.0...v2.40.1) (2026-03-30)
+
+
+### Bug Fixes
+
+* **icons:** fix shield-line ([4e91d7f](https://github.com/bullhorn/bullhorn-icons/commit/4e91d7f55a206d5d0b305b074ca65fbb0f0f1b44))
+
 # [2.40.0](https://github.com/bullhorn/bullhorn-icons/compare/v2.39.0...v2.40.0) (2026-03-30)
 
 
