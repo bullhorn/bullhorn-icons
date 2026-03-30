@@ -1,3 +1,10 @@
+# [2.40.0](https://github.com/bullhorn/bullhorn-icons/compare/v2.39.0...v2.40.0) (2026-03-30)
+
+
+### Features
+
+* **icons:** add shield-line, thumbs-down, and thumbs-up icons ([95bb5bd](https://github.com/bullhorn/bullhorn-icons/commit/95bb5bd136ff48d8b18ad2c6c924dd6c1b86fc91))
+
 # [2.39.0](https://github.com/bullhorn/bullhorn-icons/compare/v2.38.0...v2.39.0) (2026-02-10)
 
 
