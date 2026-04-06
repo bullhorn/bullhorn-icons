@@ -1,3 +1,10 @@
+# [2.41.0](https://github.com/bullhorn/bullhorn-icons/compare/v2.40.1...v2.41.0) (2026-04-06)
+
+
+### Features
+
+* **icon:** new thumbs-up-o and thumbs-down-o icons ([#88](https://github.com/bullhorn/bullhorn-icons/issues/88)) ([751f70e](https://github.com/bullhorn/bullhorn-icons/commit/751f70e662dbf0e72a29451d29308a4eb3eb6678))
+
 ## [2.40.1](https://github.com/bullhorn/bullhorn-icons/compare/v2.40.0...v2.40.1) (2026-03-30)
 
 
