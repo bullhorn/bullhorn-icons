@@ -1,3 +1,12 @@
+# [2.42.0](https://github.com/bullhorn/bullhorn-icons/compare/v2.41.0...v2.42.0) (2026-04-06)
+
+
+### Features
+
+* **icon:** fixing master links to main branch ([2a4cc25](https://github.com/bullhorn/bullhorn-icons/commit/2a4cc25e7341d6ca5b441e53e4161c7f2077fe93))
+* **icon:** update shield icon ([d85d389](https://github.com/bullhorn/bullhorn-icons/commit/d85d389bb6f7f86e8cd0fa7d9bcd8ba6049ef2a8))
+* **icon:** update shield icon ([8713f5d](https://github.com/bullhorn/bullhorn-icons/commit/8713f5d102dfd9dfd0870a5dc6c2ba3431a6677a))
+
 # [2.41.0](https://github.com/bullhorn/bullhorn-icons/compare/v2.40.1...v2.41.0) (2026-04-06)
 
 
