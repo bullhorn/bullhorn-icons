@@ -46,7 +46,7 @@ We only accept issues that are icon requests, bug reports, or feature requests. 
 
 ## Key branches
 
-- `master` is the latest, deployed version (use for pull request if they only affect the docs)
+- `main` is the latest, deployed version (use for pull request if they only affect the docs)
 - `gh-pages` is the hosted docs (not to be used for pull requests)
 - `f/*` branches are the official work in progress branches for the next releases. All pull requests should be submitted against the appropriate branch
 
@@ -63,7 +63,7 @@ As of v2.0.0, the fonte is now generated with the `icon-font-generator` npm pack
 ## Pull requests
 
 - Submit all pull requests against the appropriate `f/*` branch for easier merging
-- If your PR only affect the docs, feel free to push against the `master` branch
+- If your PR only affect the docs, feel free to push against the `main` branch
 - Try not to pollute your pull request with unintended changes--keep them simple and small
 - Try to share which browsers your code has been tested in before submitting a pull request
 
