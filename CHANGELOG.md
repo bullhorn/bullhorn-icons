@@ -1,3 +1,10 @@
+## [2.42.1](https://github.com/bullhorn/bullhorn-icons/compare/v2.42.0...v2.42.1) (2026-04-06)
+
+
+### Bug Fixes
+
+* **icon:** fixing shield icon update ([1668ab4](https://github.com/bullhorn/bullhorn-icons/commit/1668ab429810994d2ce8e186665b91ae546c82d9))
+
 # [2.42.0](https://github.com/bullhorn/bullhorn-icons/compare/v2.41.0...v2.42.0) (2026-04-06)
 
 
