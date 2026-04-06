@@ -4,7 +4,7 @@
 
 --- 
  
- [![Build Status](https://travis-ci.org/bullhorn/bullhorn-icons.svg?branch=master)](https://travis-ci.org/bullhorn/bullhorn-icons?branch=master)
+ [![Build Status](https://travis-ci.org/bullhorn/bullhorn-icons.svg?branch=main)](https://travis-ci.org/bullhorn/bullhorn-icons?branch=main)
  [![npm version](https://badge.fury.io/js/%40bullhorn%2Fbullhorn-icons.svg)](https://badge.fury.io/js/%40bullhorn%2Fbullhorn-icons)
  [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
  [![built by](https://img.shields.io/badge/built%20by-bullhorn-f39f37.svg)](https://bullhon.github.io/bullhorn-icons)
@@ -45,12 +45,12 @@ npm install --save @bullhorn/bullhorn-icons
 ### Using an icon
 
 <p>
-    <img title="Candidate icon" src="http://cdn.rawgit.com/bullhorn/bullhorn-icons/master/icons/candidate.svg" width="64" />
-    <img title="Person icon" src="http://cdn.rawgit.com/bullhorn/bullhorn-icons/master/icons/person.svg" width="64" />
-    <img title="Job icon" src="http://cdn.rawgit.com/bullhorn/bullhorn-icons/master/icons/job.svg" width="64" />
-    <img title="Company icon" src="http://cdn.rawgit.com/bullhorn/bullhorn-icons/master/icons/company.svg" width="64" />
-    <img title="Lead icon" src="http://cdn.rawgit.com/bullhorn/bullhorn-icons/master/icons/lead.svg" width="64" />
-    <img title="Opportunity icon" src="http://cdn.rawgit.com/bullhorn/bullhorn-icons/master/icons/opportunity.svg" width="64" />
+    <img title="Candidate icon" src="http://cdn.rawgit.com/bullhorn/bullhorn-icons/main/icons/candidate.svg" width="64" />
+    <img title="Person icon" src="http://cdn.rawgit.com/bullhorn/bullhorn-icons/main/icons/person.svg" width="64" />
+    <img title="Job icon" src="http://cdn.rawgit.com/bullhorn/bullhorn-icons/main/icons/job.svg" width="64" />
+    <img title="Company icon" src="http://cdn.rawgit.com/bullhorn/bullhorn-icons/main/icons/company.svg" width="64" />
+    <img title="Lead icon" src="http://cdn.rawgit.com/bullhorn/bullhorn-icons/main/icons/lead.svg" width="64" />
+    <img title="Opportunity icon" src="http://cdn.rawgit.com/bullhorn/bullhorn-icons/main/icons/opportunity.svg" width="64" />
 </p>
 
 ```html
@@ -63,7 +63,7 @@ npm install --save @bullhorn/bullhorn-icons
 ```
 ## Contributing
 
-Please read through our [contributing guidelines](https://github.com/bullhorn/bullhorn-icons/blob/master/CONTRIBUTING.md).
+Please read through our [contributing guidelines](https://github.com/bullhorn/bullhorn-icons/blob/main/CONTRIBUTING.md).
 Included are directions for opening issues, coding standards, and notes on development.
 
 ## Versioning
