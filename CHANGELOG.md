@@ -1,3 +1,10 @@
+## [2.42.2](https://github.com/bullhorn/bullhorn-icons/compare/v2.42.1...v2.42.2) (2026-04-15)
+
+
+### Bug Fixes
+
+* **Demo:** Sort the icons for the demo page to account for dependency updates that reversed the order ([ed96723](https://github.com/bullhorn/bullhorn-icons/commit/ed96723dd61c8465314bbe8f8118dd6aaa5cd215))
+
 ## [2.42.1](https://github.com/bullhorn/bullhorn-icons/compare/v2.42.0...v2.42.1) (2026-04-06)
 
 
