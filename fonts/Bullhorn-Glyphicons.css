@@ -1,8 +1,8 @@
 @font-face {
     font-family: "Bullhorn-Glyphicons";
-    src: url("./Bullhorn-Glyphicons.ttf?bac54a278adec26c286f498fa6b2ecca") format("truetype"),
-url("./Bullhorn-Glyphicons.woff?bac54a278adec26c286f498fa6b2ecca") format("woff"),
-url("./Bullhorn-Glyphicons.woff2?bac54a278adec26c286f498fa6b2ecca") format("woff2");
+    src: url("./Bullhorn-Glyphicons.ttf?a839d270cffdd56a5d84e2bc4b0353a5") format("truetype"),
+url("./Bullhorn-Glyphicons.woff?a839d270cffdd56a5d84e2bc4b0353a5") format("woff"),
+url("./Bullhorn-Glyphicons.woff2?a839d270cffdd56a5d84e2bc4b0353a5") format("woff2");
 }
 
 i {
@@ -23,22 +23,22 @@ i[class^="bhi-"]:before, i[class*=" bhi-"]:before {
 .bhi-activity:before {
     content: "\f101";
 }
-.bhi-add-appointment:before {
+.bhi-add:before {
     content: "\f102";
 }
-.bhi-add-file:before {
+.bhi-add-appointment:before {
     content: "\f103";
 }
-.bhi-add-note:before {
+.bhi-add-file:before {
     content: "\f104";
 }
-.bhi-add-o:before {
+.bhi-add-note:before {
     content: "\f105";
 }
-.bhi-add-thin:before {
+.bhi-add-o:before {
     content: "\f106";
 }
-.bhi-add:before {
+.bhi-add-thin:before {
     content: "\f107";
 }
 .bhi-addcard:before {
@@ -68,16 +68,16 @@ i[class^="bhi-"]:before, i[class*=" bhi-"]:before {
 .bhi-arrow-down:before {
     content: "\f110";
 }
-.bhi-arrow-left-h:before {
+.bhi-arrow-left:before {
     content: "\f111";
 }
-.bhi-arrow-left:before {
+.bhi-arrow-left-h:before {
     content: "\f112";
 }
-.bhi-arrow-right-h:before {
+.bhi-arrow-right:before {
     content: "\f113";
 }
-.bhi-arrow-right:before {
+.bhi-arrow-right-h:before {
     content: "\f114";
 }
 .bhi-arrow-up:before {
@@ -113,10 +113,10 @@ i[class^="bhi-"]:before, i[class*=" bhi-"]:before {
 .bhi-book:before {
     content: "\f11f";
 }
-.bhi-bookmark-o:before {
+.bhi-bookmark:before {
     content: "\f120";
 }
-.bhi-bookmark:before {
+.bhi-bookmark-o:before {
     content: "\f121";
 }
 .bhi-border-all:before {
@@ -140,31 +140,31 @@ i[class^="bhi-"]:before, i[class*=" bhi-"]:before {
 .bhi-bot:before {
     content: "\f128";
 }
-.bhi-box-check-o:before {
+.bhi-box-check:before {
     content: "\f129";
 }
-.bhi-box-check:before {
+.bhi-box-check-o:before {
     content: "\f12a";
 }
 .bhi-box-empty:before {
     content: "\f12b";
 }
-.bhi-box-minus-o:before {
+.bhi-box-minus:before {
     content: "\f12c";
 }
-.bhi-box-minus:before {
+.bhi-box-minus-o:before {
     content: "\f12d";
 }
-.bhi-box-plus-o:before {
+.bhi-box-plus:before {
     content: "\f12e";
 }
-.bhi-box-plus:before {
+.bhi-box-plus-o:before {
     content: "\f12f";
 }
-.bhi-box-times-o:before {
+.bhi-box-times:before {
     content: "\f130";
 }
-.bhi-box-times:before {
+.bhi-box-times-o:before {
     content: "\f131";
 }
 .bhi-bug:before {
@@ -182,10 +182,10 @@ i[class^="bhi-"]:before, i[class*=" bhi-"]:before {
 .bhi-camera:before {
     content: "\f136";
 }
-.bhi-candidate-circle:before {
+.bhi-candidate:before {
     content: "\f137";
 }
-.bhi-candidate:before {
+.bhi-candidate-circle:before {
     content: "\f138";
 }
 .bhi-canvas:before {
@@ -197,16 +197,16 @@ i[class^="bhi-"]:before, i[class*=" bhi-"]:before {
 .bhi-category-tags:before {
     content: "\f13b";
 }
-.bhi-caution-circle:before {
+.bhi-caution:before {
     content: "\f13c";
 }
-.bhi-caution-o:before {
+.bhi-caution-circle:before {
     content: "\f13d";
 }
-.bhi-caution-triangle-o:before {
+.bhi-caution-o:before {
     content: "\f13e";
 }
-.bhi-caution:before {
+.bhi-caution-triangle-o:before {
     content: "\f13f";
 }
 .bhi-certification:before {
@@ -224,22 +224,22 @@ i[class^="bhi-"]:before, i[class*=" bhi-"]:before {
 .bhi-chart-line:before {
     content: "\f144";
 }
-.bhi-chart-pie-o:before {
+.bhi-chart-pie:before {
     content: "\f145";
 }
-.bhi-chart-pie:before {
+.bhi-chart-pie-o:before {
     content: "\f146";
 }
-.bhi-check-circle-filled:before {
+.bhi-check:before {
     content: "\f147";
 }
 .bhi-check-circle:before {
     content: "\f148";
 }
-.bhi-check-o:before {
+.bhi-check-circle-filled:before {
     content: "\f149";
 }
-.bhi-check:before {
+.bhi-check-o:before {
     content: "\f14a";
 }
 .bhi-checkbox-add:before {
@@ -254,25 +254,25 @@ i[class^="bhi-"]:before, i[class*=" bhi-"]:before {
 .bhi-checkbox-indeterminate:before {
     content: "\f14e";
 }
-.bhi-circle-o:before {
+.bhi-circle:before {
     content: "\f14f";
 }
-.bhi-circle:before {
+.bhi-circle-o:before {
     content: "\f150";
 }
 .bhi-clipboard:before {
     content: "\f151";
 }
-.bhi-clock-arrow:before {
+.bhi-clock:before {
     content: "\f152";
 }
-.bhi-clock:before {
+.bhi-clock-arrow:before {
     content: "\f153";
 }
-.bhi-close-o:before {
+.bhi-close:before {
     content: "\f154";
 }
-.bhi-close:before {
+.bhi-close-o:before {
     content: "\f155";
 }
 .bhi-coffee:before {
@@ -284,19 +284,19 @@ i[class^="bhi-"]:before, i[class*=" bhi-"]:before {
 .bhi-columns:before {
     content: "\f158";
 }
-.bhi-comment-o:before {
+.bhi-comment:before {
     content: "\f159";
 }
-.bhi-comment:before {
+.bhi-comment-o:before {
     content: "\f15a";
 }
 .bhi-commission:before {
     content: "\f15b";
 }
-.bhi-company-circle:before {
+.bhi-company:before {
     content: "\f15c";
 }
-.bhi-company:before {
+.bhi-company-circle:before {
     content: "\f15d";
 }
 .bhi-comparison-table:before {
@@ -311,10 +311,10 @@ i[class^="bhi-"]:before, i[class*=" bhi-"]:before {
 .bhi-compliance-manager:before {
     content: "\f161";
 }
-.bhi-configure-o:before {
+.bhi-configure:before {
     content: "\f162";
 }
-.bhi-configure:before {
+.bhi-configure-o:before {
     content: "\f163";
 }
 .bhi-convert:before {
@@ -335,19 +335,19 @@ i[class^="bhi-"]:before, i[class*=" bhi-"]:before {
 .bhi-custom-objects:before {
     content: "\f169";
 }
-.bhi-dashboard-o:before {
+.bhi-dashboard:before {
     content: "\f16a";
 }
-.bhi-dashboard:before {
+.bhi-dashboard-o:before {
     content: "\f16b";
 }
 .bhi-day:before {
     content: "\f16c";
 }
-.bhi-delete-o:before {
+.bhi-delete:before {
     content: "\f16d";
 }
-.bhi-delete:before {
+.bhi-delete-o:before {
     content: "\f16e";
 }
 .bhi-department:before {
@@ -368,34 +368,34 @@ i[class^="bhi-"]:before, i[class*=" bhi-"]:before {
 .bhi-duplicate:before {
     content: "\f174";
 }
-.bhi-earn-code-template:before {
+.bhi-earn-code:before {
     content: "\f175";
 }
-.bhi-earn-code:before {
+.bhi-earn-code-template:before {
     content: "\f176";
 }
-.bhi-edit-circle-filled:before {
+.bhi-edit:before {
     content: "\f177";
 }
 .bhi-edit-circle:before {
     content: "\f178";
 }
-.bhi-edit-o:before {
+.bhi-edit-circle-filled:before {
     content: "\f179";
 }
-.bhi-edit:before {
+.bhi-edit-o:before {
     content: "\f17a";
 }
 .bhi-education:before {
     content: "\f17b";
 }
-.bhi-email-autoadd:before {
+.bhi-email:before {
     content: "\f17c";
 }
-.bhi-email-invoice-template:before {
+.bhi-email-autoadd:before {
     content: "\f17d";
 }
-.bhi-email:before {
+.bhi-email-invoice-template:before {
     content: "\f17e";
 }
 .bhi-engagement:before {
@@ -419,16 +419,16 @@ i[class^="bhi-"]:before, i[class*=" bhi-"]:before {
 .bhi-export-ms:before {
     content: "\f185";
 }
-.bhi-external-open:before {
+.bhi-external:before {
     content: "\f186";
 }
-.bhi-external:before {
+.bhi-external-open:before {
     content: "\f187";
 }
-.bhi-facebook-o:before {
+.bhi-facebook:before {
     content: "\f188";
 }
-.bhi-facebook:before {
+.bhi-facebook-o:before {
     content: "\f189";
 }
 .bhi-fasterfind:before {
@@ -443,10 +443,10 @@ i[class^="bhi-"]:before, i[class*=" bhi-"]:before {
 .bhi-field-paragraph:before {
     content: "\f18d";
 }
-.bhi-field-signature-text:before {
+.bhi-field-signature:before {
     content: "\f18e";
 }
-.bhi-field-signature:before {
+.bhi-field-signature-text:before {
     content: "\f18f";
 }
 .bhi-field-text:before {
@@ -467,10 +467,10 @@ i[class^="bhi-"]:before, i[class*=" bhi-"]:before {
 .bhi-flagged-email:before {
     content: "\f195";
 }
-.bhi-floppy-disk-pencil:before {
+.bhi-floppy-disk:before {
     content: "\f196";
 }
-.bhi-floppy-disk:before {
+.bhi-floppy-disk-pencil:before {
     content: "\f197";
 }
 .bhi-flower:before {
@@ -482,10 +482,10 @@ i[class^="bhi-"]:before, i[class*=" bhi-"]:before {
 .bhi-funnel:before {
     content: "\f19a";
 }
-.bhi-globe-o:before {
+.bhi-globe:before {
     content: "\f19b";
 }
-.bhi-globe:before {
+.bhi-globe-o:before {
     content: "\f19c";
 }
 .bhi-google:before {
@@ -542,10 +542,10 @@ i[class^="bhi-"]:before, i[class*=" bhi-"]:before {
 .bhi-industry:before {
     content: "\f1ae";
 }
-.bhi-info-o:before {
+.bhi-info:before {
     content: "\f1af";
 }
-.bhi-info:before {
+.bhi-info-o:before {
     content: "\f1b0";
 }
 .bhi-inherit:before {
@@ -557,13 +557,13 @@ i[class^="bhi-"]:before, i[class*=" bhi-"]:before {
 .bhi-invoice:before {
     content: "\f1b3";
 }
-.bhi-job-circle:before {
+.bhi-job:before {
     content: "\f1b4";
 }
-.bhi-job-code:before {
+.bhi-job-circle:before {
     content: "\f1b5";
 }
-.bhi-job:before {
+.bhi-job-code:before {
     content: "\f1b6";
 }
 .bhi-kebab-menu:before {
@@ -575,34 +575,34 @@ i[class^="bhi-"]:before, i[class*=" bhi-"]:before {
 .bhi-layout:before {
     content: "\f1b9";
 }
-.bhi-lead-circle:before {
+.bhi-lead:before {
     content: "\f1ba";
 }
-.bhi-lead:before {
+.bhi-lead-circle:before {
     content: "\f1bb";
 }
 .bhi-link:before {
     content: "\f1bc";
 }
-.bhi-linkedin-f:before {
+.bhi-linkedin:before {
     content: "\f1bd";
 }
-.bhi-linkedin-o:before {
+.bhi-linkedin-f:before {
     content: "\f1be";
 }
-.bhi-linkedin:before {
+.bhi-linkedin-o:before {
     content: "\f1bf";
 }
-.bhi-list-o:before {
+.bhi-list:before {
     content: "\f1c0";
 }
-.bhi-list:before {
+.bhi-list-o:before {
     content: "\f1c1";
 }
-.bhi-location-o:before {
+.bhi-location:before {
     content: "\f1c2";
 }
-.bhi-location:before {
+.bhi-location-o:before {
     content: "\f1c3";
 }
 .bhi-lock:before {
@@ -617,16 +617,16 @@ i[class^="bhi-"]:before, i[class*=" bhi-"]:before {
 .bhi-map:before {
     content: "\f1c7";
 }
-.bhi-menu-o:before {
+.bhi-menu:before {
     content: "\f1c8";
 }
-.bhi-menu:before {
+.bhi-menu-o:before {
     content: "\f1c9";
 }
-.bhi-minus-circle-o:before {
+.bhi-minus-circle:before {
     content: "\f1ca";
 }
-.bhi-minus-circle:before {
+.bhi-minus-circle-o:before {
     content: "\f1cb";
 }
 .bhi-mirrored:before {
@@ -641,16 +641,16 @@ i[class^="bhi-"]:before, i[class*=" bhi-"]:before {
 .bhi-more:before {
     content: "\f1cf";
 }
-.bhi-morning-1:before {
+.bhi-morning:before {
     content: "\f1d0";
 }
-.bhi-morning-2:before {
+.bhi-morning-1:before {
     content: "\f1d1";
 }
-.bhi-morning-3:before {
+.bhi-morning-2:before {
     content: "\f1d2";
 }
-.bhi-morning:before {
+.bhi-morning-3:before {
     content: "\f1d3";
 }
 .bhi-move:before {
@@ -695,16 +695,16 @@ i[class^="bhi-"]:before, i[class*=" bhi-"]:before {
 .bhi-offer:before {
     content: "\f1e1";
 }
-.bhi-onboarding-365:before {
+.bhi-onboarding:before {
     content: "\f1e2";
 }
-.bhi-onboarding:before {
+.bhi-onboarding-365:before {
     content: "\f1e3";
 }
-.bhi-opportunity-circle:before {
+.bhi-opportunity:before {
     content: "\f1e4";
 }
-.bhi-opportunity:before {
+.bhi-opportunity-circle:before {
     content: "\f1e5";
 }
 .bhi-organize:before {
@@ -725,19 +725,19 @@ i[class^="bhi-"]:before, i[class*=" bhi-"]:before {
 .bhi-packets:before {
     content: "\f1eb";
 }
-.bhi-payable-charge:before {
+.bhi-payable:before {
     content: "\f1ec";
 }
-.bhi-payable:before {
+.bhi-payable-charge:before {
     content: "\f1ed";
 }
 .bhi-payroll:before {
     content: "\f1ee";
 }
-.bhi-person-circle:before {
+.bhi-person:before {
     content: "\f1ef";
 }
-.bhi-person:before {
+.bhi-person-circle:before {
     content: "\f1f0";
 }
 .bhi-phone:before {
@@ -761,10 +761,10 @@ i[class^="bhi-"]:before, i[class*=" bhi-"]:before {
 .bhi-progress-bars:before {
     content: "\f1f7";
 }
-.bhi-projects-square:before {
+.bhi-projects:before {
     content: "\f1f8";
 }
-.bhi-projects:before {
+.bhi-projects-square:before {
     content: "\f1f9";
 }
 .bhi-publish:before {
@@ -779,10 +779,10 @@ i[class^="bhi-"]:before, i[class*=" bhi-"]:before {
 .bhi-puzzle:before {
     content: "\f1fd";
 }
-.bhi-question-o:before {
+.bhi-question:before {
     content: "\f1fe";
 }
-.bhi-question:before {
+.bhi-question-o:before {
     content: "\f1ff";
 }
 .bhi-radio-empty:before {
@@ -791,28 +791,28 @@ i[class^="bhi-"]:before, i[class*=" bhi-"]:before {
 .bhi-radio-filled:before {
     content: "\f201";
 }
-.bhi-rate-circle:before {
+.bhi-rate:before {
     content: "\f202";
 }
-.bhi-rate-filled:before {
+.bhi-rate-circle:before {
     content: "\f203";
 }
-.bhi-rate-request:before {
+.bhi-rate-filled:before {
     content: "\f204";
 }
-.bhi-rate-rule:before {
+.bhi-rate-request:before {
     content: "\f205";
 }
-.bhi-rate:before {
+.bhi-rate-rule:before {
     content: "\f206";
 }
 .bhi-receivables:before {
     content: "\f207";
 }
-.bhi-refresh-o:before {
+.bhi-refresh:before {
     content: "\f208";
 }
-.bhi-refresh:before {
+.bhi-refresh-o:before {
     content: "\f209";
 }
 .bhi-rent:before {
@@ -821,10 +821,10 @@ i[class^="bhi-"]:before, i[class*=" bhi-"]:before {
 .bhi-reply:before {
     content: "\f20b";
 }
-.bhi-report-code:before {
+.bhi-report:before {
     content: "\f20c";
 }
-.bhi-report:before {
+.bhi-report-code:before {
     content: "\f20d";
 }
 .bhi-republish:before {
@@ -845,22 +845,22 @@ i[class^="bhi-"]:before, i[class*=" bhi-"]:before {
 .bhi-save:before {
     content: "\f213";
 }
-.bhi-search-check:before {
+.bhi-search:before {
     content: "\f214";
 }
-.bhi-search-menu:before {
+.bhi-search-check:before {
     content: "\f215";
 }
-.bhi-search-private:before {
+.bhi-search-menu:before {
     content: "\f216";
 }
-.bhi-search-question:before {
+.bhi-search-private:before {
     content: "\f217";
 }
-.bhi-search-shared:before {
+.bhi-search-question:before {
     content: "\f218";
 }
-.bhi-search:before {
+.bhi-search-shared:before {
     content: "\f219";
 }
 .bhi-section:before {
@@ -875,16 +875,16 @@ i[class^="bhi-"]:before, i[class*=" bhi-"]:before {
 .bhi-settings:before {
     content: "\f21d";
 }
-.bhi-share-o:before {
+.bhi-share:before {
     content: "\f21e";
 }
-.bhi-share:before {
+.bhi-share-o:before {
     content: "\f21f";
 }
-.bhi-shield-line:before {
+.bhi-shield:before {
     content: "\f220";
 }
-.bhi-shield:before {
+.bhi-shield-line:before {
     content: "\f221";
 }
 .bhi-shipping-box:before {
@@ -908,16 +908,16 @@ i[class^="bhi-"]:before, i[class*=" bhi-"]:before {
 .bhi-source:before {
     content: "\f228";
 }
-.bhi-star-circle:before {
+.bhi-star:before {
     content: "\f229";
 }
-.bhi-star-o-circle:before {
+.bhi-star-circle:before {
     content: "\f22a";
 }
 .bhi-star-o:before {
     content: "\f22b";
 }
-.bhi-star:before {
+.bhi-star-o-circle:before {
     content: "\f22c";
 }
 .bhi-stethoscope:before {
@@ -935,16 +935,16 @@ i[class^="bhi-"]:before, i[class*=" bhi-"]:before {
 .bhi-tearsheet:before {
     content: "\f231";
 }
-.bhi-thumbs-down-o:before {
+.bhi-thumbs-down:before {
     content: "\f232";
 }
-.bhi-thumbs-down:before {
+.bhi-thumbs-down-o:before {
     content: "\f233";
 }
-.bhi-thumbs-up-o:before {
+.bhi-thumbs-up:before {
     content: "\f234";
 }
-.bhi-thumbs-up:before {
+.bhi-thumbs-up-o:before {
     content: "\f235";
 }
 .bhi-tie:before {
@@ -974,13 +974,13 @@ i[class^="bhi-"]:before, i[class*=" bhi-"]:before {
 .bhi-truck:before {
     content: "\f23e";
 }
-.bhi-twitter-f:before {
+.bhi-twitter:before {
     content: "\f23f";
 }
-.bhi-twitter-o:before {
+.bhi-twitter-f:before {
     content: "\f240";
 }
-.bhi-twitter:before {
+.bhi-twitter-o:before {
     content: "\f241";
 }
 .bhi-umbrella:before {
@@ -995,10 +995,10 @@ i[class^="bhi-"]:before, i[class*=" bhi-"]:before {
 .bhi-upload:before {
     content: "\f245";
 }
-.bhi-user-o:before {
+.bhi-user:before {
     content: "\f246";
 }
-.bhi-user:before {
+.bhi-user-o:before {
     content: "\f247";
 }
 .bhi-users:before {
