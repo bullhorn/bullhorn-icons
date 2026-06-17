@@ -159,6 +159,8 @@ module.exports = {
     "department": 61807,
     "dependencies": 61808,
     "desktop": 61809,
+    "diamond": 62032,
+    "diamond-o": 62033,
     "download": 61810,
     "dropzone": 61811,
     "duplicate": 61812,
