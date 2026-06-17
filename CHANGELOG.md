@@ -1,3 +1,21 @@
+# [3.0.0](https://github.com/bullhorn/bullhorn-icons/compare/v2.42.2...v3.0.0) (2026-06-17)
+
+
+* feat(icons)!: sequential A→Z codepoints + automated icon workflow ([#97](https://github.com/bullhorn/bullhorn-icons/issues/97)) ([d0d6616](https://github.com/bullhorn/bullhorn-icons/commit/d0d66166bb523b3c4574289b24a906d5a12b82c8))
+
+
+### BREAKING CHANGES
+
+* 130 existing icons were renumbered into sequential A→Z
+order (same 61697–62031 range). Consumers referencing glyphs by raw
+codepoint, caching the old font, or reading BULLHORN_GLYPHICONS_CODEPOINTS
+values must re-pull the font and CSS together. The bhi-* class names and
+TS string constants are unchanged, so class/constant-based usage is
+unaffected.
+
+Co-authored-by: Nathan Dickerson <nathan.dickerson@bullhorn.com>
+Co-authored-by: Claude Opus 4.8 (1M context) <noreply@anthropic.com>
+
 ## [2.42.2](https://github.com/bullhorn/bullhorn-icons/compare/v2.42.1...v2.42.2) (2026-04-15)
 
 
