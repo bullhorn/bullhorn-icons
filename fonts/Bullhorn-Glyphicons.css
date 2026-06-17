@@ -1,8 +1,8 @@
 @font-face {
     font-family: "Bullhorn-Glyphicons";
-    src: url("./Bullhorn-Glyphicons.ttf?a839d270cffdd56a5d84e2bc4b0353a5") format("truetype"),
-url("./Bullhorn-Glyphicons.woff?a839d270cffdd56a5d84e2bc4b0353a5") format("woff"),
-url("./Bullhorn-Glyphicons.woff2?a839d270cffdd56a5d84e2bc4b0353a5") format("woff2");
+    src: url("./Bullhorn-Glyphicons.ttf?901c8175801e4953d0684a6f313759fb") format("truetype"),
+url("./Bullhorn-Glyphicons.woff?901c8175801e4953d0684a6f313759fb") format("woff"),
+url("./Bullhorn-Glyphicons.woff2?901c8175801e4953d0684a6f313759fb") format("woff2");
 }
 
 i {
@@ -358,6 +358,12 @@ i[class^="bhi-"]:before, i[class*=" bhi-"]:before {
 }
 .bhi-desktop:before {
     content: "\f171";
+}
+.bhi-diamond:before {
+    content: "\f250";
+}
+.bhi-diamond-o:before {
+    content: "\f251";
 }
 .bhi-download:before {
     content: "\f172";

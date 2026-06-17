@@ -112,6 +112,8 @@ export type BullhornGlyphiconsId =
   | 'department'
   | 'dependencies'
   | 'desktop'
+  | 'diamond'
+  | 'diamond-o'
   | 'download'
   | 'dropzone'
   | 'duplicate'
@@ -449,6 +451,8 @@ export type BullhornGlyphiconsKey =
   | 'Department'
   | 'Dependencies'
   | 'Desktop'
+  | 'Diamond'
+  | 'DiamondO'
   | 'Download'
   | 'Dropzone'
   | 'Duplicate'
@@ -786,6 +790,8 @@ export enum BullhornGlyphicons {
   Department = 'department',
   Dependencies = 'dependencies',
   Desktop = 'desktop',
+  Diamond = 'diamond',
+  DiamondO = 'diamond-o',
   Download = 'download',
   Dropzone = 'dropzone',
   Duplicate = 'duplicate',
@@ -1124,6 +1130,8 @@ export const BULLHORN_GLYPHICONS_CODEPOINTS: { [key in BullhornGlyphicons]: stri
   [BullhornGlyphicons.Department]: '61807',
   [BullhornGlyphicons.Dependencies]: '61808',
   [BullhornGlyphicons.Desktop]: '61809',
+  [BullhornGlyphicons.Diamond]: '62032',
+  [BullhornGlyphicons.DiamondO]: '62033',
   [BullhornGlyphicons.Download]: '61810',
   [BullhornGlyphicons.Dropzone]: '61811',
   [BullhornGlyphicons.Duplicate]: '61812',
