@@ -1,3 +1,11 @@
+# [3.1.0](https://github.com/bullhorn/bullhorn-icons/compare/v3.0.0...v3.1.0) (2026-06-17)
+
+
+### Features
+
+* **icon:** add new diamond icons ([445d90b](https://github.com/bullhorn/bullhorn-icons/commit/445d90b223c8cf0489db938ae9c43ff6f43274de))
+* **icon:** fix diamond outline ([5e53ff0](https://github.com/bullhorn/bullhorn-icons/commit/5e53ff093b0257f75a25742a8d50d3f293798e79))
+
 # [3.0.0](https://github.com/bullhorn/bullhorn-icons/compare/v2.42.2...v3.0.0) (2026-06-17)
 
 
