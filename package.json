@@ -36,6 +36,8 @@
   "unpkg": "dist/index.umd.js",
   "types": "dist/index.d.ts",
   "scripts": {
+    "start": "npm run add-icons && npm run build",
+    "add-icons": "node ./scripts/addIcons.js",
     "build:icons": "fantasticon",
     "build:bundle": "microbundle",
     "build:index": "npx babel-node ./scripts/makeIndex.js",

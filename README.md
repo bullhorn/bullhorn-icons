@@ -63,8 +63,8 @@ npm install --save @bullhorn/bullhorn-icons
 ```
 ## Contributing
 
-Please read through our [contributing guidelines](https://github.com/bullhorn/bullhorn-icons/blob/main/CONTRIBUTING.md).
-Included are directions for opening issues, coding standards, and notes on development.
+Please read through our [contributing guidelines](CONTRIBUTING.md).
+They cover adding a new icon, commit message conventions, and the branch layout.
 
 ## Versioning
 
