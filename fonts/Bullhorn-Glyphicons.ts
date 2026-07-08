@@ -289,7 +289,10 @@ export type BullhornGlyphiconsId =
   | 'share'
   | 'share-o'
   | 'shield'
+  | 'shield-check'
+  | 'shield-info'
   | 'shield-line'
+  | 'shield-warning'
   | 'shipping-box'
   | 'slideout'
   | 'sms'
@@ -628,7 +631,10 @@ export type BullhornGlyphiconsKey =
   | 'Share'
   | 'ShareO'
   | 'Shield'
+  | 'ShieldCheck'
+  | 'ShieldInfo'
   | 'ShieldLine'
+  | 'ShieldWarning'
   | 'ShippingBox'
   | 'Slideout'
   | 'Sms'
@@ -967,7 +973,10 @@ export enum BullhornGlyphicons {
   Share = 'share',
   ShareO = 'share-o',
   Shield = 'shield',
+  ShieldCheck = 'shield-check',
+  ShieldInfo = 'shield-info',
   ShieldLine = 'shield-line',
+  ShieldWarning = 'shield-warning',
   ShippingBox = 'shipping-box',
   Slideout = 'slideout',
   Sms = 'sms',
@@ -1307,7 +1316,10 @@ export const BULLHORN_GLYPHICONS_CODEPOINTS: { [key in BullhornGlyphicons]: stri
   [BullhornGlyphicons.Share]: '61982',
   [BullhornGlyphicons.ShareO]: '61983',
   [BullhornGlyphicons.Shield]: '61984',
+  [BullhornGlyphicons.ShieldCheck]: '62034',
+  [BullhornGlyphicons.ShieldInfo]: '62035',
   [BullhornGlyphicons.ShieldLine]: '61985',
+  [BullhornGlyphicons.ShieldWarning]: '62036',
   [BullhornGlyphicons.ShippingBox]: '61986',
   [BullhornGlyphicons.Slideout]: '61987',
   [BullhornGlyphicons.Sms]: '61988',
