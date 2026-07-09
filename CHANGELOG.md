@@ -1,3 +1,10 @@
+# [3.2.0](https://github.com/bullhorn/bullhorn-icons/compare/v3.1.0...v3.2.0) (2026-07-09)
+
+
+### Features
+
+* **icon:** add shield variants ([#99](https://github.com/bullhorn/bullhorn-icons/issues/99)) ([ecf7b5f](https://github.com/bullhorn/bullhorn-icons/commit/ecf7b5fcc8ee7523cba3a44f20d922ae54b12ac0))
+
 # [3.1.0](https://github.com/bullhorn/bullhorn-icons/compare/v3.0.0...v3.1.0) (2026-06-17)
 
 
