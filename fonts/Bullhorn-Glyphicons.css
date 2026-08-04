@@ -1,8 +1,8 @@
 @font-face {
     font-family: "Bullhorn-Glyphicons";
-    src: url("./Bullhorn-Glyphicons.ttf?74d169710ebb23d51d5993687024b5ee") format("truetype"),
-url("./Bullhorn-Glyphicons.woff?74d169710ebb23d51d5993687024b5ee") format("woff"),
-url("./Bullhorn-Glyphicons.woff2?74d169710ebb23d51d5993687024b5ee") format("woff2");
+    src: url("./Bullhorn-Glyphicons.ttf?8da47045057b0119c999b6117467dc27") format("truetype"),
+url("./Bullhorn-Glyphicons.woff?8da47045057b0119c999b6117467dc27") format("woff"),
+url("./Bullhorn-Glyphicons.woff2?8da47045057b0119c999b6117467dc27") format("woff2");
 }
 
 i {
@@ -188,6 +188,9 @@ i[class^="bhi-"]:before, i[class*=" bhi-"]:before {
 .bhi-candidate-circle:before {
     content: "\f138";
 }
+.bhi-candidate-list:before {
+    content: "\f255";
+}
 .bhi-canvas:before {
     content: "\f139";
 }
@@ -299,6 +302,9 @@ i[class^="bhi-"]:before, i[class*=" bhi-"]:before {
 .bhi-company-circle:before {
     content: "\f15d";
 }
+.bhi-company-list:before {
+    content: "\f256";
+}
 .bhi-comparison-table:before {
     content: "\f15e";
 }
@@ -316,6 +322,12 @@ i[class^="bhi-"]:before, i[class*=" bhi-"]:before {
 }
 .bhi-configure-o:before {
     content: "\f163";
+}
+.bhi-contact-list:before {
+    content: "\f257";
+}
+.bhi-contract-left:before {
+    content: "\f258";
 }
 .bhi-convert:before {
     content: "\f164";
@@ -415,6 +427,9 @@ i[class^="bhi-"]:before, i[class*=" bhi-"]:before {
 }
 .bhi-expand:before {
     content: "\f182";
+}
+.bhi-expand-right:before {
+    content: "\f259";
 }
 .bhi-expense:before {
     content: "\f183";
@@ -587,6 +602,9 @@ i[class^="bhi-"]:before, i[class*=" bhi-"]:before {
 .bhi-lead-circle:before {
     content: "\f1bb";
 }
+.bhi-lead-list:before {
+    content: "\f25a";
+}
 .bhi-link:before {
     content: "\f1bc";
 }
@@ -713,6 +731,9 @@ i[class^="bhi-"]:before, i[class*=" bhi-"]:before {
 .bhi-opportunity-circle:before {
     content: "\f1e5";
 }
+.bhi-opportunity-list:before {
+    content: "\f25b";
+}
 .bhi-organize:before {
     content: "\f1e6";
 }
@@ -751,6 +772,12 @@ i[class^="bhi-"]:before, i[class*=" bhi-"]:before {
 }
 .bhi-pin:before {
     content: "\f1f2";
+}
+.bhi-pin-o:before {
+    content: "\f25c";
+}
+.bhi-placement-list:before {
+    content: "\f25d";
 }
 .bhi-plus:before {
     content: "\f1f3";
