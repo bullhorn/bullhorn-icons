@@ -55,6 +55,7 @@ export type BullhornGlyphiconsId =
   | 'camera'
   | 'candidate'
   | 'candidate-circle'
+  | 'candidate-list'
   | 'canvas'
   | 'card-expand'
   | 'category-tags'
@@ -92,12 +93,15 @@ export type BullhornGlyphiconsId =
   | 'commission'
   | 'company'
   | 'company-circle'
+  | 'company-list'
   | 'comparison-table'
   | 'compass'
   | 'complex'
   | 'compliance-manager'
   | 'configure'
   | 'configure-o'
+  | 'contact-list'
+  | 'contract-left'
   | 'convert'
   | 'crane'
   | 'credential'
@@ -131,6 +135,7 @@ export type BullhornGlyphiconsId =
   | 'evening'
   | 'exclude'
   | 'expand'
+  | 'expand-right'
   | 'expense'
   | 'export-html'
   | 'export-ms'
@@ -188,6 +193,7 @@ export type BullhornGlyphiconsId =
   | 'layout'
   | 'lead'
   | 'lead-circle'
+  | 'lead-list'
   | 'link'
   | 'linkedin'
   | 'linkedin-f'
@@ -230,6 +236,7 @@ export type BullhornGlyphiconsId =
   | 'onboarding-365'
   | 'opportunity'
   | 'opportunity-circle'
+  | 'opportunity-list'
   | 'organize'
   | 'outbound-call'
   | 'outbound-email'
@@ -243,6 +250,8 @@ export type BullhornGlyphiconsId =
   | 'person-circle'
   | 'phone'
   | 'pin'
+  | 'pin-o'
+  | 'placement-list'
   | 'plus'
   | 'preview'
   | 'previous'
@@ -397,6 +406,7 @@ export type BullhornGlyphiconsKey =
   | 'Camera'
   | 'Candidate'
   | 'CandidateCircle'
+  | 'CandidateList'
   | 'Canvas'
   | 'CardExpand'
   | 'CategoryTags'
@@ -434,12 +444,15 @@ export type BullhornGlyphiconsKey =
   | 'Commission'
   | 'Company'
   | 'CompanyCircle'
+  | 'CompanyList'
   | 'ComparisonTable'
   | 'Compass'
   | 'Complex'
   | 'ComplianceManager'
   | 'Configure'
   | 'ConfigureO'
+  | 'ContactList'
+  | 'ContractLeft'
   | 'Convert'
   | 'Crane'
   | 'Credential'
@@ -473,6 +486,7 @@ export type BullhornGlyphiconsKey =
   | 'Evening'
   | 'Exclude'
   | 'Expand'
+  | 'ExpandRight'
   | 'Expense'
   | 'ExportHtml'
   | 'ExportMs'
@@ -530,6 +544,7 @@ export type BullhornGlyphiconsKey =
   | 'Layout'
   | 'Lead'
   | 'LeadCircle'
+  | 'LeadList'
   | 'Link'
   | 'Linkedin'
   | 'LinkedinF'
@@ -572,6 +587,7 @@ export type BullhornGlyphiconsKey =
   | 'Onboarding365'
   | 'Opportunity'
   | 'OpportunityCircle'
+  | 'OpportunityList'
   | 'Organize'
   | 'OutboundCall'
   | 'OutboundEmail'
@@ -585,6 +601,8 @@ export type BullhornGlyphiconsKey =
   | 'PersonCircle'
   | 'Phone'
   | 'Pin'
+  | 'PinO'
+  | 'PlacementList'
   | 'Plus'
   | 'Preview'
   | 'Previous'
@@ -739,6 +757,7 @@ export enum BullhornGlyphicons {
   Camera = 'camera',
   Candidate = 'candidate',
   CandidateCircle = 'candidate-circle',
+  CandidateList = 'candidate-list',
   Canvas = 'canvas',
   CardExpand = 'card-expand',
   CategoryTags = 'category-tags',
@@ -776,12 +795,15 @@ export enum BullhornGlyphicons {
   Commission = 'commission',
   Company = 'company',
   CompanyCircle = 'company-circle',
+  CompanyList = 'company-list',
   ComparisonTable = 'comparison-table',
   Compass = 'compass',
   Complex = 'complex',
   ComplianceManager = 'compliance-manager',
   Configure = 'configure',
   ConfigureO = 'configure-o',
+  ContactList = 'contact-list',
+  ContractLeft = 'contract-left',
   Convert = 'convert',
   Crane = 'crane',
   Credential = 'credential',
@@ -815,6 +837,7 @@ export enum BullhornGlyphicons {
   Evening = 'evening',
   Exclude = 'exclude',
   Expand = 'expand',
+  ExpandRight = 'expand-right',
   Expense = 'expense',
   ExportHtml = 'export-html',
   ExportMs = 'export-ms',
@@ -872,6 +895,7 @@ export enum BullhornGlyphicons {
   Layout = 'layout',
   Lead = 'lead',
   LeadCircle = 'lead-circle',
+  LeadList = 'lead-list',
   Link = 'link',
   Linkedin = 'linkedin',
   LinkedinF = 'linkedin-f',
@@ -914,6 +938,7 @@ export enum BullhornGlyphicons {
   Onboarding365 = 'onboarding-365',
   Opportunity = 'opportunity',
   OpportunityCircle = 'opportunity-circle',
+  OpportunityList = 'opportunity-list',
   Organize = 'organize',
   OutboundCall = 'outbound-call',
   OutboundEmail = 'outbound-email',
@@ -927,6 +952,8 @@ export enum BullhornGlyphicons {
   PersonCircle = 'person-circle',
   Phone = 'phone',
   Pin = 'pin',
+  PinO = 'pin-o',
+  PlacementList = 'placement-list',
   Plus = 'plus',
   Preview = 'preview',
   Previous = 'previous',
@@ -1082,6 +1109,7 @@ export const BULLHORN_GLYPHICONS_CODEPOINTS: { [key in BullhornGlyphicons]: stri
   [BullhornGlyphicons.Camera]: '61750',
   [BullhornGlyphicons.Candidate]: '61751',
   [BullhornGlyphicons.CandidateCircle]: '61752',
+  [BullhornGlyphicons.CandidateList]: '62037',
   [BullhornGlyphicons.Canvas]: '61753',
   [BullhornGlyphicons.CardExpand]: '61754',
   [BullhornGlyphicons.CategoryTags]: '61755',
@@ -1119,12 +1147,15 @@ export const BULLHORN_GLYPHICONS_CODEPOINTS: { [key in BullhornGlyphicons]: stri
   [BullhornGlyphicons.Commission]: '61787',
   [BullhornGlyphicons.Company]: '61788',
   [BullhornGlyphicons.CompanyCircle]: '61789',
+  [BullhornGlyphicons.CompanyList]: '62038',
   [BullhornGlyphicons.ComparisonTable]: '61790',
   [BullhornGlyphicons.Compass]: '61791',
   [BullhornGlyphicons.Complex]: '61792',
   [BullhornGlyphicons.ComplianceManager]: '61793',
   [BullhornGlyphicons.Configure]: '61794',
   [BullhornGlyphicons.ConfigureO]: '61795',
+  [BullhornGlyphicons.ContactList]: '62039',
+  [BullhornGlyphicons.ContractLeft]: '62040',
   [BullhornGlyphicons.Convert]: '61796',
   [BullhornGlyphicons.Crane]: '61797',
   [BullhornGlyphicons.Credential]: '61798',
@@ -1158,6 +1189,7 @@ export const BULLHORN_GLYPHICONS_CODEPOINTS: { [key in BullhornGlyphicons]: stri
   [BullhornGlyphicons.Evening]: '61824',
   [BullhornGlyphicons.Exclude]: '61825',
   [BullhornGlyphicons.Expand]: '61826',
+  [BullhornGlyphicons.ExpandRight]: '62041',
   [BullhornGlyphicons.Expense]: '61827',
   [BullhornGlyphicons.ExportHtml]: '61828',
   [BullhornGlyphicons.ExportMs]: '61829',
@@ -1215,6 +1247,7 @@ export const BULLHORN_GLYPHICONS_CODEPOINTS: { [key in BullhornGlyphicons]: stri
   [BullhornGlyphicons.Layout]: '61881',
   [BullhornGlyphicons.Lead]: '61882',
   [BullhornGlyphicons.LeadCircle]: '61883',
+  [BullhornGlyphicons.LeadList]: '62042',
   [BullhornGlyphicons.Link]: '61884',
   [BullhornGlyphicons.Linkedin]: '61885',
   [BullhornGlyphicons.LinkedinF]: '61886',
@@ -1257,6 +1290,7 @@ export const BULLHORN_GLYPHICONS_CODEPOINTS: { [key in BullhornGlyphicons]: stri
   [BullhornGlyphicons.Onboarding365]: '61923',
   [BullhornGlyphicons.Opportunity]: '61924',
   [BullhornGlyphicons.OpportunityCircle]: '61925',
+  [BullhornGlyphicons.OpportunityList]: '62043',
   [BullhornGlyphicons.Organize]: '61926',
   [BullhornGlyphicons.OutboundCall]: '61927',
   [BullhornGlyphicons.OutboundEmail]: '61928',
@@ -1270,6 +1304,8 @@ export const BULLHORN_GLYPHICONS_CODEPOINTS: { [key in BullhornGlyphicons]: stri
   [BullhornGlyphicons.PersonCircle]: '61936',
   [BullhornGlyphicons.Phone]: '61937',
   [BullhornGlyphicons.Pin]: '61938',
+  [BullhornGlyphicons.PinO]: '62044',
+  [BullhornGlyphicons.PlacementList]: '62045',
   [BullhornGlyphicons.Plus]: '61939',
   [BullhornGlyphicons.Preview]: '61940',
   [BullhornGlyphicons.Previous]: '61941',
