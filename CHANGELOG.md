@@ -1,3 +1,10 @@
+# [3.3.0](https://github.com/bullhorn/bullhorn-icons/compare/v3.2.0...v3.3.0) (2026-08-04)
+
+
+### Features
+
+* **icon:** new list and navigation icons ([#100](https://github.com/bullhorn/bullhorn-icons/issues/100)) ([e59488d](https://github.com/bullhorn/bullhorn-icons/commit/e59488d6df968596241bf5ee45fd43edbd369549))
+
 # [3.2.0](https://github.com/bullhorn/bullhorn-icons/compare/v3.1.0...v3.2.0) (2026-07-09)
 
 
