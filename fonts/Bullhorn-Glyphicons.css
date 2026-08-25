@@ -1,8 +1,8 @@
 @font-face {
     font-family: "Bullhorn-Glyphicons";
-    src: url("./Bullhorn-Glyphicons.ttf?8da47045057b0119c999b6117467dc27") format("truetype"),
-url("./Bullhorn-Glyphicons.woff?8da47045057b0119c999b6117467dc27") format("woff"),
-url("./Bullhorn-Glyphicons.woff2?8da47045057b0119c999b6117467dc27") format("woff2");
+    src: url("./Bullhorn-Glyphicons.ttf?4aad2273e4996587c2a9e507380bf82c") format("truetype"),
+url("./Bullhorn-Glyphicons.woff?4aad2273e4996587c2a9e507380bf82c") format("woff"),
+url("./Bullhorn-Glyphicons.woff2?4aad2273e4996587c2a9e507380bf82c") format("woff2");
 }
 
 i {
@@ -587,6 +587,9 @@ i[class^="bhi-"]:before, i[class*=" bhi-"]:before {
 .bhi-job-code:before {
     content: "\f1b6";
 }
+.bhi-job-list:before {
+    content: "\f25e";
+}
 .bhi-kebab-menu:before {
     content: "\f1b7";
 }
@@ -970,6 +973,9 @@ i[class^="bhi-"]:before, i[class*=" bhi-"]:before {
 }
 .bhi-stop-light:before {
     content: "\f22f";
+}
+.bhi-submission-list:before {
+    content: "\f25f";
 }
 .bhi-tab:before {
     content: "\f230";
