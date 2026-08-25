@@ -188,6 +188,7 @@ export type BullhornGlyphiconsId =
   | 'job'
   | 'job-circle'
   | 'job-code'
+  | 'job-list'
   | 'kebab-menu'
   | 'key'
   | 'layout'
@@ -316,6 +317,7 @@ export type BullhornGlyphiconsId =
   | 'stethoscope'
   | 'stop-circle'
   | 'stop-light'
+  | 'submission-list'
   | 'tab'
   | 'tearsheet'
   | 'thumbs-down'
@@ -539,6 +541,7 @@ export type BullhornGlyphiconsKey =
   | 'Job'
   | 'JobCircle'
   | 'JobCode'
+  | 'JobList'
   | 'KebabMenu'
   | 'Key'
   | 'Layout'
@@ -667,6 +670,7 @@ export type BullhornGlyphiconsKey =
   | 'Stethoscope'
   | 'StopCircle'
   | 'StopLight'
+  | 'SubmissionList'
   | 'Tab'
   | 'Tearsheet'
   | 'ThumbsDown'
@@ -890,6 +894,7 @@ export enum BullhornGlyphicons {
   Job = 'job',
   JobCircle = 'job-circle',
   JobCode = 'job-code',
+  JobList = 'job-list',
   KebabMenu = 'kebab-menu',
   Key = 'key',
   Layout = 'layout',
@@ -1018,6 +1023,7 @@ export enum BullhornGlyphicons {
   Stethoscope = 'stethoscope',
   StopCircle = 'stop-circle',
   StopLight = 'stop-light',
+  SubmissionList = 'submission-list',
   Tab = 'tab',
   Tearsheet = 'tearsheet',
   ThumbsDown = 'thumbs-down',
@@ -1242,6 +1248,7 @@ export const BULLHORN_GLYPHICONS_CODEPOINTS: { [key in BullhornGlyphicons]: stri
   [BullhornGlyphicons.Job]: '61876',
   [BullhornGlyphicons.JobCircle]: '61877',
   [BullhornGlyphicons.JobCode]: '61878',
+  [BullhornGlyphicons.JobList]: '62046',
   [BullhornGlyphicons.KebabMenu]: '61879',
   [BullhornGlyphicons.Key]: '61880',
   [BullhornGlyphicons.Layout]: '61881',
@@ -1370,6 +1377,7 @@ export const BULLHORN_GLYPHICONS_CODEPOINTS: { [key in BullhornGlyphicons]: stri
   [BullhornGlyphicons.Stethoscope]: '61997',
   [BullhornGlyphicons.StopCircle]: '61998',
   [BullhornGlyphicons.StopLight]: '61999',
+  [BullhornGlyphicons.SubmissionList]: '62047',
   [BullhornGlyphicons.Tab]: '62000',
   [BullhornGlyphicons.Tearsheet]: '62001',
   [BullhornGlyphicons.ThumbsDown]: '62002',
