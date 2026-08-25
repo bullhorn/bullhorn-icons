@@ -1,3 +1,11 @@
+# [3.4.0](https://github.com/bullhorn/bullhorn-icons/compare/v3.3.0...v3.4.0) (2026-08-25)
+
+
+### Features
+
+* **icon:** Add job list and submission list icons ([1b32135](https://github.com/bullhorn/bullhorn-icons/commit/1b3213524898ea8deea3f9d3be1324ebea953f26))
+* **icon:** Add job list and submission list icons ([22498bb](https://github.com/bullhorn/bullhorn-icons/commit/22498bb2542936db7fb62f0d9b05cd8369c58cff))
+
 # [3.3.0](https://github.com/bullhorn/bullhorn-icons/compare/v3.2.0...v3.3.0) (2026-08-04)
 
 
