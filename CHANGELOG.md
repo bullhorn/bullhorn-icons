@@ -1,3 +1,12 @@
+# [3.5.0](https://github.com/bullhorn/bullhorn-icons/compare/v3.4.0...v3.5.0) (2026-11-10)
+
+
+### Features
+
+* **icon:** add location-pin-o and keyword-tag-o files ([3551fc1](https://github.com/bullhorn/bullhorn-icons/commit/3551fc13968966a3a5a8a19808804f71f09d72b1))
+* **icon:** gen updated keyword-tag-o ([81901fd](https://github.com/bullhorn/bullhorn-icons/commit/81901fdf1a16d5014d78fdad3eb8da2f8b2e78f7))
+* **icon:** updated keyword-tag-o file ([bfa2f4d](https://github.com/bullhorn/bullhorn-icons/commit/bfa2f4d34dbcc9243d02cc0ee08458b0bb58c127))
+
 # [3.4.0](https://github.com/bullhorn/bullhorn-icons/compare/v3.3.0...v3.4.0) (2026-08-25)
 
 
