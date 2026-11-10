@@ -37,13 +37,14 @@ const assigned = {};
 for (const id of newIds) assigned[id] = next++;
 
 const merged = { ...codepoints, ...assigned };
+
+const src = fs.readFileSync(CONFIG, "utf8");
+const eol = src.includes("\r\n") ? "\r\n" : "\n";
 const body = Object.keys(merged)
   .sort(byName)
   .map((id) => `    ${JSON.stringify(id)}: ${merged[id]},`)
-  .join("\n");
-
-const src = fs.readFileSync(CONFIG, "utf8");
-const updated = src.replace(/(codepoints: sortByKey\(\{\n)[\s\S]*?(\n  \}\),)/, `$1${body}$2`);
+  .join(eol);
+const updated = src.replace(/(codepoints: sortByKey\(\{\r?\n)[\s\S]*?(\r?\n  \}\),)/, `$1${body}$2`);
 
 if (updated === src) {
   console.error("Could not find the codepoints map in .fantasticonrc.js - aborting.");

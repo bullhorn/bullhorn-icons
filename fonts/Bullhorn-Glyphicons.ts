@@ -191,6 +191,7 @@ export type BullhornGlyphiconsId =
   | 'job-list'
   | 'kebab-menu'
   | 'key'
+  | 'keyword-tag-o'
   | 'layout'
   | 'lead'
   | 'lead-circle'
@@ -203,6 +204,7 @@ export type BullhornGlyphiconsId =
   | 'list-o'
   | 'location'
   | 'location-o'
+  | 'location-pin-o'
   | 'lock'
   | 'logout'
   | 'magic'
@@ -544,6 +546,7 @@ export type BullhornGlyphiconsKey =
   | 'JobList'
   | 'KebabMenu'
   | 'Key'
+  | 'KeywordTagO'
   | 'Layout'
   | 'Lead'
   | 'LeadCircle'
@@ -556,6 +559,7 @@ export type BullhornGlyphiconsKey =
   | 'ListO'
   | 'Location'
   | 'LocationO'
+  | 'LocationPinO'
   | 'Lock'
   | 'Logout'
   | 'Magic'
@@ -897,6 +901,7 @@ export enum BullhornGlyphicons {
   JobList = 'job-list',
   KebabMenu = 'kebab-menu',
   Key = 'key',
+  KeywordTagO = 'keyword-tag-o',
   Layout = 'layout',
   Lead = 'lead',
   LeadCircle = 'lead-circle',
@@ -909,6 +914,7 @@ export enum BullhornGlyphicons {
   ListO = 'list-o',
   Location = 'location',
   LocationO = 'location-o',
+  LocationPinO = 'location-pin-o',
   Lock = 'lock',
   Logout = 'logout',
   Magic = 'magic',
@@ -1251,6 +1257,7 @@ export const BULLHORN_GLYPHICONS_CODEPOINTS: { [key in BullhornGlyphicons]: stri
   [BullhornGlyphicons.JobList]: '62046',
   [BullhornGlyphicons.KebabMenu]: '61879',
   [BullhornGlyphicons.Key]: '61880',
+  [BullhornGlyphicons.KeywordTagO]: '62048',
   [BullhornGlyphicons.Layout]: '61881',
   [BullhornGlyphicons.Lead]: '61882',
   [BullhornGlyphicons.LeadCircle]: '61883',
@@ -1263,6 +1270,7 @@ export const BULLHORN_GLYPHICONS_CODEPOINTS: { [key in BullhornGlyphicons]: stri
   [BullhornGlyphicons.ListO]: '61889',
   [BullhornGlyphicons.Location]: '61890',
   [BullhornGlyphicons.LocationO]: '61891',
+  [BullhornGlyphicons.LocationPinO]: '62049',
   [BullhornGlyphicons.Lock]: '61892',
   [BullhornGlyphicons.Logout]: '61893',
   [BullhornGlyphicons.Magic]: '61894',
